@@ -1,0 +1,106 @@
+# StarsBoard GitHub Actions 工作流
+# 每天自动运行，获取 GitHub Stars 并生成 README
+
+name: Update Stars README
+
+on:
+  # 每天 UTC 0:00 运行
+  schedule:
+    - cron: '0 0 * * *'
+
+  # 支持手动触发
+  workflow_dispatch:
+
+  # 推送到 main 分支时触发（可选）
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/daily-stars.yml'
+      - 'src/**'
+      - 'package.json'
+      - 'tsconfig.json'
+
+permissions:
+  contents: write
+
+jobs:
+  update-stars:
+    name: Fetch Stars and Generate README
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. 设置 Node.js 环境
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # 3. 安装依赖
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. 构建项目
+      - name: Build project
+        run: npm run build
+
+      # 5. 运行 StarsBoard（使用环境变量）
+      # 注意: 需要在仓库 Secrets 中添加 STAR_TOKEN (Personal Access Token)
+      # PAT 需要有 'read:user' 或 'user' scope 权限
+      - name: Run StarsBoard
+        env:
+          # 使用 STAR_TOKEN 而不是 GITHUB_TOKEN，因为后者无法访问 user starred API
+          GITHUB_TOKEN: ${{ secrets.STAR_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ vars.USERNAME || github.repository_owner }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
+          AI_MODEL: ${{ vars.AI_MODEL }}
+          TAG_COUNT_MIN: ${{ vars.TAG_COUNT_MIN || '3' }}
+          TAG_COUNT_MAX: ${{ vars.TAG_COUNT_MAX || '5' }}
+          ENABLE_NEW_TAGS: ${{ vars.ENABLE_NEW_TAGS || 'true' }}
+          ENABLE_THINKING: ${{ vars.ENABLE_THINKING || 'false' }}
+          BATCH_SIZE: ${{ vars.BATCH_SIZE || '5' }}
+          LANGUAGE: ${{ vars.LANGUAGE || 'en' }}
+        run: npm run start
+
+      # 6. 提交更改
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          echo "=== 检查文件状态 ==="
+          git status
+          echo ""
+          echo "=== 检查 README.md 前几行 ==="
+          head -20 README.md
+          echo ""
+          echo "=== 检查 datas/stars.json 大小 ==="
+          wc -c datas/stars.json || echo "文件不存在"
+          echo ""
+          echo "=== 检查 datas/tags.json 大小 ==="
+          wc -c datas/tags.json || echo "文件不存在"
+          echo ""
+          echo "=== 尝试添加文件 ==="
+          git add README.md datas/
+          echo ""
+          echo "=== 检查暂存区状态 ==="
+          git status
+          echo ""
+          echo "=== 尝试提交 ==="
+          git diff --staged --quiet || git commit -m "chore: update stars readme [skip ci]"
+          echo ""
+          echo "=== 最终状态 ==="
+          git status
+
+      # 7. 推送到仓库
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

@@ -1,0 +1,18 @@
+# StarsBoard Tag List
+# Add your tags below, one per line
+# Lines starting with # are comments
+
+frontend
+backend
+ai
+tool
+library
+tutorial
+util
+devops
+database
+testing
+docs
+Uncategorized
+
+Python

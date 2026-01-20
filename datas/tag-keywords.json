@@ -1,0 +1,131 @@
+{
+  "frontend": [
+    "react",
+    "vue",
+    "angular",
+    "svelte",
+    "solid",
+    "ui",
+    "component",
+    "javascript",
+    "typescript",
+    "css",
+    "html",
+    "frontend",
+    "client-side",
+    "browser",
+    "dom",
+    "widget"
+  ],
+  "backend": [
+    "express",
+    "fastify",
+    "nest",
+    "koa",
+    "hapi",
+    "server",
+    "api",
+    "rest",
+    "graphql",
+    "microservice",
+    "backend",
+    "server-side",
+    "http",
+    "endpoint"
+  ],
+  "ai": [
+    "machine learning",
+    "deep learning",
+    "neural",
+    "tensorflow",
+    "pytorch",
+    "llm",
+    "gpt",
+    "openai",
+    "nlp",
+    "computer vision",
+    "ml",
+    "ai",
+    "model",
+    "training",
+    "inference"
+  ],
+  "tool": [
+    "cli",
+    "utility",
+    "helper",
+    "tool",
+    "script",
+    "automation",
+    "build",
+    "task",
+    "runner"
+  ],
+  "library": [
+    "lib",
+    "framework",
+    "sdk",
+    "package",
+    "library",
+    "module"
+  ],
+  "tutorial": [
+    "tutorial",
+    "guide",
+    "learn",
+    "course",
+    "example",
+    "demo",
+    "sample",
+    "boilerplate",
+    "starter"
+  ],
+  "util": [
+    "util",
+    "helper",
+    "common",
+    "shared",
+    "misc",
+    "utility"
+  ],
+  "devops": [
+    "docker",
+    "kubernetes",
+    "ci",
+    "cd",
+    "deployment",
+    "infrastructure",
+    "terraform",
+    "ansible",
+    "devops"
+  ],
+  "database": [
+    "sql",
+    "nosql",
+    "mongodb",
+    "postgres",
+    "mysql",
+    "redis",
+    "database",
+    "orm",
+    "query",
+    "migration"
+  ],
+  "testing": [
+    "test",
+    "testing",
+    "unit",
+    "integration",
+    "e2e",
+    "jest",
+    "mocha",
+    "cypress",
+    "vitest"
+  ],
+  "docs": [
+    "documentation",
+    "docs",
+    "wiki",
+    "reference"
+  ]
+}
