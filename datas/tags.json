@@ -1357,6 +1357,23 @@
         "workflow",
         "tool"
       ]
+    },
+    {
+      "id": 1139502778,
+      "name": "Youtube-clipper-skill",
+      "fullName": "op7418/Youtube-clipper-skill",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/op7418/Youtube-clipper-skill",
+      "stars": 338,
+      "updatedAt": "2026-01-23T01:56:01Z",
+      "tags": [
+        "Python",
+        "tool",
+        "video",
+        "YouTube",
+        "automation"
+      ]
     }
   ],
   "frontend": [
@@ -6086,6 +6103,23 @@
         "bookmark",
         "utility"
       ]
+    },
+    {
+      "id": 1139502778,
+      "name": "Youtube-clipper-skill",
+      "fullName": "op7418/Youtube-clipper-skill",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/op7418/Youtube-clipper-skill",
+      "stars": 338,
+      "updatedAt": "2026-01-23T01:56:01Z",
+      "tags": [
+        "Python",
+        "tool",
+        "video",
+        "YouTube",
+        "automation"
+      ]
     }
   ],
   "backend": [
@@ -9717,6 +9751,23 @@
         "workflow",
         "tool"
       ]
+    },
+    {
+      "id": 1139502778,
+      "name": "Youtube-clipper-skill",
+      "fullName": "op7418/Youtube-clipper-skill",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/op7418/Youtube-clipper-skill",
+      "stars": 338,
+      "updatedAt": "2026-01-23T01:56:01Z",
+      "tags": [
+        "Python",
+        "tool",
+        "video",
+        "YouTube",
+        "automation"
+      ]
     }
   ],
   "webui": [
@@ -12012,6 +12063,23 @@
         "video",
         "terminal"
       ]
+    },
+    {
+      "id": 1139502778,
+      "name": "Youtube-clipper-skill",
+      "fullName": "op7418/Youtube-clipper-skill",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/op7418/Youtube-clipper-skill",
+      "stars": 338,
+      "updatedAt": "2026-01-23T01:56:01Z",
+      "tags": [
+        "Python",
+        "tool",
+        "video",
+        "YouTube",
+        "automation"
+      ]
     }
   ],
   "AI": [
@@ -13501,6 +13569,23 @@
         "YouTube",
         "n8n",
         "configuration"
+      ]
+    },
+    {
+      "id": 1139502778,
+      "name": "Youtube-clipper-skill",
+      "fullName": "op7418/Youtube-clipper-skill",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/op7418/Youtube-clipper-skill",
+      "stars": 338,
+      "updatedAt": "2026-01-23T01:56:01Z",
+      "tags": [
+        "Python",
+        "tool",
+        "video",
+        "YouTube",
+        "automation"
       ]
     }
   ],
