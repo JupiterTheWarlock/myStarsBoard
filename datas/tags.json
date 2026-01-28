@@ -2275,6 +2275,23 @@
         "library",
         "video"
       ]
+    },
+    {
+      "id": 1143104837,
+      "name": "feishu-clawdbot-bridge",
+      "fullName": "AlexAnys/feishu-clawdbot-bridge",
+      "description": "Connect Feishu/Lark bot to Clawdbot AI agent via WebSocket — no public server, no domain, no ngrok needed",
+      "language": "JavaScript",
+      "url": "https://github.com/AlexAnys/feishu-clawdbot-bridge",
+      "stars": 18,
+      "updatedAt": "2026-01-28T01:35:08Z",
+      "tags": [
+        "frontend",
+        "automation",
+        "chatbot",
+        "AI",
+        "JavaScript"
+      ]
     }
   ],
   "library": [
@@ -9849,6 +9866,23 @@
         "YouTube",
         "automation"
       ]
+    },
+    {
+      "id": 1143104837,
+      "name": "feishu-clawdbot-bridge",
+      "fullName": "AlexAnys/feishu-clawdbot-bridge",
+      "description": "Connect Feishu/Lark bot to Clawdbot AI agent via WebSocket — no public server, no domain, no ngrok needed",
+      "language": "JavaScript",
+      "url": "https://github.com/AlexAnys/feishu-clawdbot-bridge",
+      "stars": 18,
+      "updatedAt": "2026-01-28T01:35:08Z",
+      "tags": [
+        "frontend",
+        "automation",
+        "chatbot",
+        "AI",
+        "JavaScript"
+      ]
     }
   ],
   "webui": [
@@ -10604,6 +10638,23 @@
         "reference",
         "JavaScript",
         "library"
+      ]
+    },
+    {
+      "id": 1143104837,
+      "name": "feishu-clawdbot-bridge",
+      "fullName": "AlexAnys/feishu-clawdbot-bridge",
+      "description": "Connect Feishu/Lark bot to Clawdbot AI agent via WebSocket — no public server, no domain, no ngrok needed",
+      "language": "JavaScript",
+      "url": "https://github.com/AlexAnys/feishu-clawdbot-bridge",
+      "stars": 18,
+      "updatedAt": "2026-01-28T01:35:08Z",
+      "tags": [
+        "frontend",
+        "automation",
+        "chatbot",
+        "AI",
+        "JavaScript"
       ]
     }
   ],
@@ -11983,6 +12034,23 @@
         "multimodal",
         "voice"
       ]
+    },
+    {
+      "id": 1143104837,
+      "name": "feishu-clawdbot-bridge",
+      "fullName": "AlexAnys/feishu-clawdbot-bridge",
+      "description": "Connect Feishu/Lark bot to Clawdbot AI agent via WebSocket — no public server, no domain, no ngrok needed",
+      "language": "JavaScript",
+      "url": "https://github.com/AlexAnys/feishu-clawdbot-bridge",
+      "stars": 18,
+      "updatedAt": "2026-01-28T01:35:08Z",
+      "tags": [
+        "frontend",
+        "automation",
+        "chatbot",
+        "AI",
+        "JavaScript"
+      ]
     }
   ],
   "proxy": [
@@ -12565,6 +12633,23 @@
         "desktop",
         "personal",
         "AI"
+      ]
+    },
+    {
+      "id": 1143104837,
+      "name": "feishu-clawdbot-bridge",
+      "fullName": "AlexAnys/feishu-clawdbot-bridge",
+      "description": "Connect Feishu/Lark bot to Clawdbot AI agent via WebSocket — no public server, no domain, no ngrok needed",
+      "language": "JavaScript",
+      "url": "https://github.com/AlexAnys/feishu-clawdbot-bridge",
+      "stars": 18,
+      "updatedAt": "2026-01-28T01:35:08Z",
+      "tags": [
+        "frontend",
+        "automation",
+        "chatbot",
+        "AI",
+        "JavaScript"
       ]
     }
   ],
