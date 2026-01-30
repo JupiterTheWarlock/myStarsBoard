@@ -3768,5 +3768,22 @@
       "AI",
       "JavaScript"
     ]
+  },
+  {
+    "id": 1141704318,
+    "name": "awesome-moltbot-skills",
+    "fullName": "VoltAgent/awesome-moltbot-skills",
+    "description": "The awesome collection of Moltbot Skills. (Clawdbot has officially been renamed to Moltbot)",
+    "language": "",
+    "url": "https://github.com/VoltAgent/awesome-moltbot-skills",
+    "stars": 3474,
+    "updatedAt": "2026-01-30T02:12:28Z",
+    "tags": [
+      "list",
+      "collection",
+      "AI",
+      "assistant",
+      "community"
+    ]
   }
 ]
