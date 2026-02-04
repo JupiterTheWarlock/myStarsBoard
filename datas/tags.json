@@ -3171,6 +3171,23 @@
         "library",
         "video"
       ]
+    },
+    {
+      "id": 1148957225,
+      "name": "OH-Unity-GameDev-Skills",
+      "fullName": "OstrichHermit/OH-Unity-GameDev-Skills",
+      "description": "A collection of Unity game development agent skills that comply with the Claude Code Skills specification.",
+      "language": "Python",
+      "url": "https://github.com/OstrichHermit/OH-Unity-GameDev-Skills",
+      "stars": 1,
+      "updatedAt": "2026-02-03T16:59:23Z",
+      "tags": [
+        "Unity3D",
+        "game-development",
+        "Python",
+        "library",
+        "collection"
+      ]
     }
   ],
   "TypeScript": [
@@ -6183,6 +6200,23 @@
         "video",
         "YouTube",
         "automation"
+      ]
+    },
+    {
+      "id": 1148957225,
+      "name": "OH-Unity-GameDev-Skills",
+      "fullName": "OstrichHermit/OH-Unity-GameDev-Skills",
+      "description": "A collection of Unity game development agent skills that comply with the Claude Code Skills specification.",
+      "language": "Python",
+      "url": "https://github.com/OstrichHermit/OH-Unity-GameDev-Skills",
+      "stars": 1,
+      "updatedAt": "2026-02-03T16:59:23Z",
+      "tags": [
+        "Unity3D",
+        "game-development",
+        "Python",
+        "library",
+        "collection"
       ]
     }
   ],
@@ -10516,6 +10550,23 @@
         "game-development",
         "Unity3D"
       ]
+    },
+    {
+      "id": 1148957225,
+      "name": "OH-Unity-GameDev-Skills",
+      "fullName": "OstrichHermit/OH-Unity-GameDev-Skills",
+      "description": "A collection of Unity game development agent skills that comply with the Claude Code Skills specification.",
+      "language": "Python",
+      "url": "https://github.com/OstrichHermit/OH-Unity-GameDev-Skills",
+      "stars": 1,
+      "updatedAt": "2026-02-03T16:59:23Z",
+      "tags": [
+        "Unity3D",
+        "game-development",
+        "Python",
+        "library",
+        "collection"
+      ]
     }
   ],
   "JavaScript": [
@@ -14169,6 +14220,23 @@
         "assistant",
         "community"
       ]
+    },
+    {
+      "id": 1148957225,
+      "name": "OH-Unity-GameDev-Skills",
+      "fullName": "OstrichHermit/OH-Unity-GameDev-Skills",
+      "description": "A collection of Unity game development agent skills that comply with the Claude Code Skills specification.",
+      "language": "Python",
+      "url": "https://github.com/OstrichHermit/OH-Unity-GameDev-Skills",
+      "stars": 1,
+      "updatedAt": "2026-02-03T16:59:23Z",
+      "tags": [
+        "Unity3D",
+        "game-development",
+        "Python",
+        "library",
+        "collection"
+      ]
     }
   ],
   "LLM": [
@@ -15599,6 +15667,23 @@
         "C",
         "game-development",
         "Unity3D"
+      ]
+    },
+    {
+      "id": 1148957225,
+      "name": "OH-Unity-GameDev-Skills",
+      "fullName": "OstrichHermit/OH-Unity-GameDev-Skills",
+      "description": "A collection of Unity game development agent skills that comply with the Claude Code Skills specification.",
+      "language": "Python",
+      "url": "https://github.com/OstrichHermit/OH-Unity-GameDev-Skills",
+      "stars": 1,
+      "updatedAt": "2026-02-03T16:59:23Z",
+      "tags": [
+        "Unity3D",
+        "game-development",
+        "Python",
+        "library",
+        "collection"
       ]
     }
   ],
