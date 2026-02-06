@@ -3817,5 +3817,21 @@
       "library",
       "collection"
     ]
+  },
+  {
+    "id": 1147094660,
+    "name": "nanobot",
+    "fullName": "HKUDS/nanobot",
+    "description": "\"🐈 nanobot: The Ultra-Lightweight Clawdbot\"",
+    "language": "Python",
+    "url": "https://github.com/HKUDS/nanobot",
+    "stars": 9153,
+    "updatedAt": "2026-02-06T02:23:18Z",
+    "tags": [
+      "Python",
+      "library",
+      "utility",
+      "automation"
+    ]
   }
 ]
