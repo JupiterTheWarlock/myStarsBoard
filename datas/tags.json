@@ -1374,6 +1374,39 @@
         "YouTube",
         "automation"
       ]
+    },
+    {
+      "id": 1152533159,
+      "name": "discord-claude-bridge",
+      "fullName": "OstrichHermit/discord-claude-bridge",
+      "description": "将 Discord 消息桥接到本地 Claude Code 的双向通信系统 / A bidirectional communication system that bridges Discord messages to local Claude Code CLI",
+      "language": "Python",
+      "url": "https://github.com/OstrichHermit/discord-claude-bridge",
+      "stars": 1,
+      "updatedAt": "2026-02-09T02:22:49Z",
+      "tags": [
+        "chatbot",
+        "automation",
+        "tool",
+        "Python"
+      ]
+    },
+    {
+      "id": 1013480284,
+      "name": "claude-code-templates",
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "stars": 19839,
+      "updatedAt": "2026-02-09T02:21:48Z",
+      "tags": [
+        "tool",
+        "Python",
+        "CLI",
+        "monitoring",
+        "configuration"
+      ]
     }
   ],
   "frontend": [
@@ -6250,6 +6283,39 @@
         "utility",
         "automation"
       ]
+    },
+    {
+      "id": 1152533159,
+      "name": "discord-claude-bridge",
+      "fullName": "OstrichHermit/discord-claude-bridge",
+      "description": "将 Discord 消息桥接到本地 Claude Code 的双向通信系统 / A bidirectional communication system that bridges Discord messages to local Claude Code CLI",
+      "language": "Python",
+      "url": "https://github.com/OstrichHermit/discord-claude-bridge",
+      "stars": 1,
+      "updatedAt": "2026-02-09T02:22:49Z",
+      "tags": [
+        "chatbot",
+        "automation",
+        "tool",
+        "Python"
+      ]
+    },
+    {
+      "id": 1013480284,
+      "name": "claude-code-templates",
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "stars": 19839,
+      "updatedAt": "2026-02-09T02:21:48Z",
+      "tags": [
+        "tool",
+        "Python",
+        "CLI",
+        "monitoring",
+        "configuration"
+      ]
     }
   ],
   "backend": [
@@ -7907,6 +7973,23 @@
         "monitoring",
         "tool",
         "Python"
+      ]
+    },
+    {
+      "id": 1013480284,
+      "name": "claude-code-templates",
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "stars": 19839,
+      "updatedAt": "2026-02-09T02:21:48Z",
+      "tags": [
+        "tool",
+        "Python",
+        "CLI",
+        "monitoring",
+        "configuration"
       ]
     }
   ],
@@ -9996,6 +10079,22 @@
         "library",
         "utility",
         "automation"
+      ]
+    },
+    {
+      "id": 1152533159,
+      "name": "discord-claude-bridge",
+      "fullName": "OstrichHermit/discord-claude-bridge",
+      "description": "将 Discord 消息桥接到本地 Claude Code 的双向通信系统 / A bidirectional communication system that bridges Discord messages to local Claude Code CLI",
+      "language": "Python",
+      "url": "https://github.com/OstrichHermit/discord-claude-bridge",
+      "stars": 1,
+      "updatedAt": "2026-02-09T02:22:49Z",
+      "tags": [
+        "chatbot",
+        "automation",
+        "tool",
+        "Python"
       ]
     }
   ],
@@ -12197,6 +12296,22 @@
         "AI",
         "JavaScript"
       ]
+    },
+    {
+      "id": 1152533159,
+      "name": "discord-claude-bridge",
+      "fullName": "OstrichHermit/discord-claude-bridge",
+      "description": "将 Discord 消息桥接到本地 Claude Code 的双向通信系统 / A bidirectional communication system that bridges Discord messages to local Claude Code CLI",
+      "language": "Python",
+      "url": "https://github.com/OstrichHermit/discord-claude-bridge",
+      "stars": 1,
+      "updatedAt": "2026-02-09T02:22:49Z",
+      "tags": [
+        "chatbot",
+        "automation",
+        "tool",
+        "Python"
+      ]
     }
   ],
   "proxy": [
@@ -14053,6 +14168,23 @@
         "configuration",
         "developer-tools"
       ]
+    },
+    {
+      "id": 1013480284,
+      "name": "claude-code-templates",
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "stars": 19839,
+      "updatedAt": "2026-02-09T02:21:48Z",
+      "tags": [
+        "tool",
+        "Python",
+        "CLI",
+        "monitoring",
+        "configuration"
+      ]
     }
   ],
   "collection": [
@@ -15897,6 +16029,25 @@
         "TypeScript",
         "voice",
         "encryption"
+      ]
+    }
+  ],
+  "CLI": [
+    {
+      "id": 1013480284,
+      "name": "claude-code-templates",
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "stars": 19839,
+      "updatedAt": "2026-02-09T02:21:48Z",
+      "tags": [
+        "tool",
+        "Python",
+        "CLI",
+        "monitoring",
+        "configuration"
       ]
     }
   ]

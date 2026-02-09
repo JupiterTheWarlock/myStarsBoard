@@ -112,3 +112,4 @@ sound
 memory
 research
 encryption
+CLI
