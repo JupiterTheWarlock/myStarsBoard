@@ -5409,6 +5409,23 @@
         "animation",
         "LLM"
       ]
+    },
+    {
+      "id": 798201435,
+      "name": "crawl4ai",
+      "fullName": "unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "stars": 60020,
+      "updatedAt": "2026-02-13T02:20:46Z",
+      "tags": [
+        "crawler",
+        "ai",
+        "Python",
+        "webui",
+        "automation"
+      ]
     }
   ],
   "Python": [
@@ -6315,6 +6332,23 @@
         "CLI",
         "monitoring",
         "configuration"
+      ]
+    },
+    {
+      "id": 798201435,
+      "name": "crawl4ai",
+      "fullName": "unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "stars": 60020,
+      "updatedAt": "2026-02-13T02:20:46Z",
+      "tags": [
+        "crawler",
+        "ai",
+        "Python",
+        "webui",
+        "automation"
       ]
     }
   ],
@@ -10096,6 +10130,23 @@
         "tool",
         "Python"
       ]
+    },
+    {
+      "id": 798201435,
+      "name": "crawl4ai",
+      "fullName": "unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "stars": 60020,
+      "updatedAt": "2026-02-13T02:20:46Z",
+      "tags": [
+        "crawler",
+        "ai",
+        "Python",
+        "webui",
+        "automation"
+      ]
     }
   ],
   "webui": [
@@ -10265,6 +10316,23 @@
         "webui",
         "bookmark",
         "utility"
+      ]
+    },
+    {
+      "id": 798201435,
+      "name": "crawl4ai",
+      "fullName": "unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "stars": 60020,
+      "updatedAt": "2026-02-13T02:20:46Z",
+      "tags": [
+        "crawler",
+        "ai",
+        "Python",
+        "webui",
+        "automation"
       ]
     }
   ],
@@ -16048,6 +16116,25 @@
         "CLI",
         "monitoring",
         "configuration"
+      ]
+    }
+  ],
+  "crawler": [
+    {
+      "id": 798201435,
+      "name": "crawl4ai",
+      "fullName": "unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "stars": 60020,
+      "updatedAt": "2026-02-13T02:20:46Z",
+      "tags": [
+        "crawler",
+        "ai",
+        "Python",
+        "webui",
+        "automation"
       ]
     }
   ]
