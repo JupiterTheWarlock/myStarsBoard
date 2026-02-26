@@ -3883,5 +3883,22 @@
       "webui",
       "automation"
     ]
+  },
+  {
+    "id": 1165277268,
+    "name": "Agent-Reach",
+    "fullName": "Panniantong/Agent-Reach",
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "language": "Python",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "stars": 994,
+    "updatedAt": "2026-02-26T02:18:54Z",
+    "tags": [
+      "backend",
+      "Python",
+      "CLI",
+      "automation",
+      "AI"
+    ]
   }
 ]
