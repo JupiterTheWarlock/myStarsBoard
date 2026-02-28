@@ -3900,5 +3900,21 @@
       "automation",
       "AI"
     ]
+  },
+  {
+    "id": 1166085611,
+    "name": "openclaw-heychat",
+    "fullName": "DefinerSy/openclaw-heychat",
+    "description": "Heychat (黑盒语音) channel plugin for OpenClaw，两全其美的chat方式",
+    "language": "TypeScript",
+    "url": "https://github.com/DefinerSy/openclaw-heychat",
+    "stars": 4,
+    "updatedAt": "2026-02-28T00:21:47Z",
+    "tags": [
+      "TypeScript",
+      "chatbot",
+      "voice",
+      "extension"
+    ]
   }
 ]
