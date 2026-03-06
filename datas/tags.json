@@ -1407,6 +1407,23 @@
         "monitoring",
         "configuration"
       ]
+    },
+    {
+      "id": 1171026502,
+      "name": "cli",
+      "fullName": "googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "url": "https://github.com/googleworkspace/cli",
+      "stars": 11871,
+      "updatedAt": "2026-03-06T02:21:21Z",
+      "tags": [
+        "CLI",
+        "tool",
+        "automation",
+        "API",
+        "Rust"
+      ]
     }
   ],
   "frontend": [
@@ -3236,6 +3253,23 @@
         "library",
         "utility",
         "automation"
+      ]
+    },
+    {
+      "id": 872119017,
+      "name": "Scrapling",
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "stars": 24038,
+      "updatedAt": "2026-03-06T02:21:49Z",
+      "tags": [
+        "web",
+        "crawler",
+        "automation",
+        "Python",
+        "library"
       ]
     }
   ],
@@ -6383,6 +6417,23 @@
         "automation",
         "AI"
       ]
+    },
+    {
+      "id": 872119017,
+      "name": "Scrapling",
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "stars": 24038,
+      "updatedAt": "2026-03-06T02:21:49Z",
+      "tags": [
+        "web",
+        "crawler",
+        "automation",
+        "Python",
+        "library"
+      ]
     }
   ],
   "backend": [
@@ -8318,6 +8369,23 @@
         "security",
         "Uncategorized"
       ]
+    },
+    {
+      "id": 1171026502,
+      "name": "cli",
+      "fullName": "googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "url": "https://github.com/googleworkspace/cli",
+      "stars": 11871,
+      "updatedAt": "2026-03-06T02:21:21Z",
+      "tags": [
+        "CLI",
+        "tool",
+        "automation",
+        "API",
+        "Rust"
+      ]
     }
   ],
   "terminal": [
@@ -10214,6 +10282,40 @@
         "automation",
         "AI"
       ]
+    },
+    {
+      "id": 872119017,
+      "name": "Scrapling",
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "stars": 24038,
+      "updatedAt": "2026-03-06T02:21:49Z",
+      "tags": [
+        "web",
+        "crawler",
+        "automation",
+        "Python",
+        "library"
+      ]
+    },
+    {
+      "id": 1171026502,
+      "name": "cli",
+      "fullName": "googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "url": "https://github.com/googleworkspace/cli",
+      "stars": 11871,
+      "updatedAt": "2026-03-06T02:21:21Z",
+      "tags": [
+        "CLI",
+        "tool",
+        "automation",
+        "API",
+        "Rust"
+      ]
     }
   ],
   "webui": [
@@ -11269,6 +11371,23 @@
         "editor",
         "SDK",
         "API"
+      ]
+    },
+    {
+      "id": 1171026502,
+      "name": "cli",
+      "fullName": "googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "url": "https://github.com/googleworkspace/cli",
+      "stars": 11871,
+      "updatedAt": "2026-03-06T02:21:21Z",
+      "tags": [
+        "CLI",
+        "tool",
+        "automation",
+        "API",
+        "Rust"
       ]
     }
   ],
@@ -16266,6 +16385,23 @@
         "automation",
         "AI"
       ]
+    },
+    {
+      "id": 1171026502,
+      "name": "cli",
+      "fullName": "googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "url": "https://github.com/googleworkspace/cli",
+      "stars": 11871,
+      "updatedAt": "2026-03-06T02:21:21Z",
+      "tags": [
+        "CLI",
+        "tool",
+        "automation",
+        "API",
+        "Rust"
+      ]
     }
   ],
   "crawler": [
@@ -16284,6 +16420,42 @@
         "Python",
         "webui",
         "automation"
+      ]
+    },
+    {
+      "id": 872119017,
+      "name": "Scrapling",
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "stars": 24038,
+      "updatedAt": "2026-03-06T02:21:49Z",
+      "tags": [
+        "web",
+        "crawler",
+        "automation",
+        "Python",
+        "library"
+      ]
+    }
+  ],
+  "web": [
+    {
+      "id": 872119017,
+      "name": "Scrapling",
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "stars": 24038,
+      "updatedAt": "2026-03-06T02:21:49Z",
+      "tags": [
+        "web",
+        "crawler",
+        "automation",
+        "Python",
+        "library"
       ]
     }
   ]
