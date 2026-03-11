@@ -5506,6 +5506,39 @@
         "webui",
         "automation"
       ]
+    },
+    {
+      "id": 1137212306,
+      "name": "Humanizer-zh",
+      "fullName": "op7418/Humanizer-zh",
+      "description": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "language": "",
+      "url": "https://github.com/op7418/Humanizer-zh",
+      "stars": 4119,
+      "updatedAt": "2026-03-11T02:00:36Z",
+      "tags": [
+        "ai",
+        "Chinese",
+        "nlp",
+        "utility"
+      ]
+    },
+    {
+      "id": 1012087571,
+      "name": "CLIProxyAPI",
+      "fullName": "router-for-me/CLIProxyAPI",
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "language": "Go",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "stars": 15263,
+      "updatedAt": "2026-03-11T02:09:52Z",
+      "tags": [
+        "ai",
+        "API",
+        "CLI",
+        "proxy",
+        "Go"
+      ]
     }
   ],
   "Python": [
@@ -8348,6 +8381,23 @@
         "converter",
         "library",
         "utility"
+      ]
+    },
+    {
+      "id": 1012087571,
+      "name": "CLIProxyAPI",
+      "fullName": "router-for-me/CLIProxyAPI",
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "language": "Go",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "stars": 15263,
+      "updatedAt": "2026-03-11T02:09:52Z",
+      "tags": [
+        "ai",
+        "API",
+        "CLI",
+        "proxy",
+        "Go"
       ]
     }
   ],
@@ -11434,6 +11484,23 @@
         "API",
         "Rust"
       ]
+    },
+    {
+      "id": 1012087571,
+      "name": "CLIProxyAPI",
+      "fullName": "router-for-me/CLIProxyAPI",
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "language": "Go",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "stars": 15263,
+      "updatedAt": "2026-03-11T02:09:52Z",
+      "tags": [
+        "ai",
+        "API",
+        "CLI",
+        "proxy",
+        "Go"
+      ]
     }
   ],
   "finance": [
@@ -12677,6 +12744,23 @@
         "backend",
         "security",
         "cloud"
+      ]
+    },
+    {
+      "id": 1012087571,
+      "name": "CLIProxyAPI",
+      "fullName": "router-for-me/CLIProxyAPI",
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "language": "Go",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "stars": 15263,
+      "updatedAt": "2026-03-11T02:09:52Z",
+      "tags": [
+        "ai",
+        "API",
+        "CLI",
+        "proxy",
+        "Go"
       ]
     }
   ],
@@ -15880,6 +15964,22 @@
         "utility",
         "automation"
       ]
+    },
+    {
+      "id": 1137212306,
+      "name": "Humanizer-zh",
+      "fullName": "op7418/Humanizer-zh",
+      "description": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "language": "",
+      "url": "https://github.com/op7418/Humanizer-zh",
+      "stars": 4119,
+      "updatedAt": "2026-03-11T02:00:36Z",
+      "tags": [
+        "ai",
+        "Chinese",
+        "nlp",
+        "utility"
+      ]
     }
   ],
   "Chinese": [
@@ -15933,6 +16033,22 @@
         "personal",
         "Chinese"
       ]
+    },
+    {
+      "id": 1137212306,
+      "name": "Humanizer-zh",
+      "fullName": "op7418/Humanizer-zh",
+      "description": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "language": "",
+      "url": "https://github.com/op7418/Humanizer-zh",
+      "stars": 4119,
+      "updatedAt": "2026-03-11T02:00:36Z",
+      "tags": [
+        "ai",
+        "Chinese",
+        "nlp",
+        "utility"
+      ]
     }
   ],
   "lexicon": [
@@ -15970,6 +16086,22 @@
         "lexicon",
         "nlp",
         "Open"
+      ]
+    },
+    {
+      "id": 1137212306,
+      "name": "Humanizer-zh",
+      "fullName": "op7418/Humanizer-zh",
+      "description": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "language": "",
+      "url": "https://github.com/op7418/Humanizer-zh",
+      "stars": 4119,
+      "updatedAt": "2026-03-11T02:00:36Z",
+      "tags": [
+        "ai",
+        "Chinese",
+        "nlp",
+        "utility"
       ]
     }
   ],
@@ -16446,6 +16578,23 @@
         "automation",
         "API",
         "Rust"
+      ]
+    },
+    {
+      "id": 1012087571,
+      "name": "CLIProxyAPI",
+      "fullName": "router-for-me/CLIProxyAPI",
+      "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "language": "Go",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "stars": 15263,
+      "updatedAt": "2026-03-11T02:09:52Z",
+      "tags": [
+        "ai",
+        "API",
+        "CLI",
+        "proxy",
+        "Go"
       ]
     }
   ],
