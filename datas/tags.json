@@ -3301,6 +3301,23 @@
         "frontend",
         "library"
       ]
+    },
+    {
+      "id": 1104332987,
+      "name": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "url": "https://github.com/666ghj/MiroFish",
+      "stars": 16925,
+      "updatedAt": "2026-03-12T02:23:33Z",
+      "tags": [
+        "AI",
+        "Python",
+        "library",
+        "automation",
+        "prediction"
+      ]
     }
   ],
   "TypeScript": [
@@ -6496,6 +6513,23 @@
         "automation",
         "Python",
         "library"
+      ]
+    },
+    {
+      "id": 1104332987,
+      "name": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "url": "https://github.com/666ghj/MiroFish",
+      "stars": 16925,
+      "updatedAt": "2026-03-12T02:23:33Z",
+      "tags": [
+        "AI",
+        "Python",
+        "library",
+        "automation",
+        "prediction"
       ]
     }
   ],
@@ -10396,6 +10430,23 @@
         "API",
         "Rust"
       ]
+    },
+    {
+      "id": 1104332987,
+      "name": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "url": "https://github.com/666ghj/MiroFish",
+      "stars": 16925,
+      "updatedAt": "2026-03-12T02:23:33Z",
+      "tags": [
+        "AI",
+        "Python",
+        "library",
+        "automation",
+        "prediction"
+      ]
     }
   ],
   "webui": [
@@ -13376,6 +13427,23 @@
         "CLI",
         "automation",
         "AI"
+      ]
+    },
+    {
+      "id": 1104332987,
+      "name": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "url": "https://github.com/666ghj/MiroFish",
+      "stars": 16925,
+      "updatedAt": "2026-03-12T02:23:33Z",
+      "tags": [
+        "AI",
+        "Python",
+        "library",
+        "automation",
+        "prediction"
       ]
     }
   ],
@@ -16650,6 +16718,25 @@
         "automation",
         "Python",
         "library"
+      ]
+    }
+  ],
+  "prediction": [
+    {
+      "id": 1104332987,
+      "name": "MiroFish",
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "url": "https://github.com/666ghj/MiroFish",
+      "stars": 16925,
+      "updatedAt": "2026-03-12T02:23:33Z",
+      "tags": [
+        "AI",
+        "Python",
+        "library",
+        "automation",
+        "prediction"
       ]
     }
   ]
