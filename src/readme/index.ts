@@ -58,7 +58,12 @@ export async function generateMarkdown(groupedStars: StarsByTag, username: strin
     const sortedRepos = [...repos].sort((a, b) => b.stars - a.stars);
 
     for (const repo of sortedRepos) {
-      markdown += `- [${repo.name}](${repo.url})`;
+      // Extract owner from fullName (owner/repo)
+      const owner = repo.fullName.split('/')[0];
+      const avatarUrl = `https://github.com/${owner}.png?size=20`;
+
+      // Use HTML to embed avatar with proper vertical alignment
+      markdown += `- <img src="${avatarUrl}" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [${repo.name}](${repo.url})`;
       if (repo.description) {
         markdown += ` - ${repo.description}`;
       }
