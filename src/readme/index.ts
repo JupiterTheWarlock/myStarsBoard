@@ -50,7 +50,9 @@ export async function generateMarkdown(groupedStars: StarsByTag, username: strin
       continue;
     }
 
-    markdown += `## ${tag}\n\n`;
+    // Use collapsible sections to avoid rendering all content at once
+    markdown += `<details>\n`;
+    markdown += `<summary><strong>${tag}</strong> (${repos.length})</summary>\n\n`;
 
     // Sort repos by star count (descending)
     const sortedRepos = [...repos].sort((a, b) => b.stars - a.stars);
@@ -66,7 +68,7 @@ export async function generateMarkdown(groupedStars: StarsByTag, username: strin
       markdown += '\n';
     }
 
-    markdown += '\n';
+    markdown += `\n</details>\n\n`;
   }
 
   return markdown;
