@@ -12,6 +12,11 @@ pnpm-lock.yaml
 # Build output
 dist/
 build/
+webui/dist/
+webui/node_modules/
+
+# WebUI generated data
+webui/src/data.ts
 
 # Logs
 logs/

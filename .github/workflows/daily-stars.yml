@@ -43,7 +43,9 @@ jobs:
 
       # 3. 安装依赖
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm ci
+          cd webui && npm ci
 
       # 4. 构建项目
       - name: Build project
@@ -68,7 +70,15 @@ jobs:
           LANGUAGE: ${{ vars.LANGUAGE || 'en' }}
         run: npm run start
 
-      # 6. 提交更改
+      # 6. 构建 WebUI
+      - name: Build WebUI
+        env:
+          GITHUB_USERNAME: ${{ vars.USERNAME || github.repository_owner }}
+        run: |
+          cd webui
+          npm run build
+
+      # 7. 提交更改（主仓库）
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
@@ -98,9 +108,19 @@ jobs:
           echo "=== 最终状态 ==="
           git status
 
-      # 7. 推送到仓库
+      # 8. 推送到主仓库
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
+
+      # 9. 部署 WebUI 到 GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./webui/dist
+          publish_branch: gh-pages
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
