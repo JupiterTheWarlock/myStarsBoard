@@ -4028,5 +4028,22 @@
     "tags": [
       "Uncategorized"
     ]
+  },
+  {
+    "id": 1112365301,
+    "name": "qmd",
+    "fullName": "tobi/qmd",
+    "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+    "language": "TypeScript",
+    "url": "https://github.com/tobi/qmd",
+    "stars": 15580,
+    "updatedAt": "2026-03-16T10:17:47Z",
+    "tags": [
+      "tool",
+      "search",
+      "CLI",
+      "TypeScript",
+      "local"
+    ]
   }
 ]
