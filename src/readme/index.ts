@@ -7,7 +7,7 @@ import { loadTagsTxt } from '../keyword/index.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const README_FILE = path.join(__dirname, '..', '..', 'README.md');
+const README_FILE = path.join(__dirname, '..', 'README.md');
 
 /**
  * Generates markdown content from grouped stars
