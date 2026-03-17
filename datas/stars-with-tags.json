@@ -4045,5 +4045,21 @@
       "TypeScript",
       "local"
     ]
+  },
+  {
+    "id": 1130207504,
+    "name": "AgentDoG",
+    "fullName": "AI45Lab/AgentDoG",
+    "description": "A Diagnostic Guardrail Framework for AI Agent Safety and Security",
+    "language": "Python",
+    "url": "https://github.com/AI45Lab/AgentDoG",
+    "stars": 402,
+    "updatedAt": "2026-03-17T01:58:56Z",
+    "tags": [
+      "AI",
+      "security",
+      "framework",
+      "Python"
+    ]
   }
 ]

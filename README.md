@@ -1,6 +1,6 @@
 # ⭐ JupiterTheWarlock's GitHub Stars
 
-*Last updated: 2026-03-16*  |  **Stats:** 1023 stars | 114 tags
+*Last updated: 2026-03-17*  |  **Stats:** 1027 stars | 114 tags
 
 <details>
 <summary><strong>frontend</strong> (58)</summary>
@@ -433,7 +433,7 @@
 </details>
 
 <details>
-<summary><strong>Python</strong> (60)</summary>
+<summary><strong>Python</strong> (61)</summary>
 
 - <img src="https://github.com/public-apis.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs `Python`
 - <img src="https://github.com/yt-dlp.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader `Python`
@@ -490,6 +490,7 @@
 - <img src="https://github.com/EBOLABOY.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [GridBNB-USDT](https://github.com/EBOLABOY/GridBNB-USDT) - 这是一个基于AI的自动化交易程序，专为数字货币市场（BNB/USDT）设计。该程序旨在实现全自动化交易，通过AI算法帮助用户在数字货币市场中做出更智能的交易决策。 `Python`
 - <img src="https://github.com/theamusing.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [perfectPixel](https://github.com/theamusing/perfectPixel) - Refine and quantize messy AI pixel art into clean, perfect pixels. `Python`
 - <img src="https://github.com/wshuyi.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill) - Claude Code skill for publishing Markdown articles to X (Twitter) Articles `Python`
+- <img src="https://github.com/AI45Lab.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [AgentDoG](https://github.com/AI45Lab/AgentDoG) - A Diagnostic Guardrail Framework for AI Agent Safety and Security `Python`
 - <img src="https://github.com/op7418.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill) `Python`
 - <img src="https://github.com/other-blowsnow.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [qinglong-scripts](https://github.com/other-blowsnow/qinglong-scripts) `Python`
 - <img src="https://github.com/iamzifei.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [wechat-article-publisher-skill](https://github.com/iamzifei/wechat-article-publisher-skill) - Claude Skill that publish on Wechat articles (微信公众号发布） `Python`
@@ -598,7 +599,7 @@
 </details>
 
 <details>
-<summary><strong>framework</strong> (11)</summary>
+<summary><strong>framework</strong> (12)</summary>
 
 - <img src="https://github.com/ohmyzsh.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community. `Shell`
 - <img src="https://github.com/microsoft.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.  `TypeScript`
@@ -611,6 +612,7 @@
 - <img src="https://github.com/tadata-org.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth! `Python`
 - <img src="https://github.com/alibaba.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [higress](https://github.com/alibaba/higress) - 🤖 AI Gateway | AI Native API Gateway `Go`
 - <img src="https://github.com/Cysharp.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [MemoryPack](https://github.com/Cysharp/MemoryPack) - Zero encoding extreme performance binary serializer for C# and Unity. `C#`
+- <img src="https://github.com/AI45Lab.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [AgentDoG](https://github.com/AI45Lab/AgentDoG) - A Diagnostic Guardrail Framework for AI Agent Safety and Security `Python`
 
 </details>
 
@@ -955,12 +957,13 @@
 </details>
 
 <details>
-<summary><strong>security</strong> (4)</summary>
+<summary><strong>security</strong> (5)</summary>
 
 - <img src="https://github.com/dani-garcia.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs `Rust`
 - <img src="https://github.com/snail007.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [goproxy](https://github.com/snail007/goproxy) - 🔥  Proxy is a high performance HTTP(S) proxies, SOCKS5 proxies,WEBSOCKET, TCP, UDP proxy server implemented by golang. Now, it supports chain-style proxies,nat forwarding in different lan,TCP/UDP port forwarding, SSH forwarding.Proxy是golang实现的高性能http,https,websocket,tcp,socks5代理服务器,支持内网穿透,链式代理,通讯加密,智能HTTP,SOCKS5代理,黑白名单,限速,限流量,限连接数,跨平台,KCP支持,认证API。 `Go`
 - <img src="https://github.com/bitwarden.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [clients](https://github.com/bitwarden/clients) - Bitwarden client apps (web, browser extension, desktop, and cli). `TypeScript`
 - <img src="https://github.com/HunxByts.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [GhostTrack](https://github.com/HunxByts/GhostTrack) - Useful tool to track location or mobile number `Python`
+- <img src="https://github.com/AI45Lab.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [AgentDoG](https://github.com/AI45Lab/AgentDoG) - A Diagnostic Guardrail Framework for AI Agent Safety and Security `Python`
 
 </details>
 
@@ -1144,7 +1147,7 @@
 </details>
 
 <details>
-<summary><strong>AI</strong> (27)</summary>
+<summary><strong>AI</strong> (28)</summary>
 
 - <img src="https://github.com/x1xhlol.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models
 - <img src="https://github.com/google-gemini.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript`
@@ -1170,6 +1173,7 @@
 - <img src="https://github.com/Panniantong.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. `Python`
 - <img src="https://github.com/zhangliwei7758.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [unity-AI-Chat-Toolkit](https://github.com/zhangliwei7758/unity-AI-Chat-Toolkit) - 使用unity实现AI聊天相关功能。目前这个库包含了对chatgpt、chatglm等大语言模型的api调用的代码实现以及实现了微软Azure以及百度AI的语音服务功能，语音服务均采用web api实现，支持Windows/WebGL/Android等平台
 - <img src="https://github.com/yarin-zhang.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [AI-Gist](https://github.com/yarin-zhang/AI-Gist) - ✨ AI Gist 是一款隐私优先的 AI 提示词管理工具，致力于让个人收藏的 AI 提示词能够发挥最大价值。支持变量替换、Jinja 模板、AI 生成与调优、历史版本记录、云端备份等核心功能。 `Vue`
+- <img src="https://github.com/AI45Lab.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [AgentDoG](https://github.com/AI45Lab/AgentDoG) - A Diagnostic Guardrail Framework for AI Agent Safety and Security `Python`
 - <img src="https://github.com/MapleShaw.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [auto-claude-writing-agent-pub](https://github.com/MapleShaw/auto-claude-writing-agent-pub)
 - <img src="https://github.com/hamzamix.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [StarWise](https://github.com/hamzamix/StarWise) - Starwise helps you manage and categorize your GitHub starred repositories using the power of AI `TypeScript`
 - <img src="https://github.com/AlexAnys.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [feishu-clawdbot-bridge](https://github.com/AlexAnys/feishu-clawdbot-bridge) - Connect Feishu/Lark bot to Clawdbot AI agent via WebSocket — no public server, no domain, no ngrok needed `JavaScript`
