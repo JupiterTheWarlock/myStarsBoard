@@ -1,6 +1,6 @@
 # ⭐ JupiterTheWarlock's GitHub Stars
 
-*Last updated: 2026-03-17*  |  **Stats:** 1027 stars | 114 tags
+*Last updated: 2026-03-18*  |  **Stats:** 1032 stars | 114 tags
 
 <details>
 <summary><strong>frontend</strong> (58)</summary>
@@ -171,7 +171,7 @@
 </details>
 
 <details>
-<summary><strong>tool</strong> (91)</summary>
+<summary><strong>tool</strong> (92)</summary>
 
 - <img src="https://github.com/ohmyzsh.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community. `Shell`
 - <img src="https://github.com/yt-dlp.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader `Python`
@@ -244,6 +244,7 @@
 - <img src="https://github.com/Wsine.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [feishu2md](https://github.com/Wsine/feishu2md) - 一键命令下载飞书文档为 Markdown（寻找维护者） `Go`
 - <img src="https://github.com/DSPBluePrints.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [FactoryBluePrints](https://github.com/DSPBluePrints/FactoryBluePrints) - 游戏戴森球计划的**工厂**蓝图仓库 `Text`
 - <img src="https://github.com/czlonkowski.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [n8n-skills](https://github.com/czlonkowski/n8n-skills) - n8n skillset for Claude Code to build flawless n8n workflows `Shell`
+- <img src="https://github.com/jackwener.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [opencli](https://github.com/jackwener/opencli) - Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. `TypeScript`
 - <img src="https://github.com/AmintaCCCP.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [GithubStarsManager](https://github.com/AmintaCCCP/GithubStarsManager) - An app for managing github starred repositories.  `TypeScript`
 - <img src="https://github.com/NoUnityCN.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [NoUnityCN](https://github.com/NoUnityCN/NoUnityCN) - 🔥Unity国际版下载站，可通过直链或者Unity Hub下载例如Unity 6等Unity Editor的国际版，支持添加组件、下载国际版Unity Hub、包含长期支持版、技术支持版、测试版、预览版的Unity。 `TypeScript`
 - <img src="https://github.com/ttttmr.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Wechat2RSS](https://github.com/ttttmr/Wechat2RSS) - 微信公众号转RSS `Shell`
@@ -500,7 +501,7 @@
 </details>
 
 <details>
-<summary><strong>TypeScript</strong> (73)</summary>
+<summary><strong>TypeScript</strong> (74)</summary>
 
 - <img src="https://github.com/google-gemini.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript`
 - <img src="https://github.com/microsoft.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.  `TypeScript`
@@ -558,6 +559,7 @@
 - <img src="https://github.com/prinsss.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [twitter-web-exporter](https://github.com/prinsss/twitter-web-exporter) - Export tweets, bookmarks, lists and much more from Twitter(X) web app. (推文/书签/收藏/列表导出工具) `TypeScript`
 - <img src="https://github.com/JimLiu.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [baoyu-skills](https://github.com/JimLiu/baoyu-skills) `TypeScript`
 - <img src="https://github.com/dqbd.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [tiktokenizer](https://github.com/dqbd/tiktokenizer) - Online playground for OpenAPI tokenizers `TypeScript`
+- <img src="https://github.com/jackwener.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [opencli](https://github.com/jackwener/opencli) - Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. `TypeScript`
 - <img src="https://github.com/AmintaCCCP.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [GithubStarsManager](https://github.com/AmintaCCCP/GithubStarsManager) - An app for managing github starred repositories.  `TypeScript`
 - <img src="https://github.com/NoUnityCN.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [NoUnityCN](https://github.com/NoUnityCN/NoUnityCN) - 🔥Unity国际版下载站，可通过直链或者Unity Hub下载例如Unity 6等Unity Editor的国际版，支持添加组件、下载国际版Unity Hub、包含长期支持版、技术支持版、测试版、预览版的Unity。 `TypeScript`
 - <img src="https://github.com/firecrawl.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [open-scouts](https://github.com/firecrawl/open-scouts) -   AI-powered web monitoring platform. Create automated scouts that search the web and send email alerts when they find what you're looking for.  `TypeScript`
@@ -751,7 +753,7 @@
 </details>
 
 <details>
-<summary><strong>automation</strong> (60)</summary>
+<summary><strong>automation</strong> (61)</summary>
 
 - <img src="https://github.com/puppeteer.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [puppeteer](https://github.com/puppeteer/puppeteer) - JavaScript API for Chrome and Firefox `TypeScript`
 - <img src="https://github.com/google-gemini.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript`
@@ -798,6 +800,7 @@
 - <img src="https://github.com/cyfyifanchen.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [one-person-company](https://github.com/cyfyifanchen/one-person-company) - 遇事不决，Vibe 力学! One-Person Company AI Tools Series – continuously updated to help boost productivity and empower your solo business! 
 - <img src="https://github.com/yan5xu.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ququ](https://github.com/yan5xu/ququ) - 开源免费的 Wispr Flow 替代方案 | 集成FunASR本地模型和可配置大语言模型的下一代中文桌面语音工作流 `JavaScript`
 - <img src="https://github.com/BelfrySCAD.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [BOSL2](https://github.com/BelfrySCAD/BOSL2) - The Belfry OpenScad Library, v2.0.  An OpenSCAD library of shapes, masks, and manipulators to make working with OpenSCAD easier.  BETA `OpenSCAD`
+- <img src="https://github.com/jackwener.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [opencli](https://github.com/jackwener/opencli) - Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. `TypeScript`
 - <img src="https://github.com/FireRedTeam.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [FireRedTTS2](https://github.com/FireRedTeam/FireRedTTS2) - Long-form streaming TTS system for multi-speaker dialogue generation `Python`
 - <img src="https://github.com/ttttmr.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Wechat2RSS](https://github.com/ttttmr/Wechat2RSS) - 微信公众号转RSS `Shell`
 - <img src="https://github.com/justlovemaki.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [CloudFlare-AI-Insight-Daily](https://github.com/justlovemaki/CloudFlare-AI-Insight-Daily) - AI资讯日报 是一个基于 Cloudflare Workers 驱动的内容聚合与生成平台。它每日为您精选 AI 领域的最新动态，包括行业新闻、热门开源项目、前沿学术论文、科技大V社交媒体言论，并通过 Google Gemini 模型进行智能处理与摘要生成，最终自动发布到 GitHub Pages 生成 AI 日报。 `JavaScript`
@@ -1674,12 +1677,13 @@
 </details>
 
 <details>
-<summary><strong>CLI</strong> (5)</summary>
+<summary><strong>CLI</strong> (6)</summary>
 
 - <img src="https://github.com/davila7.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claude-code-templates](https://github.com/davila7/claude-code-templates) - CLI tool for configuring and monitoring Claude Code `Python`
 - <img src="https://github.com/tobi.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [qmd](https://github.com/tobi/qmd) - mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local `TypeScript`
 - <img src="https://github.com/router-for-me.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) - Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API `Go`
 - <img src="https://github.com/googleworkspace.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cli](https://github.com/googleworkspace/cli) - Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. `Rust`
+- <img src="https://github.com/jackwener.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [opencli](https://github.com/jackwener/opencli) - Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. `TypeScript`
 - <img src="https://github.com/Panniantong.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. `Python`
 
 </details>
@@ -1693,9 +1697,10 @@
 </details>
 
 <details>
-<summary><strong>web</strong> (1)</summary>
+<summary><strong>web</strong> (2)</summary>
 
 - <img src="https://github.com/D4Vinci.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Scrapling](https://github.com/D4Vinci/Scrapling) - 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! `Python`
+- <img src="https://github.com/jackwener.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [opencli](https://github.com/jackwener/opencli) - Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. `TypeScript`
 
 </details>
 

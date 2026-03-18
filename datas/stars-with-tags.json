@@ -4061,5 +4061,22 @@
       "framework",
       "Python"
     ]
+  },
+  {
+    "id": 1181982220,
+    "name": "opencli",
+    "fullName": "jackwener/opencli",
+    "description": "Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction.",
+    "language": "TypeScript",
+    "url": "https://github.com/jackwener/opencli",
+    "stars": 1379,
+    "updatedAt": "2026-03-18T02:24:08Z",
+    "tags": [
+      "tool",
+      "automation",
+      "web",
+      "CLI",
+      "TypeScript"
+    ]
   }
 ]
