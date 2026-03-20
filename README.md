@@ -1,6 +1,6 @@
 # ⭐ JupiterTheWarlock's GitHub Stars
 
-*Last updated: 2026-03-19*  |  **Stats:** 1032 stars | 114 tags
+*Last updated: 2026-03-20*  |  **Stats:** 1037 stars | 115 tags
 
 <details>
 <summary><strong>frontend</strong> (58)</summary>
@@ -619,7 +619,7 @@
 </details>
 
 <details>
-<summary><strong>Go</strong> (13)</summary>
+<summary><strong>Go</strong> (14)</summary>
 
 - <img src="https://github.com/AlistGo.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [alist](https://github.com/AlistGo/alist) - 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。 `Go`
 - <img src="https://github.com/binwiederhier.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ntfy](https://github.com/binwiederhier/ntfy) - Send push notifications to your phone or desktop using PUT/POST `Go`
@@ -630,6 +630,7 @@
 - <img src="https://github.com/alibaba.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [higress](https://github.com/alibaba/higress) - 🤖 AI Gateway | AI Native API Gateway `Go`
 - <img src="https://github.com/hacdias.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [webdav](https://github.com/hacdias/webdav) - A simple and standalone WebDAV server. `Go`
 - <img src="https://github.com/JohannesKaufmann.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) - ⚙️ Convert HTML to Markdown. Even works with entire websites and can be extended through rules. `Go`
+- <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cc-connect](https://github.com/chenhg5/cc-connect) - Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms. `Go`
 - <img src="https://github.com/Wsine.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [feishu2md](https://github.com/Wsine/feishu2md) - 一键命令下载飞书文档为 Markdown（寻找维护者） `Go`
 - <img src="https://github.com/docker.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [mcp-gateway](https://github.com/docker/mcp-gateway) - docker mcp CLI plugin / MCP Gateway `Go`
 - <img src="https://github.com/docker.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [mcp-registry](https://github.com/docker/mcp-registry) - Official Docker MCP registry  `Go`
@@ -753,7 +754,7 @@
 </details>
 
 <details>
-<summary><strong>automation</strong> (61)</summary>
+<summary><strong>automation</strong> (62)</summary>
 
 - <img src="https://github.com/puppeteer.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [puppeteer](https://github.com/puppeteer/puppeteer) - JavaScript API for Chrome and Firefox `TypeScript`
 - <img src="https://github.com/google-gemini.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript`
@@ -798,6 +799,7 @@
 - <img src="https://github.com/OpenAISpace.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ai-trend-publish](https://github.com/OpenAISpace/ai-trend-publish) - TrendPublish: 全自动 AI 内容生成与发布系统 | 微信公众号自动化 | 多源数据抓取 (Twitter/X、网站) | DeepseekAI、千问、讯飞模型 | 智能内容分析排序 | 定时发布 | 多模板支持 | Node.js | TypeScript | AI 技术趋势跟踪工具 `TypeScript`
 - <img src="https://github.com/restyler.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [awesome-n8n](https://github.com/restyler/awesome-n8n) - Useful n8n resources: list of community nodes and tutorials
 - <img src="https://github.com/cyfyifanchen.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [one-person-company](https://github.com/cyfyifanchen/one-person-company) - 遇事不决，Vibe 力学! One-Person Company AI Tools Series – continuously updated to help boost productivity and empower your solo business! 
+- <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cc-connect](https://github.com/chenhg5/cc-connect) - Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms. `Go`
 - <img src="https://github.com/yan5xu.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ququ](https://github.com/yan5xu/ququ) - 开源免费的 Wispr Flow 替代方案 | 集成FunASR本地模型和可配置大语言模型的下一代中文桌面语音工作流 `JavaScript`
 - <img src="https://github.com/BelfrySCAD.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [BOSL2](https://github.com/BelfrySCAD/BOSL2) - The Belfry OpenScad Library, v2.0.  An OpenSCAD library of shapes, masks, and manipulators to make working with OpenSCAD easier.  BETA `OpenSCAD`
 - <img src="https://github.com/jackwener.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [opencli](https://github.com/jackwener/opencli) - Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. `TypeScript`
@@ -1073,13 +1075,14 @@
 </details>
 
 <details>
-<summary><strong>chatbot</strong> (9)</summary>
+<summary><strong>chatbot</strong> (10)</summary>
 
 - <img src="https://github.com/zhayujie.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) - 基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入，可选择ChatGPT/Claude/DeepSeek/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Kimi/LinkAI，能处理文本、语音和图片，访问操作系统和互联网，支持基于自有知识库进行定制企业智能客服。 `Python`
 - <img src="https://github.com/wechaty.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [wechaty](https://github.com/wechaty/wechaty) - Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt `TypeScript`
 - <img src="https://github.com/moeru-ai.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [airi](https://github.com/moeru-ai/airi) - 💖🧸 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported. `TypeScript`
 - <img src="https://github.com/MODSetter.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [SurfSense](https://github.com/MODSetter/SurfSense) - Connect any LLM to your internal knowledge sources and chat with it in real time alongside your team. OSS alternative to NotebookLM, Perplexity, and Glean. Join our Discord: https://discord.gg/ejRNvftDp9 `Python`
 - <img src="https://github.com/sjzar.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [chatlog](https://github.com/sjzar/chatlog) - chat log tool, easily use your own chat data. 聊天记录工具，轻松使用自己的聊天数据
+- <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cc-connect](https://github.com/chenhg5/cc-connect) - Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms. `Go`
 - <img src="https://github.com/zhangliwei7758.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [unity-AI-Chat-Toolkit](https://github.com/zhangliwei7758/unity-AI-Chat-Toolkit) - 使用unity实现AI聊天相关功能。目前这个库包含了对chatgpt、chatglm等大语言模型的api调用的代码实现以及实现了微软Azure以及百度AI的语音服务功能，语音服务均采用web api实现，支持Windows/WebGL/Android等平台
 - <img src="https://github.com/AlexAnys.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [feishu-clawdbot-bridge](https://github.com/AlexAnys/feishu-clawdbot-bridge) - Connect Feishu/Lark bot to Clawdbot AI agent via WebSocket — no public server, no domain, no ngrok needed `JavaScript`
 - <img src="https://github.com/DefinerSy.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [openclaw-heychat](https://github.com/DefinerSy/openclaw-heychat) - Heychat (黑盒语音) channel plugin for OpenClaw，两全其美的chat方式 `TypeScript`
@@ -1150,7 +1153,7 @@
 </details>
 
 <details>
-<summary><strong>AI</strong> (28)</summary>
+<summary><strong>AI</strong> (29)</summary>
 
 - <img src="https://github.com/x1xhlol.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models
 - <img src="https://github.com/google-gemini.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript`
@@ -1170,6 +1173,7 @@
 - <img src="https://github.com/CoplayDev.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [unity-mcp](https://github.com/CoplayDev/unity-mcp) - Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity. `C#`
 - <img src="https://github.com/daveebbelaar.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ai-cookbook](https://github.com/daveebbelaar/ai-cookbook) - Examples and tutorials to help developers build AI systems `Python`
 - <img src="https://github.com/VoltAgent.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [awesome-moltbot-skills](https://github.com/VoltAgent/awesome-moltbot-skills) - The awesome collection of Moltbot Skills. (Clawdbot has officially been renamed to Moltbot)
+- <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cc-connect](https://github.com/chenhg5/cc-connect) - Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms. `Go`
 - <img src="https://github.com/microsoft.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [kernel-memory](https://github.com/microsoft/kernel-memory) - Research project. A Memory solution for users, teams, and applications. `C#`
 - <img src="https://github.com/undreamai.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [LLMUnity](https://github.com/undreamai/LLMUnity) - Create characters in Unity with LLMs! `C#`
 - <img src="https://github.com/CoderGamester.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [mcp-unity](https://github.com/CoderGamester/mcp-unity) - Model Context Protocol (MCP) plugin to connect with Unity Editor — designed for Cursor, Claude Code, Codex, Windsurf and other IDEs `C#`
@@ -1715,6 +1719,13 @@
 <summary><strong>local</strong> (1)</summary>
 
 - <img src="https://github.com/tobi.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [qmd](https://github.com/tobi/qmd) - mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local `TypeScript`
+
+</details>
+
+<details>
+<summary><strong>integration</strong> (1)</summary>
+
+- <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cc-connect](https://github.com/chenhg5/cc-connect) - Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms. `Go`
 
 </details>
 

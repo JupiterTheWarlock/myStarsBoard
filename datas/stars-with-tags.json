@@ -4078,5 +4078,22 @@
       "CLI",
       "TypeScript"
     ]
+  },
+  {
+    "id": 1168978399,
+    "name": "cc-connect",
+    "fullName": "chenhg5/cc-connect",
+    "description": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms.",
+    "language": "Go",
+    "url": "https://github.com/chenhg5/cc-connect",
+    "stars": 2235,
+    "updatedAt": "2026-03-20T02:05:15Z",
+    "tags": [
+      "AI",
+      "automation",
+      "chatbot",
+      "Go",
+      "integration"
+    ]
   }
 ]

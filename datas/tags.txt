@@ -117,3 +117,4 @@ crawler
 web
 prediction
 local
+integration
