@@ -6615,6 +6615,23 @@
         "framework",
         "Python"
       ]
+    },
+    {
+      "id": 1174820787,
+      "name": "autoresearch",
+      "fullName": "karpathy/autoresearch",
+      "description": "AI agents running research on single-GPU nanochat training automatically",
+      "language": "Python",
+      "url": "https://github.com/karpathy/autoresearch",
+      "stars": 46025,
+      "updatedAt": "2026-03-21T02:10:36Z",
+      "tags": [
+        "AI",
+        "Python",
+        "research",
+        "automation",
+        "LLM"
+      ]
     }
   ],
   "backend": [
@@ -10611,6 +10628,23 @@
         "Go",
         "integration"
       ]
+    },
+    {
+      "id": 1174820787,
+      "name": "autoresearch",
+      "fullName": "karpathy/autoresearch",
+      "description": "AI agents running research on single-GPU nanochat training automatically",
+      "language": "Python",
+      "url": "https://github.com/karpathy/autoresearch",
+      "stars": 46025,
+      "updatedAt": "2026-03-21T02:10:36Z",
+      "tags": [
+        "AI",
+        "Python",
+        "research",
+        "automation",
+        "LLM"
+      ]
     }
   ],
   "webui": [
@@ -13675,6 +13709,23 @@
         "Go",
         "integration"
       ]
+    },
+    {
+      "id": 1174820787,
+      "name": "autoresearch",
+      "fullName": "karpathy/autoresearch",
+      "description": "AI agents running research on single-GPU nanochat training automatically",
+      "language": "Python",
+      "url": "https://github.com/karpathy/autoresearch",
+      "stars": 46025,
+      "updatedAt": "2026-03-21T02:10:36Z",
+      "tags": [
+        "AI",
+        "Python",
+        "research",
+        "automation",
+        "LLM"
+      ]
     }
   ],
   "playground": [
@@ -15334,6 +15385,23 @@
         "TypeScript",
         "LLM"
       ]
+    },
+    {
+      "id": 1174820787,
+      "name": "autoresearch",
+      "fullName": "karpathy/autoresearch",
+      "description": "AI agents running research on single-GPU nanochat training automatically",
+      "language": "Python",
+      "url": "https://github.com/karpathy/autoresearch",
+      "stars": 46025,
+      "updatedAt": "2026-03-21T02:10:36Z",
+      "tags": [
+        "AI",
+        "Python",
+        "research",
+        "automation",
+        "LLM"
+      ]
     }
   ],
   "list": [
@@ -16821,6 +16889,23 @@
         "C",
         "research",
         "library"
+      ]
+    },
+    {
+      "id": 1174820787,
+      "name": "autoresearch",
+      "fullName": "karpathy/autoresearch",
+      "description": "AI agents running research on single-GPU nanochat training automatically",
+      "language": "Python",
+      "url": "https://github.com/karpathy/autoresearch",
+      "stars": 46025,
+      "updatedAt": "2026-03-21T02:10:36Z",
+      "tags": [
+        "AI",
+        "Python",
+        "research",
+        "automation",
+        "LLM"
       ]
     }
   ],
