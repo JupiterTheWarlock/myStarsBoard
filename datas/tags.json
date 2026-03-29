@@ -1458,6 +1458,23 @@
         "CLI",
         "TypeScript"
       ]
+    },
+    {
+      "id": 1191372811,
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "description": "A command-line tool for Lark/Feishu Open Platform — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 19 AI Agent Skills.",
+      "language": "Go",
+      "url": "https://github.com/larksuite/cli",
+      "stars": 1834,
+      "updatedAt": "2026-03-29T02:41:06Z",
+      "tags": [
+        "CLI",
+        "tool",
+        "automation",
+        "API",
+        "Go"
+      ]
     }
   ],
   "frontend": [
@@ -8580,6 +8597,23 @@
         "Go",
         "integration"
       ]
+    },
+    {
+      "id": 1191372811,
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "description": "A command-line tool for Lark/Feishu Open Platform — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 19 AI Agent Skills.",
+      "language": "Go",
+      "url": "https://github.com/larksuite/cli",
+      "stars": 1834,
+      "updatedAt": "2026-03-29T02:41:06Z",
+      "tags": [
+        "CLI",
+        "tool",
+        "automation",
+        "API",
+        "Go"
+      ]
     }
   ],
   "Rust": [
@@ -10645,6 +10679,23 @@
         "automation",
         "LLM"
       ]
+    },
+    {
+      "id": 1191372811,
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "description": "A command-line tool for Lark/Feishu Open Platform — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 19 AI Agent Skills.",
+      "language": "Go",
+      "url": "https://github.com/larksuite/cli",
+      "stars": 1834,
+      "updatedAt": "2026-03-29T02:41:06Z",
+      "tags": [
+        "CLI",
+        "tool",
+        "automation",
+        "API",
+        "Go"
+      ]
     }
   ],
   "webui": [
@@ -11748,6 +11799,23 @@
         "API",
         "CLI",
         "proxy",
+        "Go"
+      ]
+    },
+    {
+      "id": 1191372811,
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "description": "A command-line tool for Lark/Feishu Open Platform — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 19 AI Agent Skills.",
+      "language": "Go",
+      "url": "https://github.com/larksuite/cli",
+      "stars": 1834,
+      "updatedAt": "2026-03-29T02:41:06Z",
+      "tags": [
+        "CLI",
+        "tool",
+        "automation",
+        "API",
         "Go"
       ]
     }
@@ -17029,6 +17097,23 @@
         "web",
         "CLI",
         "TypeScript"
+      ]
+    },
+    {
+      "id": 1191372811,
+      "name": "cli",
+      "fullName": "larksuite/cli",
+      "description": "A command-line tool for Lark/Feishu Open Platform — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 19 AI Agent Skills.",
+      "language": "Go",
+      "url": "https://github.com/larksuite/cli",
+      "stars": 1834,
+      "updatedAt": "2026-03-29T02:41:06Z",
+      "tags": [
+        "CLI",
+        "tool",
+        "automation",
+        "API",
+        "Go"
       ]
     }
   ],
