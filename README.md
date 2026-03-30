@@ -1,6 +1,6 @@
 # ⭐ JupiterTheWarlock's GitHub Stars
 
-*Last updated: 2026-03-29*  |  **Stats:** 1047 stars | 115 tags
+*Last updated: 2026-03-30*  |  **Stats:** 1052 stars | 115 tags
 
 <details>
 <summary><strong>frontend</strong> (58)</summary>
@@ -171,7 +171,7 @@
 </details>
 
 <details>
-<summary><strong>tool</strong> (93)</summary>
+<summary><strong>tool</strong> (94)</summary>
 
 - <img src="https://github.com/ohmyzsh.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community. `Shell`
 - <img src="https://github.com/yt-dlp.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader `Python`
@@ -261,6 +261,7 @@
 - <img src="https://github.com/raviriley.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [STL-to-OpenSCAD-Converter](https://github.com/raviriley/STL-to-OpenSCAD-Converter) - Convert .STL files into a .SCAD module with ease! `JavaScript`
 - <img src="https://github.com/IceEnd.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [github-immortality](https://github.com/IceEnd/github-immortality) - Dynamically generate stats for your GitHub readme `TypeScript`
 - <img src="https://github.com/hackerzhuli.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [unity-code](https://github.com/hackerzhuli/unity-code) - Unity Code Pro: Unity IDE right inside VS Code! `TypeScript`
+- <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [agencycli](https://github.com/chenhg5/agencycli) - Lightweight CLI to build self-managing AI agent teams. Define roles, skills & projects in Markdown+YAML — agents run autonomously on a heartbeat schedule, talk to each other via inbox, and delegate tasks. Works with Claude Code, Codex, Gemini, Cursor & more. `Go`
 - <img src="https://github.com/iamzifei.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [wechat-article-publisher-skill](https://github.com/iamzifei/wechat-article-publisher-skill) - Claude Skill that publish on Wechat articles (微信公众号发布） `Python`
 - <img src="https://github.com/iamzifei.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [wechat-article-formatter-skill](https://github.com/iamzifei/wechat-article-formatter-skill) - Claude Skill that format Wechat articles for 微信公众号 (微信公众号文章排版，支持自定义样式) `CSS`
 - <img src="https://github.com/hackerzhuli.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [com.hackerzhuli.code](https://github.com/hackerzhuli/com.hackerzhuli.code) - Code editor integration for supporting VS Code, Cursor and Trae as code editor for Unity. `C#`
@@ -621,7 +622,7 @@
 </details>
 
 <details>
-<summary><strong>Go</strong> (15)</summary>
+<summary><strong>Go</strong> (16)</summary>
 
 - <img src="https://github.com/AlistGo.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [alist](https://github.com/AlistGo/alist) - 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。 `Go`
 - <img src="https://github.com/binwiederhier.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ntfy](https://github.com/binwiederhier/ntfy) - Send push notifications to your phone or desktop using PUT/POST `Go`
@@ -638,6 +639,7 @@
 - <img src="https://github.com/docker.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [mcp-gateway](https://github.com/docker/mcp-gateway) - docker mcp CLI plugin / MCP Gateway `Go`
 - <img src="https://github.com/docker.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [mcp-registry](https://github.com/docker/mcp-registry) - Official Docker MCP registry  `Go`
 - <img src="https://github.com/binggandata.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [feishu2mp](https://github.com/binggandata/feishu2mp) `Go`
+- <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [agencycli](https://github.com/chenhg5/agencycli) - Lightweight CLI to build self-managing AI agent teams. Define roles, skills & projects in Markdown+YAML — agents run autonomously on a heartbeat schedule, talk to each other via inbox, and delegate tasks. Works with Claude Code, Codex, Gemini, Cursor & more. `Go`
 
 </details>
 
@@ -757,7 +759,7 @@
 </details>
 
 <details>
-<summary><strong>automation</strong> (64)</summary>
+<summary><strong>automation</strong> (65)</summary>
 
 - <img src="https://github.com/puppeteer.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [puppeteer](https://github.com/puppeteer/puppeteer) - JavaScript API for Chrome and Firefox `TypeScript`
 - <img src="https://github.com/google-gemini.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript`
@@ -821,6 +823,7 @@
 - <img src="https://github.com/hamzamix.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [StarWise](https://github.com/hamzamix/StarWise) - Starwise helps you manage and categorize your GitHub starred repositories using the power of AI `TypeScript`
 - <img src="https://github.com/IceEnd.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [github-immortality](https://github.com/IceEnd/github-immortality) - Dynamically generate stats for your GitHub readme `TypeScript`
 - <img src="https://github.com/other-blowsnow.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [qinglong-scripts](https://github.com/other-blowsnow/qinglong-scripts) `Python`
+- <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [agencycli](https://github.com/chenhg5/agencycli) - Lightweight CLI to build self-managing AI agent teams. Define roles, skills & projects in Markdown+YAML — agents run autonomously on a heartbeat schedule, talk to each other via inbox, and delegate tasks. Works with Claude Code, Codex, Gemini, Cursor & more. `Go`
 - <img src="https://github.com/AlexAnys.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [feishu-clawdbot-bridge](https://github.com/AlexAnys/feishu-clawdbot-bridge) - Connect Feishu/Lark bot to Clawdbot AI agent via WebSocket — no public server, no domain, no ngrok needed `JavaScript`
 - <img src="https://github.com/OstrichHermit.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [discord-claude-bridge](https://github.com/OstrichHermit/discord-claude-bridge) - 将 Discord 消息桥接到本地 Claude Code 的双向通信系统 / A bidirectional communication system that bridges Discord messages to local Claude Code CLI `Python`
 
@@ -1159,7 +1162,7 @@
 </details>
 
 <details>
-<summary><strong>AI</strong> (30)</summary>
+<summary><strong>AI</strong> (31)</summary>
 
 - <img src="https://github.com/x1xhlol.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models
 - <img src="https://github.com/google-gemini.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript`
@@ -1190,6 +1193,7 @@
 - <img src="https://github.com/AI45Lab.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [AgentDoG](https://github.com/AI45Lab/AgentDoG) - A Diagnostic Guardrail Framework for AI Agent Safety and Security `Python`
 - <img src="https://github.com/MapleShaw.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [auto-claude-writing-agent-pub](https://github.com/MapleShaw/auto-claude-writing-agent-pub)
 - <img src="https://github.com/hamzamix.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [StarWise](https://github.com/hamzamix/StarWise) - Starwise helps you manage and categorize your GitHub starred repositories using the power of AI `TypeScript`
+- <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [agencycli](https://github.com/chenhg5/agencycli) - Lightweight CLI to build self-managing AI agent teams. Define roles, skills & projects in Markdown+YAML — agents run autonomously on a heartbeat schedule, talk to each other via inbox, and delegate tasks. Works with Claude Code, Codex, Gemini, Cursor & more. `Go`
 - <img src="https://github.com/AlexAnys.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [feishu-clawdbot-bridge](https://github.com/AlexAnys/feishu-clawdbot-bridge) - Connect Feishu/Lark bot to Clawdbot AI agent via WebSocket — no public server, no domain, no ngrok needed `JavaScript`
 
 </details>
@@ -1690,7 +1694,7 @@
 </details>
 
 <details>
-<summary><strong>CLI</strong> (7)</summary>
+<summary><strong>CLI</strong> (8)</summary>
 
 - <img src="https://github.com/davila7.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claude-code-templates](https://github.com/davila7/claude-code-templates) - CLI tool for configuring and monitoring Claude Code `Python`
 - <img src="https://github.com/tobi.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [qmd](https://github.com/tobi/qmd) - mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local `TypeScript`
@@ -1699,6 +1703,7 @@
 - <img src="https://github.com/larksuite.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cli](https://github.com/larksuite/cli) - A command-line tool for Lark/Feishu Open Platform — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 19 AI Agent Skills. `Go`
 - <img src="https://github.com/jackwener.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [opencli](https://github.com/jackwener/opencli) - Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. `TypeScript`
 - <img src="https://github.com/Panniantong.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. `Python`
+- <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [agencycli](https://github.com/chenhg5/agencycli) - Lightweight CLI to build self-managing AI agent teams. Define roles, skills & projects in Markdown+YAML — agents run autonomously on a heartbeat schedule, talk to each other via inbox, and delegate tasks. Works with Claude Code, Codex, Gemini, Cursor & more. `Go`
 
 </details>
 

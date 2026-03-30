@@ -4129,5 +4129,22 @@
       "API",
       "Go"
     ]
+  },
+  {
+    "id": 1183121790,
+    "name": "agencycli",
+    "fullName": "chenhg5/agencycli",
+    "description": "Lightweight CLI to build self-managing AI agent teams. Define roles, skills & projects in Markdown+YAML — agents run autonomously on a heartbeat schedule, talk to each other via inbox, and delegate tasks. Works with Claude Code, Codex, Gemini, Cursor & more.",
+    "language": "Go",
+    "url": "https://github.com/chenhg5/agencycli",
+    "stars": 28,
+    "updatedAt": "2026-03-30T02:17:05Z",
+    "tags": [
+      "CLI",
+      "automation",
+      "AI",
+      "tool",
+      "Go"
+    ]
   }
 ]
