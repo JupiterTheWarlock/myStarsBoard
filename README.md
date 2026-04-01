@@ -1,9 +1,9 @@
 # ⭐ JupiterTheWarlock's GitHub Stars
 
-*Last updated: 2026-03-31*  |  **Stats:** 1052 stars | 115 tags
+*Last updated: 2026-04-01*  |  **Stats:** 1072 stars | 116 tags
 
 <details>
-<summary><strong>frontend</strong> (58)</summary>
+<summary><strong>frontend</strong> (59)</summary>
 
 - <img src="https://github.com/anuraghazra.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) - :zap: Dynamically generated stats for your github readmes `JavaScript`
 - <img src="https://github.com/coder.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [code-server](https://github.com/coder/code-server) - VS Code in the browser `TypeScript`
@@ -39,6 +39,7 @@
 - <img src="https://github.com/mob-sakai.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ParticleEffectForUGUI](https://github.com/mob-sakai/ParticleEffectForUGUI) - Render particle effect in UnityUI(uGUI). Maskable, sortable, and no extra Camera/RenderTexture/Canvas. `C#`
 - <img src="https://github.com/Innei.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Shiro](https://github.com/Innei/Shiro) - 📜 A minimalist personal website embodying the purity of paper and freshness of snow. `TypeScript`
 - <img src="https://github.com/EpicenterHQ.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [epicenter](https://github.com/EpicenterHQ/epicenter) - Press shortcut → speak → get text. Free and open source. More local-first apps soon ❤️ `TypeScript`
+- <img src="https://github.com/open-pencil.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [open-pencil](https://github.com/open-pencil/open-pencil) - AI-native design editor. Open-source Figma alternative. `TypeScript`
 - <img src="https://github.com/songquanpeng.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [message-pusher](https://github.com/songquanpeng/message-pusher) - 搭建专属于你的消息推送服务，支持多种消息推送方式，支持 Markdown，基于 Golang 仅单可执行文件，开箱即用 `JavaScript`
 - <img src="https://github.com/rejetto.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [hfs](https://github.com/rejetto/hfs) - HFS is a web file server for your computer. Share folders or even a single file thanks to the virtual file system. `TypeScript`
 - <img src="https://github.com/ginobefun.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [BestBlogs](https://github.com/ginobefun/BestBlogs) - bestblogs.dev - 汇集顶级编程、人工智能、产品、科技文章，大语言模型摘要评分辅助阅读，探索编程和技术未来
@@ -171,7 +172,7 @@
 </details>
 
 <details>
-<summary><strong>tool</strong> (94)</summary>
+<summary><strong>tool</strong> (96)</summary>
 
 - <img src="https://github.com/ohmyzsh.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community. `Shell`
 - <img src="https://github.com/yt-dlp.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A feature-rich command-line audio/video downloader `Python`
@@ -180,6 +181,7 @@
 - <img src="https://github.com/anomalyco.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [opencode](https://github.com/anomalyco/opencode) - The open source coding agent. `TypeScript`
 - <img src="https://github.com/anuraghazra.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) - :zap: Dynamically generated stats for your github readmes `JavaScript`
 - <img src="https://github.com/coder.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [code-server](https://github.com/coder/code-server) - VS Code in the browser `TypeScript`
+- <img src="https://github.com/instructkr.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claw-code](https://github.com/instructkr/claw-code) - The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools, not merely storing the archive of leaked Claude Code but also make real things done. Now rewriting in Rust. `Rust`
 - <img src="https://github.com/anthropics.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claude-code](https://github.com/anthropics/claude-code) - Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. `Shell`
 - <img src="https://github.com/FoundationAgents.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [OpenManus](https://github.com/FoundationAgents/OpenManus) - No fortress, purely open ground.  OpenManus is Coming. `Python`
 - <img src="https://github.com/anthropics.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [skills](https://github.com/anthropics/skills) - Public repository for Agent Skills `Python`
@@ -187,6 +189,7 @@
 - <img src="https://github.com/upstash.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [context7](https://github.com/upstash/context7) - Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors `TypeScript`
 - <img src="https://github.com/sxyazi.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O. `Rust`
 - <img src="https://github.com/obra.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [superpowers](https://github.com/obra/superpowers) - An agentic skills framework & software development methodology that works. `Shell`
+- <img src="https://github.com/badlogic.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [pi-mono](https://github.com/badlogic/pi-mono) - AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods `TypeScript`
 - <img src="https://github.com/songquanpeng.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [one-api](https://github.com/songquanpeng/one-api) - LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI. `JavaScript`
 - <img src="https://github.com/Molunerfinn.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [PicGo](https://github.com/Molunerfinn/PicGo) - :rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done. `TypeScript`
 - <img src="https://github.com/eyaltoledano.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claude-task-master](https://github.com/eyaltoledano/claude-task-master) - An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others. `JavaScript`
@@ -271,7 +274,7 @@
 </details>
 
 <details>
-<summary><strong>library</strong> (60)</summary>
+<summary><strong>library</strong> (61)</summary>
 
 - <img src="https://github.com/public-apis.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs `Python`
 - <img src="https://github.com/puppeteer.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [puppeteer](https://github.com/puppeteer/puppeteer) - JavaScript API for Chrome and Firefox `TypeScript`
@@ -280,6 +283,7 @@
 - <img src="https://github.com/firecrawl.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [firecrawl](https://github.com/firecrawl/firecrawl) - 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data `TypeScript`
 - <img src="https://github.com/fxsjy.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [jieba](https://github.com/fxsjy/jieba) - 结巴中文分词 `Python`
 - <img src="https://github.com/obra.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [superpowers](https://github.com/obra/superpowers) - An agentic skills framework & software development methodology that works. `Shell`
+- <img src="https://github.com/badlogic.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [pi-mono](https://github.com/badlogic/pi-mono) - AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods `TypeScript`
 - <img src="https://github.com/songquanpeng.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [one-api](https://github.com/songquanpeng/one-api) - LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI. `JavaScript`
 - <img src="https://github.com/remotion-dev.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [remotion](https://github.com/remotion-dev/remotion) - 🎥      Make videos programmatically with React `TypeScript`
 - <img src="https://github.com/reflex-dev.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [reflex](https://github.com/reflex-dev/reflex) - 🕸️ Web apps in pure Python 🐍 `Python`
@@ -504,7 +508,7 @@
 </details>
 
 <details>
-<summary><strong>TypeScript</strong> (74)</summary>
+<summary><strong>TypeScript</strong> (77)</summary>
 
 - <img src="https://github.com/google-gemini.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript`
 - <img src="https://github.com/microsoft.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.  `TypeScript`
@@ -516,6 +520,7 @@
 - <img src="https://github.com/DIYgod.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [RSSHub](https://github.com/DIYgod/RSSHub) - 🧡 Everything is RSSible `TypeScript`
 - <img src="https://github.com/CherryHQ.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cherry-studio](https://github.com/CherryHQ/cherry-studio) - AI Agent + Coding Agent + 300+ assistants: agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs. `TypeScript`
 - <img src="https://github.com/RSSNext.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Folo](https://github.com/RSSNext/Folo) - 🧡 Folo is the AI Reader `TypeScript`
+- <img src="https://github.com/badlogic.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [pi-mono](https://github.com/badlogic/pi-mono) - AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods `TypeScript`
 - <img src="https://github.com/Molunerfinn.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [PicGo](https://github.com/Molunerfinn/PicGo) - :rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done. `TypeScript`
 - <img src="https://github.com/mattermost-community.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [focalboard](https://github.com/mattermost-community/focalboard) - Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana. `TypeScript`
 - <img src="https://github.com/onlook-dev.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [onlook](https://github.com/onlook-dev/onlook) - The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI `TypeScript`
@@ -553,6 +558,8 @@
 - <img src="https://github.com/snarktank.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ralph](https://github.com/snarktank/ralph) - Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.  `TypeScript`
 - <img src="https://github.com/Innei.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Shiro](https://github.com/Innei/Shiro) - 📜 A minimalist personal website embodying the purity of paper and freshness of snow. `TypeScript`
 - <img src="https://github.com/EpicenterHQ.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [epicenter](https://github.com/EpicenterHQ/epicenter) - Press shortcut → speak → get text. Free and open source. More local-first apps soon ❤️ `TypeScript`
+- <img src="https://github.com/gsd-build.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gsd-2](https://github.com/gsd-build/gsd-2) - A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture `TypeScript`
+- <img src="https://github.com/open-pencil.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [open-pencil](https://github.com/open-pencil/open-pencil) - AI-native design editor. Open-source Figma alternative. `TypeScript`
 - <img src="https://github.com/rejetto.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [hfs](https://github.com/rejetto/hfs) - HFS is a web file server for your computer. Share folders or even a single file thanks to the virtual file system. `TypeScript`
 - <img src="https://github.com/CaviraOSS.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [OpenMemory](https://github.com/CaviraOSS/OpenMemory) - Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. `TypeScript`
 - <img src="https://github.com/OpenAISpace.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ai-trend-publish](https://github.com/OpenAISpace/ai-trend-publish) - TrendPublish: 全自动 AI 内容生成与发布系统 | 微信公众号自动化 | 多源数据抓取 (Twitter/X、网站) | DeepseekAI、千问、讯飞模型 | 智能内容分析排序 | 定时发布 | 多模板支持 | Node.js | TypeScript | AI 技术趋势跟踪工具 `TypeScript`
@@ -592,13 +599,14 @@
 </details>
 
 <details>
-<summary><strong>prompt-engineering</strong> (6)</summary>
+<summary><strong>prompt-engineering</strong> (7)</summary>
 
 - <img src="https://github.com/x1xhlol.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models
 - <img src="https://github.com/anthropics.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) - Anthropic's Interactive Prompt Engineering Tutorial `Jupyter Notebook`
 - <img src="https://github.com/linshenkx.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) - 一款提示词优化器，助力于编写高质量的提示词 `TypeScript`
 - <img src="https://github.com/YouMind-OpenLab.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts) - 🍌 5000+ selected Nano Banana Pro prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library `TypeScript`
 - <img src="https://github.com/volcengine.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [MineContext](https://github.com/volcengine/MineContext) - MineContext is your proactive context-aware AI partner（Context-Engineering+ChatGPT Pulse） `Python`
+- <img src="https://github.com/gsd-build.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gsd-2](https://github.com/gsd-build/gsd-2) - A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture `TypeScript`
 - <img src="https://github.com/yarin-zhang.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [AI-Gist](https://github.com/yarin-zhang/AI-Gist) - ✨ AI Gist 是一款隐私优先的 AI 提示词管理工具，致力于让个人收藏的 AI 提示词能够发挥最大价值。支持变量替换、Jinja 模板、AI 生成与调优、历史版本记录、云端备份等核心功能。 `Vue`
 
 </details>
@@ -679,8 +687,9 @@
 </details>
 
 <details>
-<summary><strong>Rust</strong> (4)</summary>
+<summary><strong>Rust</strong> (5)</summary>
 
+- <img src="https://github.com/instructkr.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claw-code](https://github.com/instructkr/claw-code) - The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools, not merely storing the archive of leaked Claude Code but also make real things done. Now rewriting in Rust. `Rust`
 - <img src="https://github.com/dani-garcia.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs `Rust`
 - <img src="https://github.com/sxyazi.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [yazi](https://github.com/sxyazi/yazi) - 💥 Blazing fast terminal file manager written in Rust, based on async I/O. `Rust`
 - <img src="https://github.com/farion1231.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cc-switch](https://github.com/farion1231/cc-switch) - A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI. `Rust`
@@ -759,12 +768,13 @@
 </details>
 
 <details>
-<summary><strong>automation</strong> (65)</summary>
+<summary><strong>automation</strong> (67)</summary>
 
 - <img src="https://github.com/puppeteer.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [puppeteer](https://github.com/puppeteer/puppeteer) - JavaScript API for Chrome and Firefox `TypeScript`
 - <img src="https://github.com/google-gemini.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript`
 - <img src="https://github.com/microsoft.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown. `Python`
 - <img src="https://github.com/microsoft.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.  `TypeScript`
+- <img src="https://github.com/instructkr.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claw-code](https://github.com/instructkr/claw-code) - The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools, not merely storing the archive of leaked Claude Code but also make real things done. Now rewriting in Rust. `Rust`
 - <img src="https://github.com/toeverything.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [AFFiNE](https://github.com/toeverything/AFFiNE) - There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.  `TypeScript`
 - <img src="https://github.com/unclecode.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [crawl4ai](https://github.com/unclecode/crawl4ai) - 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN `Python`
 - <img src="https://github.com/anthropics.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claude-code](https://github.com/anthropics/claude-code) - Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. `Shell`
@@ -800,6 +810,7 @@
 - <img src="https://github.com/CoplayDev.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [unity-mcp](https://github.com/CoplayDev/unity-mcp) - Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity. `C#`
 - <img src="https://github.com/denizsafak.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [abogen](https://github.com/denizsafak/abogen) - Generate audiobooks from EPUBs, PDFs and text with synchronized captions. `Python`
 - <img src="https://github.com/EpicenterHQ.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [epicenter](https://github.com/EpicenterHQ/epicenter) - Press shortcut → speak → get text. Free and open source. More local-first apps soon ❤️ `TypeScript`
+- <img src="https://github.com/gsd-build.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gsd-2](https://github.com/gsd-build/gsd-2) - A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture `TypeScript`
 - <img src="https://github.com/songquanpeng.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [message-pusher](https://github.com/songquanpeng/message-pusher) - 搭建专属于你的消息推送服务，支持多种消息推送方式，支持 Markdown，基于 Golang 仅单可执行文件，开箱即用 `JavaScript`
 - <img src="https://github.com/justlovemaki.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [AIClient-2-API](https://github.com/justlovemaki/AIClient-2-API) - Simulates Gemini CLI, Antigravity, Qwen Code, and Kiro client requests, compatible with the OpenAI API. It supports thousands of Gemini model requests per day and offers free use of the built-in Claude model in Kiro. Easily connect to any client via the API, making AI development more efficient! `JavaScript`
 - <img src="https://github.com/OpenAISpace.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ai-trend-publish](https://github.com/OpenAISpace/ai-trend-publish) - TrendPublish: 全自动 AI 内容生成与发布系统 | 微信公众号自动化 | 多源数据抓取 (Twitter/X、网站) | DeepseekAI、千问、讯飞模型 | 智能内容分析排序 | 定时发布 | 多模板支持 | Node.js | TypeScript | AI 技术趋势跟踪工具 `TypeScript`
@@ -1162,7 +1173,7 @@
 </details>
 
 <details>
-<summary><strong>AI</strong> (31)</summary>
+<summary><strong>AI</strong> (34)</summary>
 
 - <img src="https://github.com/x1xhlol.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models
 - <img src="https://github.com/google-gemini.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript`
@@ -1170,6 +1181,7 @@
 - <img src="https://github.com/CherryHQ.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cherry-studio](https://github.com/CherryHQ/cherry-studio) - AI Agent + Coding Agent + 300+ assistants: agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs. `TypeScript`
 - <img src="https://github.com/RSSNext.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Folo](https://github.com/RSSNext/Folo) - 🧡 Folo is the AI Reader `TypeScript`
 - <img src="https://github.com/fxsjy.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [jieba](https://github.com/fxsjy/jieba) - 结巴中文分词 `Python`
+- <img src="https://github.com/badlogic.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [pi-mono](https://github.com/badlogic/pi-mono) - AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods `TypeScript`
 - <img src="https://github.com/anthropics.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) - Anthropic's Interactive Prompt Engineering Tutorial `Jupyter Notebook`
 - <img src="https://github.com/langchain-ai.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [langgraph](https://github.com/langchain-ai/langgraph) - Build resilient language agents as graphs. `Python`
 - <img src="https://github.com/ashishpatel26.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) - The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.
@@ -1181,6 +1193,8 @@
 - <img src="https://github.com/clawdbot.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [clawdbot](https://github.com/clawdbot/clawdbot) - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  `TypeScript`
 - <img src="https://github.com/santinic.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [audiblez](https://github.com/santinic/audiblez) - Generate audiobooks from e-books `Python`
 - <img src="https://github.com/CoplayDev.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [unity-mcp](https://github.com/CoplayDev/unity-mcp) - Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity. `C#`
+- <img src="https://github.com/gsd-build.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gsd-2](https://github.com/gsd-build/gsd-2) - A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture `TypeScript`
+- <img src="https://github.com/open-pencil.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [open-pencil](https://github.com/open-pencil/open-pencil) - AI-native design editor. Open-source Figma alternative. `TypeScript`
 - <img src="https://github.com/daveebbelaar.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ai-cookbook](https://github.com/daveebbelaar/ai-cookbook) - Examples and tutorials to help developers build AI systems `Python`
 - <img src="https://github.com/VoltAgent.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [awesome-moltbot-skills](https://github.com/VoltAgent/awesome-moltbot-skills) - The awesome collection of Moltbot Skills. (Clawdbot has officially been renamed to Moltbot)
 - <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cc-connect](https://github.com/chenhg5/cc-connect) - Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms. `Go`
@@ -1220,10 +1234,11 @@
 </details>
 
 <details>
-<summary><strong>editor</strong> (7)</summary>
+<summary><strong>editor</strong> (8)</summary>
 
 - <img src="https://github.com/PatrickJS.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) - 📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors `MDX`
 - <img src="https://github.com/PixiEditor.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [PixiEditor](https://github.com/PixiEditor/PixiEditor) - PixiEditor is a Universal Editor for all your 2D needs `C#`
+- <img src="https://github.com/open-pencil.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [open-pencil](https://github.com/open-pencil/open-pencil) - AI-native design editor. Open-source Figma alternative. `TypeScript`
 - <img src="https://github.com/XINCGer.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UnityToolchainsTrick](https://github.com/XINCGer/UnityToolchainsTrick) - 提供一些UnityEditor工具链开发的常用小技巧与示例(Provides some common tips and examples for developing the UnityEditor toolchain) `C#`
 - <img src="https://github.com/boxqkrtm.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [com.unity.ide.cursor](https://github.com/boxqkrtm/com.unity.ide.cursor) - Code editor integration for supporting Cursor as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc. 📦 [Mirrored from UPM, not affiliated with Unity Technologies.] `C#`
 - <img src="https://github.com/CoderGamester.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [mcp-unity](https://github.com/CoderGamester/mcp-unity) - Model Context Protocol (MCP) plugin to connect with Unity Editor — designed for Cursor, Claude Code, Codex, Windsurf and other IDEs `C#`
@@ -1253,11 +1268,12 @@
 </details>
 
 <details>
-<summary><strong>workflow</strong> (6)</summary>
+<summary><strong>workflow</strong> (7)</summary>
 
 - <img src="https://github.com/Zie619.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [n8n-workflows](https://github.com/Zie619/n8n-workflows) - all of the workflows of n8n i could find (also from the site itself) `Python`
 - <img src="https://github.com/enescingoz.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) - Supercharge your workflow automation with this curated collection of n8n templates! Instantly connect your favorite apps-like Gmail, Telegram, Google Drive, Slack, and more-with ready-to-use, AI-powered automations. Save time, boost productivity, and unlock the true potential of n8n in just a few clicks.
 - <img src="https://github.com/Leantime.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [leantime](https://github.com/Leantime/leantime) - Leantime is a goals focused project management system for non-project managers. Building with ADHD, Autism, and dyslexia in mind. `PHP`
+- <img src="https://github.com/gsd-build.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gsd-2](https://github.com/gsd-build/gsd-2) - A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture `TypeScript`
 - <img src="https://github.com/soluckysummer.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [n8n_workflows](https://github.com/soluckysummer/n8n_workflows) - 此仓库存储我在YouTube频道分享的N8N工作流配置文件，用户可直接下载JSON文件导入N8N使用
 - <img src="https://github.com/other-blowsnow.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [n8n-nodes-wechat-offiaccount](https://github.com/other-blowsnow/n8n-nodes-wechat-offiaccount) - n8n 微信公众号 `TypeScript`
 - <img src="https://github.com/MapleShaw.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [auto-claude-writing-agent-pub](https://github.com/MapleShaw/auto-claude-writing-agent-pub)
@@ -1292,9 +1308,10 @@
 </details>
 
 <details>
-<summary><strong>developer-tools</strong> (13)</summary>
+<summary><strong>developer-tools</strong> (14)</summary>
 
 - <img src="https://github.com/Shubhamsaboo.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models. `Python`
+- <img src="https://github.com/instructkr.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claw-code](https://github.com/instructkr/claw-code) - The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools, not merely storing the archive of leaked Claude Code but also make real things done. Now rewriting in Rust. `Rust`
 - <img src="https://github.com/anthropics.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claude-code](https://github.com/anthropics/claude-code) - Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. `Shell`
 - <img src="https://github.com/1c7.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) - 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么
 - <img src="https://github.com/GitHubDaily.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) - 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.
@@ -1591,8 +1608,9 @@
 </details>
 
 <details>
-<summary><strong>Open</strong> (1)</summary>
+<summary><strong>Open</strong> (2)</summary>
 
+- <img src="https://github.com/instructkr.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claw-code](https://github.com/instructkr/claw-code) - The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools, not merely storing the archive of leaked Claude Code but also make real things done. Now rewriting in Rust. `Rust`
 - <img src="https://github.com/thunlp.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [THUOCL](https://github.com/thunlp/THUOCL) - THUOCL（THU Open Chinese Lexicon）中文词库
 
 </details>
@@ -1694,8 +1712,9 @@
 </details>
 
 <details>
-<summary><strong>CLI</strong> (8)</summary>
+<summary><strong>CLI</strong> (9)</summary>
 
+- <img src="https://github.com/badlogic.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [pi-mono](https://github.com/badlogic/pi-mono) - AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods `TypeScript`
 - <img src="https://github.com/davila7.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claude-code-templates](https://github.com/davila7/claude-code-templates) - CLI tool for configuring and monitoring Claude Code `Python`
 - <img src="https://github.com/tobi.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [qmd](https://github.com/tobi/qmd) - mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local `TypeScript`
 - <img src="https://github.com/router-for-me.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) - Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API `Go`
@@ -1741,6 +1760,13 @@
 <summary><strong>integration</strong> (1)</summary>
 
 - <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cc-connect](https://github.com/chenhg5/cc-connect) - Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms. `Go`
+
+</details>
+
+<details>
+<summary><strong>design</strong> (1)</summary>
+
+- <img src="https://github.com/open-pencil.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [open-pencil](https://github.com/open-pencil/open-pencil) - AI-native design editor. Open-source Figma alternative. `TypeScript`
 
 </details>
 

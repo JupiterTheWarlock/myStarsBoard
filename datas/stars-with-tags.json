@@ -4146,5 +4146,73 @@
       "tool",
       "Go"
     ]
+  },
+  {
+    "id": 1197021090,
+    "name": "claw-code",
+    "fullName": "instructkr/claw-code",
+    "description": "The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools, not merely storing the archive of leaked Claude Code but also make real things done. Now rewriting in Rust.",
+    "language": "Rust",
+    "url": "https://github.com/instructkr/claw-code",
+    "stars": 70745,
+    "updatedAt": "2026-04-01T02:49:55Z",
+    "tags": [
+      "tool",
+      "Rust",
+      "automation",
+      "developer-tools",
+      "Open"
+    ]
+  },
+  {
+    "id": 1178493295,
+    "name": "gsd-2",
+    "fullName": "gsd-build/gsd-2",
+    "description": "A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture",
+    "language": "TypeScript",
+    "url": "https://github.com/gsd-build/gsd-2",
+    "stars": 3897,
+    "updatedAt": "2026-04-01T02:45:42Z",
+    "tags": [
+      "prompt-engineering",
+      "TypeScript",
+      "AI",
+      "automation",
+      "workflow"
+    ]
+  },
+  {
+    "id": 1168481509,
+    "name": "open-pencil",
+    "fullName": "open-pencil/open-pencil",
+    "description": "AI-native design editor. Open-source Figma alternative.",
+    "language": "TypeScript",
+    "url": "https://github.com/open-pencil/open-pencil",
+    "stars": 3862,
+    "updatedAt": "2026-04-01T01:41:25Z",
+    "tags": [
+      "frontend",
+      "editor",
+      "design",
+      "TypeScript",
+      "AI"
+    ]
+  },
+  {
+    "id": 1035029907,
+    "name": "pi-mono",
+    "fullName": "badlogic/pi-mono",
+    "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+    "language": "TypeScript",
+    "url": "https://github.com/badlogic/pi-mono",
+    "stars": 29801,
+    "updatedAt": "2026-04-01T02:49:49Z",
+    "tags": [
+      "tool",
+      "TypeScript",
+      "AI",
+      "CLI",
+      "library"
+    ]
   }
 ]
