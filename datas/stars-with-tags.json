@@ -4214,5 +4214,22 @@
       "CLI",
       "library"
     ]
+  },
+  {
+    "id": 1155965274,
+    "name": "Claude-Code-Game-Studios",
+    "fullName": "Donchitos/Claude-Code-Game-Studios",
+    "description": "Turn Claude Code into a full game dev studio — 48 AI agents, 36 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+    "language": "Shell",
+    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+    "stars": 7963,
+    "updatedAt": "2026-04-03T02:34:12Z",
+    "tags": [
+      "ai",
+      "game-development",
+      "automation",
+      "workflow",
+      "LLM"
+    ]
   }
 ]
