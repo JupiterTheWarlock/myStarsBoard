@@ -4231,5 +4231,38 @@
       "workflow",
       "LLM"
     ]
+  },
+  {
+    "id": 1200103275,
+    "name": "pi-agent.cs",
+    "fullName": "JupiterTheWarlock/pi-agent.cs",
+    "description": "",
+    "language": "C#",
+    "url": "https://github.com/JupiterTheWarlock/pi-agent.cs",
+    "stars": 1,
+    "updatedAt": "2026-04-03T10:13:13Z",
+    "tags": [
+      "C",
+      "CLI",
+      "automation",
+      "utility",
+      "backend"
+    ]
+  },
+  {
+    "id": 1195889142,
+    "name": "UnityPretext",
+    "fullName": "mjshin82/UnityPretext",
+    "description": "",
+    "language": "ShaderLab",
+    "url": "https://github.com/mjshin82/UnityPretext",
+    "stars": 22,
+    "updatedAt": "2026-04-03T13:40:15Z",
+    "tags": [
+      "Unity3D",
+      "game-development",
+      "shader",
+      "graphics"
+    ]
   }
 ]

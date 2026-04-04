@@ -7194,6 +7194,23 @@
         "automation",
         "AI"
       ]
+    },
+    {
+      "id": 1200103275,
+      "name": "pi-agent.cs",
+      "fullName": "JupiterTheWarlock/pi-agent.cs",
+      "description": "",
+      "language": "C#",
+      "url": "https://github.com/JupiterTheWarlock/pi-agent.cs",
+      "stars": 1,
+      "updatedAt": "2026-04-03T10:13:13Z",
+      "tags": [
+        "C",
+        "CLI",
+        "automation",
+        "utility",
+        "backend"
+      ]
     }
   ],
   "util": [
@@ -9278,6 +9295,23 @@
         "game-development",
         "Unity3D"
       ]
+    },
+    {
+      "id": 1200103275,
+      "name": "pi-agent.cs",
+      "fullName": "JupiterTheWarlock/pi-agent.cs",
+      "description": "",
+      "language": "C#",
+      "url": "https://github.com/JupiterTheWarlock/pi-agent.cs",
+      "stars": 1,
+      "updatedAt": "2026-04-03T10:13:13Z",
+      "tags": [
+        "C",
+        "CLI",
+        "automation",
+        "utility",
+        "backend"
+      ]
     }
   ],
   "desktop": [
@@ -10968,6 +11002,23 @@
         "workflow",
         "LLM"
       ]
+    },
+    {
+      "id": 1200103275,
+      "name": "pi-agent.cs",
+      "fullName": "JupiterTheWarlock/pi-agent.cs",
+      "description": "",
+      "language": "C#",
+      "url": "https://github.com/JupiterTheWarlock/pi-agent.cs",
+      "stars": 1,
+      "updatedAt": "2026-04-03T10:13:13Z",
+      "tags": [
+        "C",
+        "CLI",
+        "automation",
+        "utility",
+        "backend"
+      ]
     }
   ],
   "webui": [
@@ -11602,6 +11653,22 @@
         "Python",
         "library",
         "collection"
+      ]
+    },
+    {
+      "id": 1195889142,
+      "name": "UnityPretext",
+      "fullName": "mjshin82/UnityPretext",
+      "description": "",
+      "language": "ShaderLab",
+      "url": "https://github.com/mjshin82/UnityPretext",
+      "stars": 22,
+      "updatedAt": "2026-04-03T13:40:15Z",
+      "tags": [
+        "Unity3D",
+        "game-development",
+        "shader",
+        "graphics"
       ]
     }
   ],
@@ -14692,6 +14759,22 @@
         "tutorial",
         "3D"
       ]
+    },
+    {
+      "id": 1195889142,
+      "name": "UnityPretext",
+      "fullName": "mjshin82/UnityPretext",
+      "description": "",
+      "language": "ShaderLab",
+      "url": "https://github.com/mjshin82/UnityPretext",
+      "stars": 22,
+      "updatedAt": "2026-04-03T13:40:15Z",
+      "tags": [
+        "Unity3D",
+        "game-development",
+        "shader",
+        "graphics"
+      ]
     }
   ],
   "reader": [
@@ -16856,6 +16939,23 @@
         "nlp",
         "utility"
       ]
+    },
+    {
+      "id": 1200103275,
+      "name": "pi-agent.cs",
+      "fullName": "JupiterTheWarlock/pi-agent.cs",
+      "description": "",
+      "language": "C#",
+      "url": "https://github.com/JupiterTheWarlock/pi-agent.cs",
+      "stars": 1,
+      "updatedAt": "2026-04-03T10:13:13Z",
+      "tags": [
+        "C",
+        "CLI",
+        "automation",
+        "utility",
+        "backend"
+      ]
     }
   ],
   "Chinese": [
@@ -17287,6 +17387,22 @@
         "workflow",
         "LLM"
       ]
+    },
+    {
+      "id": 1195889142,
+      "name": "UnityPretext",
+      "fullName": "mjshin82/UnityPretext",
+      "description": "",
+      "language": "ShaderLab",
+      "url": "https://github.com/mjshin82/UnityPretext",
+      "stars": 22,
+      "updatedAt": "2026-04-03T13:40:15Z",
+      "tags": [
+        "Unity3D",
+        "game-development",
+        "shader",
+        "graphics"
+      ]
     }
   ],
   "book": [
@@ -17608,6 +17724,23 @@
         "CLI",
         "library"
       ]
+    },
+    {
+      "id": 1200103275,
+      "name": "pi-agent.cs",
+      "fullName": "JupiterTheWarlock/pi-agent.cs",
+      "description": "",
+      "language": "C#",
+      "url": "https://github.com/JupiterTheWarlock/pi-agent.cs",
+      "stars": 1,
+      "updatedAt": "2026-04-03T10:13:13Z",
+      "tags": [
+        "C",
+        "CLI",
+        "automation",
+        "utility",
+        "backend"
+      ]
     }
   ],
   "crawler": [
@@ -17755,6 +17888,24 @@
         "design",
         "TypeScript",
         "AI"
+      ]
+    }
+  ],
+  "shader": [
+    {
+      "id": 1195889142,
+      "name": "UnityPretext",
+      "fullName": "mjshin82/UnityPretext",
+      "description": "",
+      "language": "ShaderLab",
+      "url": "https://github.com/mjshin82/UnityPretext",
+      "stars": 22,
+      "updatedAt": "2026-04-03T13:40:15Z",
+      "tags": [
+        "Unity3D",
+        "game-development",
+        "shader",
+        "graphics"
       ]
     }
   ]

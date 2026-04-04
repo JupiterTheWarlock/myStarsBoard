@@ -1,6 +1,6 @@
 # ⭐ JupiterTheWarlock's GitHub Stars
 
-*Last updated: 2026-04-03*  |  **Stats:** 1077 stars | 116 tags
+*Last updated: 2026-04-04*  |  **Stats:** 1086 stars | 117 tags
 
 <details>
 <summary><strong>frontend</strong> (59)</summary>
@@ -68,7 +68,7 @@
 </details>
 
 <details>
-<summary><strong>backend</strong> (24)</summary>
+<summary><strong>backend</strong> (25)</summary>
 
 - <img src="https://github.com/public-apis.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs `Python`
 - <img src="https://github.com/dani-garcia.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs `Rust`
@@ -94,6 +94,7 @@
 - <img src="https://github.com/DMontgomery40.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [mcp-3D-printer-server](https://github.com/DMontgomery40/mcp-3D-printer-server) - Connects MCP to major 3D printer APIs (Orca, Bambu, OctoPrint, Klipper, Duet, Repetier, Prusa, Creality). Control prints, monitor status, and perform advanced STL operations like scaling, rotation, sectional editing, and base extension. Includes slicing and visualization. `TypeScript`
 - <img src="https://github.com/anthropics.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [anthropic-sdk-csharp](https://github.com/anthropics/anthropic-sdk-csharp) - Access to Anthropic's safety-first language model APIs in C# `C#`
 - <img src="https://github.com/binggandata.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [feishu2mp](https://github.com/binggandata/feishu2mp) `Go`
+- <img src="https://github.com/JupiterTheWarlock.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [pi-agent.cs](https://github.com/JupiterTheWarlock/pi-agent.cs) `C#`
 
 </details>
 
@@ -665,7 +666,7 @@
 </details>
 
 <details>
-<summary><strong>C</strong> (17)</summary>
+<summary><strong>C</strong> (18)</summary>
 
 - <img src="https://github.com/icsharpcode.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ILSpy](https://github.com/icsharpcode/ILSpy) - .NET Decompiler with support for PDB generation, ReadyToRun, Metadata (&more) - cross-platform! `C#`
 - <img src="https://github.com/Unity-Technologies.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UnityCsReference](https://github.com/Unity-Technologies/UnityCsReference) - Unity C# reference source code. `C#`
@@ -684,6 +685,7 @@
 - <img src="https://github.com/ls9512.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UEvent](https://github.com/ls9512/UEvent) - UEvent is a general message event component that can be used in Unity and .Net environment. `C#`
 - <img src="https://github.com/hackerzhuli.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [com.hackerzhuli.code](https://github.com/hackerzhuli/com.hackerzhuli.code) - Code editor integration for supporting VS Code, Cursor and Trae as code editor for Unity. `C#`
 - <img src="https://github.com/DabuliuZZ.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [GGJ2026](https://github.com/DabuliuZZ/GGJ2026) `C#`
+- <img src="https://github.com/JupiterTheWarlock.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [pi-agent.cs](https://github.com/JupiterTheWarlock/pi-agent.cs) `C#`
 
 </details>
 
@@ -769,7 +771,7 @@
 </details>
 
 <details>
-<summary><strong>automation</strong> (68)</summary>
+<summary><strong>automation</strong> (69)</summary>
 
 - <img src="https://github.com/puppeteer.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [puppeteer](https://github.com/puppeteer/puppeteer) - JavaScript API for Chrome and Firefox `TypeScript`
 - <img src="https://github.com/google-gemini.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript`
@@ -839,6 +841,7 @@
 - <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [agencycli](https://github.com/chenhg5/agencycli) - Lightweight CLI to build self-managing AI agent teams. Define roles, skills & projects in Markdown+YAML — agents run autonomously on a heartbeat schedule, talk to each other via inbox, and delegate tasks. Works with Claude Code, Codex, Gemini, Cursor & more. `Go`
 - <img src="https://github.com/AlexAnys.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [feishu-clawdbot-bridge](https://github.com/AlexAnys/feishu-clawdbot-bridge) - Connect Feishu/Lark bot to Clawdbot AI agent via WebSocket — no public server, no domain, no ngrok needed `JavaScript`
 - <img src="https://github.com/OstrichHermit.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [discord-claude-bridge](https://github.com/OstrichHermit/discord-claude-bridge) - 将 Discord 消息桥接到本地 Claude Code 的双向通信系统 / A bidirectional communication system that bridges Discord messages to local Claude Code CLI `Python`
+- <img src="https://github.com/JupiterTheWarlock.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [pi-agent.cs](https://github.com/JupiterTheWarlock/pi-agent.cs) `C#`
 
 </details>
 
@@ -860,7 +863,7 @@
 </details>
 
 <details>
-<summary><strong>Unity3D</strong> (28)</summary>
+<summary><strong>Unity3D</strong> (29)</summary>
 
 - <img src="https://github.com/Unity-Technologies.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UnityCsReference](https://github.com/Unity-Technologies/UnityCsReference) - Unity C# reference source code. `C#`
 - <img src="https://github.com/Cysharp.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UniTask](https://github.com/Cysharp/UniTask) - Provides an efficient allocation free async/await integration for Unity. `C#`
@@ -888,6 +891,7 @@
 - <img src="https://github.com/dilmerv.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UnityVFXMillionsOfParticles](https://github.com/dilmerv/UnityVFXMillionsOfParticles) - Various effects generated with Visual Effect Graph and all include more than 1 million of particles `Mathematica`
 - <img src="https://github.com/ls9512.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UEvent](https://github.com/ls9512/UEvent) - UEvent is a general message event component that can be used in Unity and .Net environment. `C#`
 - <img src="https://github.com/peabnuts123.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Unity-2D-Jam-Template](https://github.com/peabnuts123/Unity-2D-Jam-Template) - Template Unity project for creating 2D games for game jams `C#`
+- <img src="https://github.com/mjshin82.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UnityPretext](https://github.com/mjshin82/UnityPretext) `ShaderLab`
 - <img src="https://github.com/DabuliuZZ.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [GGJ2026](https://github.com/DabuliuZZ/GGJ2026) `C#`
 - <img src="https://github.com/OstrichHermit.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [OH-Unity-GameDev-Skills](https://github.com/OstrichHermit/OH-Unity-GameDev-Skills) - A collection of Unity game development agent skills that comply with the Claude Code Skills specification. `Python`
 
@@ -1250,7 +1254,7 @@
 </details>
 
 <details>
-<summary><strong>graphics</strong> (6)</summary>
+<summary><strong>graphics</strong> (7)</summary>
 
 - <img src="https://github.com/lettier.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [3d-game-shaders-for-beginners](https://github.com/lettier/3d-game-shaders-for-beginners) - 🎮 A step-by-step guide to implementing SSAO, depth of field, lighting, normal mapping, and more for your 3D game. `C++`
 - <img src="https://github.com/PixiEditor.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [PixiEditor](https://github.com/PixiEditor/PixiEditor) - PixiEditor is a Universal Editor for all your 2D needs `C#`
@@ -1258,6 +1262,7 @@
 - <img src="https://github.com/keijiro.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [NoiseShader](https://github.com/keijiro/NoiseShader) - Noise shader library for Unity `HLSL`
 - <img src="https://github.com/GarrettGunnell.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [AcerolaFX](https://github.com/GarrettGunnell/AcerolaFX) - A suite of GShade shaders for Final Fantasy XIV `HLSL`
 - <img src="https://github.com/dilmerv.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UnityVFXMillionsOfParticles](https://github.com/dilmerv/UnityVFXMillionsOfParticles) - Various effects generated with Visual Effect Graph and all include more than 1 million of particles `Mathematica`
+- <img src="https://github.com/mjshin82.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UnityPretext](https://github.com/mjshin82/UnityPretext) `ShaderLab`
 
 </details>
 
@@ -1572,7 +1577,7 @@
 </details>
 
 <details>
-<summary><strong>utility</strong> (9)</summary>
+<summary><strong>utility</strong> (10)</summary>
 
 - <img src="https://github.com/ArchiveBox.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more... `Python`
 - <img src="https://github.com/sjzar.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [chatlog](https://github.com/sjzar/chatlog) - chat log tool, easily use your own chat data. 聊天记录工具，轻松使用自己的聊天数据
@@ -1583,6 +1588,7 @@
 - <img src="https://github.com/GarrettGunnell.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [AcerolaFX](https://github.com/GarrettGunnell/AcerolaFX) - A suite of GShade shaders for Final Fantasy XIV `HLSL`
 - <img src="https://github.com/halak.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [unity-editor-icons](https://github.com/halak/unity-editor-icons) `C#`
 - <img src="https://github.com/febucci.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [unitypackage-custom-hierarchy](https://github.com/febucci/unitypackage-custom-hierarchy) - Unity package to help having a clearer Hierarchy view, organizing everything in a “tree view” and including extra informations like Components Icons and groups/divisors. `C#`
+- <img src="https://github.com/JupiterTheWarlock.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [pi-agent.cs](https://github.com/JupiterTheWarlock/pi-agent.cs) `C#`
 
 </details>
 
@@ -1642,7 +1648,7 @@
 </details>
 
 <details>
-<summary><strong>game-development</strong> (12)</summary>
+<summary><strong>game-development</strong> (13)</summary>
 
 - <img src="https://github.com/lettier.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [3d-game-shaders-for-beginners](https://github.com/lettier/3d-game-shaders-for-beginners) - 🎮 A step-by-step guide to implementing SSAO, depth of field, lighting, normal mapping, and more for your 3D game. `C++`
 - <img src="https://github.com/Unity-Technologies.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UnityCsReference](https://github.com/Unity-Technologies/UnityCsReference) - Unity C# reference source code. `C#`
@@ -1654,6 +1660,7 @@
 - <img src="https://github.com/Yuan-ManX.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ai-game-devtools](https://github.com/Yuan-ManX/ai-game-devtools) - Here we will keep track of the latest AI Game Development Tools, including LLM, World Model, Agent, Code, Image, Texture, Shader, 3D Model, Animation, Video, Audio, Music, Singing Voice and Analytics. 🔥
 - <img src="https://github.com/zeh.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [usfxr](https://github.com/zeh/usfxr) - A Unity port of sfxr/as3sfxr/bfxr `C#`
 - <img src="https://github.com/peabnuts123.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Unity-2D-Jam-Template](https://github.com/peabnuts123/Unity-2D-Jam-Template) - Template Unity project for creating 2D games for game jams `C#`
+- <img src="https://github.com/mjshin82.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UnityPretext](https://github.com/mjshin82/UnityPretext) `ShaderLab`
 - <img src="https://github.com/DabuliuZZ.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [GGJ2026](https://github.com/DabuliuZZ/GGJ2026) `C#`
 - <img src="https://github.com/OstrichHermit.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [OH-Unity-GameDev-Skills](https://github.com/OstrichHermit/OH-Unity-GameDev-Skills) - A collection of Unity game development agent skills that comply with the Claude Code Skills specification. `Python`
 
@@ -1717,7 +1724,7 @@
 </details>
 
 <details>
-<summary><strong>CLI</strong> (9)</summary>
+<summary><strong>CLI</strong> (10)</summary>
 
 - <img src="https://github.com/badlogic.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [pi-mono](https://github.com/badlogic/pi-mono) - AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods `TypeScript`
 - <img src="https://github.com/davila7.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claude-code-templates](https://github.com/davila7/claude-code-templates) - CLI tool for configuring and monitoring Claude Code `Python`
@@ -1728,6 +1735,7 @@
 - <img src="https://github.com/jackwener.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [opencli](https://github.com/jackwener/opencli) - Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. `TypeScript`
 - <img src="https://github.com/Panniantong.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [Agent-Reach](https://github.com/Panniantong/Agent-Reach) - Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. `Python`
 - <img src="https://github.com/chenhg5.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [agencycli](https://github.com/chenhg5/agencycli) - Lightweight CLI to build self-managing AI agent teams. Define roles, skills & projects in Markdown+YAML — agents run autonomously on a heartbeat schedule, talk to each other via inbox, and delegate tasks. Works with Claude Code, Codex, Gemini, Cursor & more. `Go`
+- <img src="https://github.com/JupiterTheWarlock.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [pi-agent.cs](https://github.com/JupiterTheWarlock/pi-agent.cs) `C#`
 
 </details>
 
@@ -1772,6 +1780,13 @@
 <summary><strong>design</strong> (1)</summary>
 
 - <img src="https://github.com/open-pencil.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [open-pencil](https://github.com/open-pencil/open-pencil) - AI-native design editor. Open-source Figma alternative. `TypeScript`
+
+</details>
+
+<details>
+<summary><strong>shader</strong> (1)</summary>
+
+- <img src="https://github.com/mjshin82.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UnityPretext](https://github.com/mjshin82/UnityPretext) `ShaderLab`
 
 </details>
 
