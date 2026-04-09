@@ -4264,5 +4264,38 @@
       "shader",
       "graphics"
     ]
+  },
+  {
+    "id": 78371780,
+    "name": "awesome-unity3d",
+    "fullName": "insthync/awesome-unity3d",
+    "description": "A categorized collection of awesome opensource unity3d repos",
+    "language": "",
+    "url": "https://github.com/insthync/awesome-unity3d",
+    "stars": 2649,
+    "updatedAt": "2026-04-08T10:27:04Z",
+    "tags": [
+      "Unity3D",
+      "game-development",
+      "collection",
+      "list",
+      "library"
+    ]
+  },
+  {
+    "id": 130688011,
+    "name": "meilisearch",
+    "fullName": "meilisearch/meilisearch",
+    "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+    "language": "Rust",
+    "url": "https://github.com/meilisearch/meilisearch",
+    "stars": 57029,
+    "updatedAt": "2026-04-09T02:12:25Z",
+    "tags": [
+      "search",
+      "backend",
+      "API",
+      "Rust"
+    ]
   }
 ]
