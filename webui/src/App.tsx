@@ -42,7 +42,22 @@ function App({ initialData, title, favicon }: AppProps) {
       link.rel = 'icon';
       document.head.appendChild(link);
     }
-    link.type = 'image/svg+xml';
+    // Detect MIME type from URL/data URI
+    if (favicon.startsWith('data:image/svg+xml')) {
+      link.type = 'image/svg+xml';
+    } else if (favicon.startsWith('data:image/png')) {
+      link.type = 'image/png';
+    } else if (favicon.startsWith('data:image/') || /\.(jpe?g|jfif)$/i.test(favicon)) {
+      link.type = 'image/jpeg';
+    } else if (/\.png$/i.test(favicon)) {
+      link.type = 'image/png';
+    } else if (/\.ico$/i.test(favicon)) {
+      link.type = 'image/x-icon';
+    } else if (/\.gif$/i.test(favicon)) {
+      link.type = 'image/gif';
+    } else {
+      link.type = 'image/svg+xml';
+    }
     link.href = favicon;
   }, [favicon]);
 
