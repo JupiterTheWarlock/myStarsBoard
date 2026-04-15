@@ -2,25 +2,124 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+:root {
+  --term-bg: #0c0a09;
+  --term-surface: #171412;
+  --term-surface-2: #221e1b;
+  --term-border: #332e29;
+  --term-text: #e7e0d8;
+  --term-muted: #8a8078;
+  --term-dim: #57534e;
+  --term-accent: #d97706;
+  --term-accent-bright: #f59e0b;
+  --term-accent-glow: #fbbf24;
+  --term-accent-dim: #451a03;
 }
 
+body {
+  margin: 0;
+  font-family: 'Courier Prime', Consolas, monospace;
+  background-color: var(--term-bg);
+  color: var(--term-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Terminal scrollbar */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #30363d #0d1117;
+  scrollbar-color: var(--term-border) var(--term-bg);
 }
 
 *::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 *::-webkit-scrollbar-track {
-  background: #0d1117;
+  background: var(--term-bg);
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #30363d;
-  border-radius: 4px;
+  background-color: var(--term-border);
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--term-dim);
+}
+
+/* Selection */
+::selection {
+  background: var(--term-accent-dim);
+  color: var(--term-accent-glow);
+}
+
+/* Focus ring */
+*:focus-visible {
+  outline: 1px solid var(--term-accent);
+  outline-offset: 1px;
+}
+
+/* Subtle CRT scan line overlay */
+.scanlines::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.025) 2px,
+    rgba(0, 0, 0, 0.025) 4px
+  );
+  pointer-events: none;
+  z-index: 1000;
+}
+
+/* Terminal accent glow — use sparingly */
+.glow-accent {
+  text-shadow: 0 0 8px oklch(0.75 0.15 65 / 0.25);
+}
+
+.glow-star {
+  text-shadow: 0 0 6px oklch(0.83 0.16 85 / 0.35);
+}
+
+/* TOC dotted leader for tag headers */
+.toc-leader {
+  flex: 1;
+  min-width: 16px;
+  border-bottom: 1px dotted var(--term-dim);
+  margin: 0 8px;
+  position: relative;
+  top: -3px;
+}
+
+/* Terminal input — remove all default chrome */
+.term-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  caret-color: var(--term-accent);
+  font-family: 'Courier Prime', Consolas, monospace;
+}
+
+/* Print animation stagger */
+@media (prefers-reduced-motion: reduce) {
+  .term-animate {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+}
+
+/* Blinking block cursor for search */
+.block-cursor::after {
+  content: '█';
+  animation: blink 1s step-end infinite;
+  color: var(--term-accent);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
