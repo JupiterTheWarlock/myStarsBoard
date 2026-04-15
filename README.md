@@ -1,9 +1,9 @@
 # ⭐ JupiterTheWarlock's GitHub Stars
 
-*Last updated: 2026-04-15*  |  **Stats:** 1095 stars | 117 tags
+*Last updated: 2026-04-15*  |  **Stats:** 1102 stars | 117 tags
 
 <details>
-<summary><strong>frontend</strong> (59)</summary>
+<summary><strong>frontend</strong> (61)</summary>
 
 - <img src="https://github.com/anuraghazra.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) - :zap: Dynamically generated stats for your github readmes `JavaScript`
 - <img src="https://github.com/coder.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [code-server](https://github.com/coder/code-server) - VS Code in the browser `TypeScript`
@@ -18,6 +18,7 @@
 - <img src="https://github.com/qeeqbox.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [social-analyzer](https://github.com/qeeqbox/social-analyzer) - API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites `JavaScript`
 - <img src="https://github.com/code-yeongyu.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode) - The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you. `TypeScript`
 - <img src="https://github.com/winfunc.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [opcode](https://github.com/winfunc/opcode) - A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more. `TypeScript`
+- <img src="https://github.com/pbakaus.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [impeccable](https://github.com/pbakaus/impeccable) - The design language that makes your AI harness better at design. `JavaScript`
 - <img src="https://github.com/dyad-sh.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [dyad](https://github.com/dyad-sh/dyad) - Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it! `TypeScript`
 - <img src="https://github.com/nextlevelbuilder.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms `Python`
 - <img src="https://github.com/agentsmd.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [agents.md](https://github.com/agentsmd/agents.md) - AGENTS.md — a simple, open format for guiding coding agents `TypeScript`
@@ -30,6 +31,7 @@
 - <img src="https://github.com/tangly1024.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [NotionNext](https://github.com/tangly1024/NotionNext) - 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。 (A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.) `JavaScript`
 - <img src="https://github.com/cooderl.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [wewe-rss](https://github.com/cooderl/wewe-rss) - 🤗更优雅的微信公众号订阅方式，支持私有化部署、微信公众号RSS生成（基于微信读书） `TypeScript`
 - <img src="https://github.com/miurla.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [morphic](https://github.com/miurla/morphic) - An AI-powered search engine with a generative UI `TypeScript`
+- <img src="https://github.com/Leonxlnx.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [taste-skill](https://github.com/Leonxlnx/taste-skill) - Taste-Skill (High-Agency Frontend) - gives your AI good taste. stops the AI from generating boring, generic, "slop" 
 - <img src="https://github.com/modelcontextprotocol.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [inspector](https://github.com/modelcontextprotocol/inspector) - Visual testing tool for MCP servers `TypeScript`
 - <img src="https://github.com/star-history.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [star-history](https://github.com/star-history/star-history) - The missing star history graph of GitHub repos - https://star-history.com `TypeScript`
 - <img src="https://github.com/wechat-article.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter) - 一款在线的 微信公众号文章批量下载 工具，支持导出阅读量与评论数据，无需搭建任何环境，可通过 在线网站 使用，支持 docker 私有化部署和 Cloudflare 部署。  支持下载各种文件格式，其中 HTML 格式可100%还原文章排版与样式。 `TypeScript`
@@ -603,11 +605,12 @@
 </details>
 
 <details>
-<summary><strong>prompt-engineering</strong> (7)</summary>
+<summary><strong>prompt-engineering</strong> (8)</summary>
 
 - <img src="https://github.com/x1xhlol.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models
 - <img src="https://github.com/anthropics.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) - Anthropic's Interactive Prompt Engineering Tutorial `Jupyter Notebook`
 - <img src="https://github.com/linshenkx.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) - 一款提示词优化器，助力于编写高质量的提示词 `TypeScript`
+- <img src="https://github.com/Leonxlnx.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [taste-skill](https://github.com/Leonxlnx/taste-skill) - Taste-Skill (High-Agency Frontend) - gives your AI good taste. stops the AI from generating boring, generic, "slop" 
 - <img src="https://github.com/YouMind-OpenLab.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts) - 🍌 5000+ selected Nano Banana Pro prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library `TypeScript`
 - <img src="https://github.com/volcengine.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [MineContext](https://github.com/volcengine/MineContext) - MineContext is your proactive context-aware AI partner（Context-Engineering+ChatGPT Pulse） `Python`
 - <img src="https://github.com/gsd-build.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gsd-2](https://github.com/gsd-build/gsd-2) - A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture `TypeScript`
@@ -902,10 +905,11 @@
 </details>
 
 <details>
-<summary><strong>JavaScript</strong> (12)</summary>
+<summary><strong>JavaScript</strong> (13)</summary>
 
 - <img src="https://github.com/puppeteer.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [puppeteer](https://github.com/puppeteer/puppeteer) - JavaScript API for Chrome and Firefox `TypeScript`
 - <img src="https://github.com/anuraghazra.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) - :zap: Dynamically generated stats for your github readmes `JavaScript`
+- <img src="https://github.com/pbakaus.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [impeccable](https://github.com/pbakaus/impeccable) - The design language that makes your AI harness better at design. `JavaScript`
 - <img src="https://github.com/tangly1024.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [NotionNext](https://github.com/tangly1024/NotionNext) - 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。 (A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.) `JavaScript`
 - <img src="https://github.com/gonglei007.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [GameDevMind](https://github.com/gonglei007/GameDevMind) - 最全面的游戏开发技术图谱(Game Development Map)。帮助游戏开发者们在已知问题上节省时间，省出更多的精力投入到更有创造性的工作中去。 `JavaScript`
 - <img src="https://github.com/justlovemaki.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [AIClient-2-API](https://github.com/justlovemaki/AIClient-2-API) - Simulates Gemini CLI, Antigravity, Qwen Code, and Kiro client requests, compatible with the OpenAI API. It supports thousands of Gemini model requests per day and offers free use of the built-in Claude model in Kiro. Easily connect to any client via the API, making AI development more efficient! `JavaScript`
@@ -1185,7 +1189,7 @@
 </details>
 
 <details>
-<summary><strong>AI</strong> (34)</summary>
+<summary><strong>AI</strong> (35)</summary>
 
 - <img src="https://github.com/x1xhlol.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models
 - <img src="https://github.com/google-gemini.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript`
@@ -1202,6 +1206,7 @@
 - <img src="https://github.com/emcie-co.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [parlant](https://github.com/emcie-co/parlant) - LLM agents built for control. Designed for real-world use. Deployed in minutes. `Python`
 - <img src="https://github.com/moeru-ai.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [airi](https://github.com/moeru-ai/airi) - 💖🧸 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported. `TypeScript`
 - <img src="https://github.com/666ghj.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [MiroFish](https://github.com/666ghj/MiroFish) - A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 `Python`
+- <img src="https://github.com/Leonxlnx.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [taste-skill](https://github.com/Leonxlnx/taste-skill) - Taste-Skill (High-Agency Frontend) - gives your AI good taste. stops the AI from generating boring, generic, "slop" 
 - <img src="https://github.com/clawdbot.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [clawdbot](https://github.com/clawdbot/clawdbot) - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  `TypeScript`
 - <img src="https://github.com/santinic.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [audiblez](https://github.com/santinic/audiblez) - Generate audiobooks from e-books `Python`
 - <img src="https://github.com/CoplayDev.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [unity-mcp](https://github.com/CoplayDev/unity-mcp) - Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity. `C#`
@@ -1322,7 +1327,7 @@
 </details>
 
 <details>
-<summary><strong>developer-tools</strong> (14)</summary>
+<summary><strong>developer-tools</strong> (15)</summary>
 
 - <img src="https://github.com/Shubhamsaboo.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models. `Python`
 - <img src="https://github.com/instructkr.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [claw-code](https://github.com/instructkr/claw-code) - The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools, not merely storing the archive of leaked Claude Code but also make real things done. Now rewriting in Rust. `Rust`
@@ -1335,6 +1340,7 @@
 - <img src="https://github.com/dyad-sh.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [dyad](https://github.com/dyad-sh/dyad) - Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it! `TypeScript`
 - <img src="https://github.com/humanlayer.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [12-factor-agents](https://github.com/humanlayer/12-factor-agents) - What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers? `TypeScript`
 - <img src="https://github.com/emcie-co.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [parlant](https://github.com/emcie-co/parlant) - LLM agents built for control. Designed for real-world use. Deployed in minutes. `Python`
+- <img src="https://github.com/Leonxlnx.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [taste-skill](https://github.com/Leonxlnx/taste-skill) - Taste-Skill (High-Agency Frontend) - gives your AI good taste. stops the AI from generating boring, generic, "slop" 
 - <img src="https://github.com/XINCGer.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [UnityToolchainsTrick](https://github.com/XINCGer/UnityToolchainsTrick) - 提供一些UnityEditor工具链开发的常用小技巧与示例(Provides some common tips and examples for developing the UnityEditor toolchain) `C#`
 - <img src="https://github.com/boxqkrtm.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [com.unity.ide.cursor](https://github.com/boxqkrtm/com.unity.ide.cursor) - Code editor integration for supporting Cursor as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc. 📦 [Mirrored from UPM, not affiliated with Unity Technologies.] `C#`
 - <img src="https://github.com/Dwtexe.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [cursor-stats](https://github.com/Dwtexe/cursor-stats) - A Cursor extension that displays your Cursor Subscription usage statistics in the status bar. `TypeScript`
@@ -1786,8 +1792,9 @@
 </details>
 
 <details>
-<summary><strong>design</strong> (1)</summary>
+<summary><strong>design</strong> (2)</summary>
 
+- <img src="https://github.com/pbakaus.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [impeccable](https://github.com/pbakaus/impeccable) - The design language that makes your AI harness better at design. `JavaScript`
 - <img src="https://github.com/open-pencil.png?size=20" width="20" height="20" style="border-radius:50%;vertical-align:middle;margin-right:4px"/> [open-pencil](https://github.com/open-pencil/open-pencil) - AI-native design editor. Open-source Figma alternative. `TypeScript`
 
 </details>

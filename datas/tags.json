@@ -2476,6 +2476,37 @@
         "TypeScript",
         "AI"
       ]
+    },
+    {
+      "id": 1162099055,
+      "name": "taste-skill",
+      "fullName": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill (High-Agency Frontend) - gives your AI good taste. stops the AI from generating boring, generic, \"slop\" ",
+      "language": "",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "stars": 8491,
+      "updatedAt": "2026-04-15T07:33:29Z",
+      "tags": [
+        "frontend",
+        "AI",
+        "developer-tools",
+        "prompt-engineering"
+      ]
+    },
+    {
+      "id": 1097346685,
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "url": "https://github.com/pbakaus/impeccable",
+      "stars": 19304,
+      "updatedAt": "2026-04-15T07:40:03Z",
+      "tags": [
+        "frontend",
+        "design",
+        "JavaScript"
+      ]
     }
   ],
   "library": [
@@ -8148,6 +8179,22 @@
         "automation",
         "workflow"
       ]
+    },
+    {
+      "id": 1162099055,
+      "name": "taste-skill",
+      "fullName": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill (High-Agency Frontend) - gives your AI good taste. stops the AI from generating boring, generic, \"slop\" ",
+      "language": "",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "stars": 8491,
+      "updatedAt": "2026-04-15T07:33:29Z",
+      "tags": [
+        "frontend",
+        "AI",
+        "developer-tools",
+        "prompt-engineering"
+      ]
     }
   ],
   "database": [
@@ -11938,6 +11985,21 @@
         "frontend",
         "library"
       ]
+    },
+    {
+      "id": 1097346685,
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "url": "https://github.com/pbakaus/impeccable",
+      "stars": 19304,
+      "updatedAt": "2026-04-15T07:40:03Z",
+      "tags": [
+        "frontend",
+        "design",
+        "JavaScript"
+      ]
     }
   ],
   "API": [
@@ -14283,6 +14345,22 @@
         "CLI",
         "library"
       ]
+    },
+    {
+      "id": 1162099055,
+      "name": "taste-skill",
+      "fullName": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill (High-Agency Frontend) - gives your AI good taste. stops the AI from generating boring, generic, \"slop\" ",
+      "language": "",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "stars": 8491,
+      "updatedAt": "2026-04-15T07:33:29Z",
+      "tags": [
+        "frontend",
+        "AI",
+        "developer-tools",
+        "prompt-engineering"
+      ]
     }
   ],
   "playground": [
@@ -15360,6 +15438,22 @@
         "automation",
         "developer-tools",
         "Open"
+      ]
+    },
+    {
+      "id": 1162099055,
+      "name": "taste-skill",
+      "fullName": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill (High-Agency Frontend) - gives your AI good taste. stops the AI from generating boring, generic, \"slop\" ",
+      "language": "",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "stars": 8491,
+      "updatedAt": "2026-04-15T07:33:29Z",
+      "tags": [
+        "frontend",
+        "AI",
+        "developer-tools",
+        "prompt-engineering"
       ]
     }
   ],
@@ -18037,6 +18131,21 @@
         "design",
         "TypeScript",
         "AI"
+      ]
+    },
+    {
+      "id": 1097346685,
+      "name": "impeccable",
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "url": "https://github.com/pbakaus/impeccable",
+      "stars": 19304,
+      "updatedAt": "2026-04-15T07:40:03Z",
+      "tags": [
+        "frontend",
+        "design",
+        "JavaScript"
       ]
     }
   ],
