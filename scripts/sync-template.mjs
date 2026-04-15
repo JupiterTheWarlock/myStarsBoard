@@ -27,20 +27,16 @@ const isApply = process.argv.includes('--apply');
 // --- Config ---
 // Dirs to skip entirely (never synced)
 const SKIP_DIRS = new Set([
-  '.git', 'node_modules', 'dist', 'build', 'template-sync', '.claude',
+  '.git', 'node_modules', 'dist', 'build', 'template-sync', '.claude', 'datas',
 ]);
 
 // Top-level files to skip
 const SKIP_FILES = new Set([
-  '.gitmodules', '.env', '.env.local',
+  '.gitmodules', '.env', '.env.local', 'README.md',
 ]);
 
 // Files only relevant to the instance repo, not the template
 const SKIP_DATA_FILES = new Set([
-  'datas/stars.json',
-  'datas/tags.json',
-  'datas/stars-with-tags.json',
-  'datas/tags.txt',
   'scripts/sync-template.mjs',               // sync tool itself
   '.github/workflows/sync-template.yml',      // sync workflow itself
 ]);
@@ -55,10 +51,13 @@ const PLACEHOLDERS = {
 
 // --- Helpers ---
 function shouldSkip(relPath) {
-  const top = relPath.split(/[/\\]/)[0];
-  if (SKIP_DIRS.has(top)) return true;
-  if (SKIP_FILES.has(top)) return true;
-  if (SKIP_DATA_FILES.has(relPath.replace(/\\/g, '/'))) return true;
+  const parts = relPath.replace(/\\/g, '/').split('/');
+  // Skip if any directory segment matches SKIP_DIRS
+  if (parts.slice(0, -1).some(p => SKIP_DIRS.has(p))) return true;
+  // Skip if top-level file matches SKIP_FILES
+  if (SKIP_FILES.has(parts[0]) && parts.length === 1) return true;
+  // Skip if exact relative path matches SKIP_DATA_FILES
+  if (SKIP_DATA_FILES.has(parts.join('/'))) return true;
   return false;
 }
 
@@ -97,6 +96,21 @@ function main() {
   // Instance data files that should be removed from template
   const dataToRemove = [...SKIP_DATA_FILES].filter(f => existsSync(join(TEMPLATE, f)));
 
+  // Files to purge from template (skipped from sync but may exist from old syncs)
+  const toPurge = [];
+  for (const f of SKIP_FILES) {
+    if (existsSync(join(TEMPLATE, f))) toPurge.push(f);
+  }
+  // Clean stale files in datas/ that are not in PLACEHOLDERS
+  const datasDir = join(TEMPLATE, 'datas');
+  if (existsSync(datasDir)) {
+    const placeholderNames = new Set(Object.keys(PLACEHOLDERS).map(p => p.split('/').pop()));
+    for (const entry of readdirSync(datasDir)) {
+      const rel = `datas/${entry}`;
+      if (!placeholderNames.has(entry)) toPurge.push(rel);
+    }
+  }
+
   if (!isApply) {
     console.log('=== DRY RUN ===\n');
     console.log(`Would copy ${sourceFiles.length} files from myStarsBoard -> template-sync/`);
@@ -110,6 +124,10 @@ function main() {
     if (dataToRemove.length) {
       console.log(`\nWould remove instance data files from template:`);
       for (const f of dataToRemove) console.log(`  x ${f}`);
+    }
+    if (toPurge.length) {
+      console.log(`\nWould purge from template (skipped files / stale data):`);
+      for (const f of toPurge) console.log(`  ~ ${f}`);
     }
     console.log('\nUse --apply to execute.');
     return;
@@ -132,6 +150,11 @@ function main() {
     rmSync(join(TEMPLATE, f), { force: true });
   }
   if (dataToRemove.length) console.log(`Removed ${dataToRemove.length} instance data files.`);
+
+  for (const f of toPurge) {
+    rmSync(join(TEMPLATE, f), { force: true });
+  }
+  if (toPurge.length) console.log(`Purged ${toPurge.length} skipped/stale files (README.md, extra data).`);
 
   // Ensure placeholder data files exist in template
   mkdirSync(join(TEMPLATE, 'datas'), { recursive: true });

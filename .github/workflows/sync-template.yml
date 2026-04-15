@@ -19,7 +19,7 @@ on:
       - '.gitignore'
       - '.env.example'
       - 'LICENSE'
-      - 'datas/tag-keywords.json'
+      - 'webui/**'
 
   workflow_dispatch:
 
