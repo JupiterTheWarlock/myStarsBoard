@@ -5,9 +5,26 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Load .env from project root (Vite prebuild scripts don't auto-load it)
+const envFile = path.join(__dirname, '..', '..', '.env');
+if (fs.existsSync(envFile)) {
+  for (const line of fs.readFileSync(envFile, 'utf-8').split('\n')) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#')) continue;
+    const eq = trimmed.indexOf('=');
+    if (eq > 0) {
+      const key = trimmed.slice(0, eq).trim();
+      const val = trimmed.slice(eq + 1).trim();
+      if (!process.env[key]) process.env[key] = val;
+    }
+  }
+}
+
 // Paths
 const dataFile = path.join(__dirname, '..', '..', 'datas', 'tags.json');
 const username = process.env.GITHUB_USERNAME || 'User';
+const title = process.env.STARSBOARD_TITLE || `${username}/stars`;
+const favicon = process.env.STARSBOARD_FAVICON || '';
 const outputFile = path.join(__dirname, '..', 'src', 'data.ts');
 
 // Read data
@@ -20,10 +37,23 @@ try {
   console.warn('⚠️  No tags.json found, using empty data');
 }
 
+// Generate favicon data URI if it's an emoji/char, otherwise use as-is
+function resolveFavicon(raw) {
+  if (!raw) return '';
+  // Already a data URI or URL
+  if (raw.startsWith('data:') || raw.startsWith('http') || raw.startsWith('/')) return raw;
+  // Treat as a character/emoji → wrap in SVG data URI
+  return `data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%23d97706'>${raw}</text></svg>`;
+}
+
+const faviconUri = resolveFavicon(favicon);
+
 // Generate TypeScript file with embedded data
 const output = `// Auto-generated at build time
 export const STARSBOARD_DATA = ${JSON.stringify(data, null, 2)};
 export const STARSBOARD_USERNAME = "${username}";
+export const STARSBOARD_TITLE = "${title.replace(/"/g, '\\"')}";
+export const STARSBOARD_FAVICON = "${faviconUri}";
 `;
 
 fs.writeFileSync(outputFile, output, 'utf-8');

@@ -22,16 +22,29 @@ interface StarsByTag {
 
 interface AppProps {
   initialData: StarsByTag;
-  username: string;
+  title: string;
+  favicon: string;
 }
 
-function App({ initialData, username }: AppProps) {
+function App({ initialData, title, favicon }: AppProps) {
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
-    document.title = `★ ${username}/stars`;
-  }, [username]);
+    document.title = `★ ${title}`;
+  }, [title]);
+
+  useEffect(() => {
+    if (!favicon) return;
+    let link = document.querySelector<HTMLLinkElement>("link[rel~='icon']");
+    if (!link) {
+      link = document.createElement('link');
+      link.rel = 'icon';
+      document.head.appendChild(link);
+    }
+    link.type = 'image/svg+xml';
+    link.href = favicon;
+  }, [favicon]);
 
   const tags = useMemo(() => {
     return Object.entries(initialData)
@@ -90,9 +103,7 @@ function App({ initialData, username }: AppProps) {
         <div className="max-w-[1600px] mx-auto flex items-baseline justify-between flex-wrap gap-x-4 gap-y-1">
           <h1 className="text-xl sm:text-2xl font-bold tracking-tight">
             <span className="text-term-accent glow-accent">★</span>{' '}
-            <span className="text-term-text">{username}</span>
-            <span className="text-term-dim">/</span>
-            <span className="text-term-accent-bright">stars</span>
+            <span className="text-term-text">{title}</span>
           </h1>
           <Stats totalStars={totalRepos} tagCount={tags.length} />
         </div>

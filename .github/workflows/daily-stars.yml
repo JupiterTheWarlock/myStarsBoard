@@ -74,6 +74,8 @@ jobs:
       - name: Build WebUI
         env:
           GITHUB_USERNAME: ${{ vars.USERNAME || github.repository_owner }}
+          STARSBOARD_TITLE: ${{ vars.STARSBOARD_TITLE }}
+          STARSBOARD_FAVICON: ${{ vars.STARSBOARD_FAVICON }}
         run: |
           cd webui
           npm run build
