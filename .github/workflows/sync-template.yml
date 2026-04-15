@@ -1,0 +1,68 @@
+# Sync framework files to StarsBoard template repo
+# Triggers on push to main, excluding instance-specific data (datas/)
+
+name: Sync to Template
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - 'specs/**'
+      - 'tests/**'
+      - '.github/workflows/daily-stars.yml'
+      - 'package.json'
+      - 'tsconfig.json'
+      - 'tsup.config.ts'
+      - 'vitest.config.ts'
+      - '.gitignore'
+      - '.env.example'
+      - 'LICENSE'
+      - 'datas/tag-keywords.json'
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    name: Sync to StarsBoard
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout myStarsBoard
+        uses: actions/checkout@v4
+
+      - name: Checkout StarsBoard template
+        uses: actions/checkout@v4
+        with:
+          repository: JupiterTheWarlock/StarsBoard
+          token: ${{ secrets.SYNC_TOKEN }}
+          path: template-sync
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync files
+        run: node scripts/sync-template.mjs --apply
+
+      - name: Commit and push to StarsBoard
+        working-directory: template-sync
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to sync."
+          else
+            git commit -m "sync: update template from myStarsBoard
+
+            Source commit: ${{ github.sha }}"
+            git push
+            echo "Synced to StarsBoard template."
+          fi
