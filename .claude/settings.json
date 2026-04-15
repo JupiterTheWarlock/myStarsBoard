@@ -1,0 +1,16 @@
+{
+  "enabledPlugins": {
+    "vercel@claude-plugins-official": true,
+    "frontend-design@claude-code-plugins": true
+  },
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)",
+      "Glob(*)",
+      "Grep(*)"
+    ]
+  }
+}
