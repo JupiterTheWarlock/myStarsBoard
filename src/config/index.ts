@@ -4,7 +4,7 @@ import type { Config } from '../types.js';
 dotenv.config();
 
 /**
- * Loads and validates configuration from environment variables
+ * Loads and validates configuration from environment variables.
  */
 export function loadConfig(): Config {
   const githubToken = process.env.GITHUB_TOKEN;
