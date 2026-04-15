@@ -57,3 +57,4 @@ coverage/
 progress.json
 status.json
 .claude/settings.local.json
+.vercel
