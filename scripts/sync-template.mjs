@@ -27,7 +27,7 @@ const isApply = process.argv.includes('--apply');
 // --- Config ---
 // Dirs to skip entirely (never synced)
 const SKIP_DIRS = new Set([
-  '.git', 'node_modules', 'dist', 'build', 'template-sync', '.claude', 'datas',
+  '.git', 'node_modules', 'dist', 'build', 'template-sync', '.claude', '.vercel', 'datas',
 ]);
 
 // Top-level files to skip
@@ -39,6 +39,7 @@ const SKIP_FILES = new Set([
 const SKIP_DATA_FILES = new Set([
   'scripts/sync-template.mjs',               // sync tool itself
   '.github/workflows/sync-template.yml',      // sync workflow itself
+  'webui/src/data.ts',                        // generated instance data
 ]);
 
 // Placeholder content for template data files
