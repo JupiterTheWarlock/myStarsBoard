@@ -24,15 +24,20 @@ interface AppProps {
   initialData: StarsByTag;
   title: string;
   favicon: string;
+  icon: string;
+  iconUrl: string;
 }
 
-function App({ initialData, title, favicon }: AppProps) {
+function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
 
+  const isIconUrl = icon && (icon.startsWith('http') || icon.startsWith('/'));
+  const displayIcon = icon && !isIconUrl && icon.length <= 4 ? icon : '';
+
   useEffect(() => {
-    document.title = `★ ${title}`;
-  }, [title]);
+    document.title = `${displayIcon || '★'} ${title}`;
+  }, [title, displayIcon]);
 
   useEffect(() => {
     if (!favicon) return;
@@ -117,7 +122,16 @@ function App({ initialData, title, favicon }: AppProps) {
       <header className="shrink-0 px-4 pt-4 pb-3 border-b border-term-border">
         <div className="max-w-[1600px] mx-auto flex items-baseline justify-between flex-wrap gap-x-4 gap-y-1">
           <h1 className="text-xl sm:text-2xl font-bold tracking-tight">
-            <span className="text-term-accent glow-accent">★</span>{' '}
+            <a
+              href={iconUrl || undefined}
+              target={iconUrl ? '_blank' : undefined}
+              rel={iconUrl ? 'noopener noreferrer' : undefined}
+              className="text-term-accent glow-accent"
+            >
+              {isIconUrl
+                ? <img src={icon} alt="" className="inline-block w-6 h-6 sm:w-7 sm:h-7 rounded-full align-middle" />
+                : displayIcon || '★'}
+            </a>{' '}
             <span className="text-term-text">{title}</span>
           </h1>
           <Stats totalStars={totalRepos} tagCount={tags.length} />

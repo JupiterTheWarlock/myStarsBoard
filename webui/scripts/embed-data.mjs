@@ -54,6 +54,7 @@ function resolveFavicon(raw) {
 }
 
 const faviconUri = resolveFavicon(favicon);
+const iconUrl = process.env.STARSBOARD_ICON_URL || '';
 
 // Generate TypeScript file with embedded data
 const output = `// Auto-generated at build time
@@ -61,6 +62,8 @@ export const STARSBOARD_DATA = ${JSON.stringify(data, null, 2)};
 export const STARSBOARD_USERNAME = "${username}";
 export const STARSBOARD_TITLE = "${title.replace(/"/g, '\\"')}";
 export const STARSBOARD_FAVICON = "${faviconUri}";
+export const STARSBOARD_ICON = "${favicon.replace(/"/g, '\\"')}";
+export const STARSBOARD_ICON_URL = "${iconUrl.replace(/"/g, '\\"')}";
 `;
 
 fs.writeFileSync(outputFile, output, 'utf-8');
