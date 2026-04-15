@@ -14,7 +14,14 @@ if (fs.existsSync(envFile)) {
     const eq = trimmed.indexOf('=');
     if (eq > 0) {
       const key = trimmed.slice(0, eq).trim();
-      const val = trimmed.slice(eq + 1).trim();
+      let val = trimmed.slice(eq + 1).trim();
+      // Strip inline # comments (but not # inside quotes)
+      const commentIdx = val.indexOf(' #');
+      if (commentIdx >= 0) val = val.slice(0, commentIdx).trim();
+      // Remove surrounding quotes
+      if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+        val = val.slice(1, -1);
+      }
       if (!process.env[key]) process.env[key] = val;
     }
   }
