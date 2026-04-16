@@ -50,7 +50,7 @@ function resolveFavicon(raw) {
   // Already a data URI or URL
   if (raw.startsWith('data:') || raw.startsWith('http') || raw.startsWith('/')) return raw;
   // Treat as a character/emoji → wrap in SVG data URI
-  return `data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%23d97706'>${raw}</text></svg>`;
+  return `data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%23DA7756'>${raw}</text></svg>`;
 }
 
 const faviconUri = resolveFavicon(favicon);
