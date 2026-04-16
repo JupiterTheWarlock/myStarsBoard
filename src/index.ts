@@ -2,6 +2,7 @@ import { fetchStars } from './github/index.js';
 import { generateTagsBatch } from './ai/index.js';
 import { saveStars, groupStarsByTag, saveTagsGrouped } from './tag/index.js';
 import { generateMarkdown, saveReadme } from './readme/index.js';
+import { generateEmbeddings } from './embedding/index.js';
 import { config } from './config/index.js';
 
 /**
@@ -29,6 +30,10 @@ async function main(): Promise<void> {
     console.log('💾 保存标签数据...');
     await saveTagsGrouped(groupedStars);
     console.log('✅ 标签数据已保存');
+
+    console.log('📐 生成 Embedding...');
+    await generateEmbeddings(starsWithTags);
+    console.log('✅ Embedding 已保存');
 
     console.log('📝 生成 README...');
     const markdown = await generateMarkdown(groupedStars, config.githubUsername);

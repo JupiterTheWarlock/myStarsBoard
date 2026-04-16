@@ -123,7 +123,36 @@ Value: gpt-4o
 
 ---
 
-## 4. Enable Workflow
+## 4. Deploy to Vercel (Semantic Search)
+
+StarsBoard supports semantic search powered by vector embeddings. This requires a Vercel Serverless Function to convert user queries into embedding vectors at runtime.
+
+### 4.1 Vercel Environment Variables
+
+Configure the following environment variables in your Vercel project:
+
+**Settings → Environment Variables:**
+
+| Variable | Description | Required |
+|----------|-------------|----------|
+| `OPENAI_API_KEY` | API key (used for query embedding) | **Required** |
+| `OPENAI_BASE_URL` | API endpoint (e.g., if using OpenRouter) | Optional (default: `https://api.openai.com/v1`) |
+
+> **Note**: GitHub Actions and Vercel use the same API key, but must be configured on both platforms separately.
+
+### 4.2 What happens if not configured?
+
+- **No GitHub Secrets**: The embedding generation step in the pipeline will fail (`OPENAI_API_KEY` missing), `datas/embeddings.json` won't be generated, and the frontend won't have embedding data
+- **No Vercel env vars**: The frontend builds normally (`embeddings.ts` will contain an empty map), the semantic search toggle won't appear in the search bar, only keyword search is available
+- **GitHub configured but not Vercel**: The frontend has embedding data and the semantic search toggle is visible, but API calls will fail when used, automatically falling back to keyword search
+
+### 4.3 Embedding Model
+
+Semantic search uses the `qwen/qwen3-embedding-8b` model with 256-dimension Matryoshka truncation. Embeddings are generated at build time and embedded in the frontend static files. Each query is computed in real-time via the Vercel Function.
+
+---
+
+## 5. Enable Workflow
 
 1. Go to your repository's **Actions** page
 2. If prompted "Actions are disabled", click **"I understand my workflows, go ahead and enable them"**
@@ -131,7 +160,7 @@ Value: gpt-4o
 
 ---
 
-## 5. Manual Trigger
+## 6. Manual Trigger
 
 1. On the **Actions** page, select **"Update Stars README"**
 2. Click the **"Run workflow"** button on the right
@@ -141,13 +170,13 @@ Value: gpt-4o
 
 ---
 
-## 6. Automated Run
+## 7. Automated Run
 
 The workflow is configured to run automatically every day at **UTC 0:00**, ensuring your README is always up-to-date.
 
 ---
 
-## 7. View Workflow Logs
+## 8. View Workflow Logs
 
 If the workflow fails, you can view the logs to troubleshoot:
 
@@ -157,7 +186,7 @@ If the workflow fails, you can view the logs to troubleshoot:
 
 ---
 
-## 8. Customize Tags
+## 9. Customize Tags
 
 You can customize tags by editing files in your repository:
 

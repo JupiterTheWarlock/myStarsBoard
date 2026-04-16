@@ -29,10 +29,12 @@ if (fs.existsSync(envFile)) {
 
 // Paths
 const dataFile = path.join(__dirname, '..', '..', 'datas', 'tags.json');
+const embeddingsFile = path.join(__dirname, '..', '..', 'datas', 'embeddings.json');
 const username = process.env.GITHUB_USERNAME || 'User';
 const title = process.env.STARSBOARD_TITLE || `${username}/stars`;
 const favicon = process.env.STARSBOARD_FAVICON || '';
 const outputFile = path.join(__dirname, '..', 'src', 'data.ts');
+const embeddingsOutputFile = path.join(__dirname, '..', 'src', 'embeddings.ts');
 
 // Read data
 let data = {};
@@ -56,6 +58,16 @@ function resolveFavicon(raw) {
 const faviconUri = resolveFavicon(favicon);
 const iconUrl = process.env.STARSBOARD_ICON_URL || '';
 
+// Read embeddings
+let embeddings = {};
+try {
+  const embContent = fs.readFileSync(embeddingsFile, 'utf-8');
+  embeddings = JSON.parse(embContent);
+  console.log(`✅ Loaded ${Object.keys(embeddings).length} embeddings from embeddings.json`);
+} catch (error) {
+  console.warn('⚠️  No embeddings.json found, semantic search will not be available');
+}
+
 // Generate TypeScript file with embedded data
 const output = `// Auto-generated at build time
 export const STARSBOARD_DATA = ${JSON.stringify(data, null, 2)};
@@ -68,3 +80,11 @@ export const STARSBOARD_ICON_URL = "${iconUrl.replace(/"/g, '\\"')}";
 
 fs.writeFileSync(outputFile, output, 'utf-8');
 console.log(`✅ Generated ${outputFile}`);
+
+// Generate embeddings TypeScript file
+const embeddingsOutput = `// Auto-generated at build time
+export const STARSBOARD_EMBEDDINGS: Record<string, number[]> = ${JSON.stringify(embeddings)};
+`;
+
+fs.writeFileSync(embeddingsOutputFile, embeddingsOutput, 'utf-8');
+console.log(`✅ Generated ${embeddingsOutputFile}`);

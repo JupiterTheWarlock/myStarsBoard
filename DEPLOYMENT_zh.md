@@ -123,7 +123,36 @@ Value: gpt-4o
 
 ---
 
-## 4. 启用工作流
+## 4. 部署到 Vercel（语义搜索）
+
+StarsBoard 支持语义搜索功能，需要一个 Vercel Serverless Function 在运行时将用户查询转换为 embedding 向量。
+
+### 4.1 Vercel 环境变量
+
+在 Vercel 项目设置中配置以下环境变量：
+
+**Settings → Environment Variables:**
+
+| 变量名 | 说明 | 是否必需 |
+|--------|------|----------|
+| `OPENAI_API_KEY` | API Key（用于查询 embedding） | **必需** |
+| `OPENAI_BASE_URL` | API 地址（如使用 OpenRouter 等） | 可选（默认 `https://api.openai.com/v1`） |
+
+> **注意**：GitHub Actions 和 Vercel 使用的是同一个 API Key，但需要在两个平台分别配置。
+
+### 4.2 不配置会怎样？
+
+- **不配 GitHub Secrets**：pipeline 的 embedding 生成步骤会失败（`OPENAI_API_KEY` 缺失会报错），`datas/embeddings.json` 不会生成，前端没有 embedding 数据可用
+- **不配 Vercel 环境变量**：前端构建正常（`embeddings.ts` 会包含空的 embedding map），搜索栏不显示语义搜索切换按钮，只有关键词搜索可用
+- **只配了 GitHub 没配 Vercel**：前端有 embedding 数据，语义搜索按钮可见，但点击后 API 调用会失败，自动回退到关键词搜索
+
+### 4.3 Embedding 模型
+
+语义搜索使用 `qwen/qwen3-embedding-8b` 模型，256 维 Matryoshka 降维。embedding 数据在构建时生成并嵌入前端静态文件，每个 query 在运行时通过 Vercel Function 实时计算。
+
+---
+
+## 5. 启用工作流
 
 1. 进入仓库的 **Actions** 页面
 2. 如果提示 "Actions are disabled"，点击 **"I understand my workflows, go ahead and enable them"**
@@ -131,7 +160,7 @@ Value: gpt-4o
 
 ---
 
-## 5. 手动触发测试
+## 6. 手动触发测试
 
 1. 在 **Actions** 页面，选择 **"Update Stars README"**
 2. 点击右侧的 **"Run workflow"** 按钮
@@ -141,13 +170,13 @@ Value: gpt-4o
 
 ---
 
-## 6. 自动化运行
+## 7. 自动化运行
 
 工作流配置为每天 **UTC 0:00** 自动运行，确保你的 README 始终是最新的。
 
 ---
 
-## 7. 查看工作流日志
+## 8. 查看工作流日志
 
 如果工作流运行失败，可以查看日志排查问题：
 
@@ -157,7 +186,7 @@ Value: gpt-4o
 
 ---
 
-## 8. 自定义标签
+## 9. 自定义标签
 
 你可以通过编辑仓库中的文件来自定义标签：
 
