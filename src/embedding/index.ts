@@ -67,24 +67,51 @@ export async function generateEmbeddings(stars: Star[]): Promise<EmbeddingMap> {
 
     console.log(`  Embedding batch ${batchNum}/${totalBatches}...`);
 
-    const response = await client.embeddings.create({
-      model: EMBEDDING_MODEL,
-      input: texts,
-      dimensions: EMBEDDING_DIMENSIONS,
-    });
+    // Retry each batch up to 3 times
+    let success = false;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        const response = await client.embeddings.create({
+          model: EMBEDDING_MODEL,
+          input: texts,
+          dimensions: EMBEDDING_DIMENSIONS,
+        });
 
-    for (let j = 0; j < batch.length; j++) {
-      // Round to 4 decimal places to reduce file size
-      embeddings[String(batch[j].id)] = response.data[j].embedding.map(
-        (v: number) => Math.round(v * 10000) / 10000
-      );
+        if (!response.data || response.data.length === 0) {
+          throw new Error('Empty response from embedding API');
+        }
+
+        for (let j = 0; j < batch.length; j++) {
+          const emb = response.data[j]?.embedding;
+          if (emb) {
+            embeddings[String(batch[j].id)] = emb.map(
+              (v: number) => Math.round(v * 10000) / 10000
+            );
+          } else {
+            console.warn(`  ⚠️ No embedding for ${batch[j].fullName}, skipping`);
+          }
+        }
+
+        await save(embeddings);
+        console.log(`  ✅ ${Object.keys(embeddings).length}/${stars.length} embeddings generated`);
+        success = true;
+        break;
+      } catch (err) {
+        console.warn(`  ⚠️ Batch ${batchNum} attempt ${attempt} failed: ${(err as Error).message}`);
+        if (attempt < 3) {
+          const delay = attempt * 2000;
+          console.log(`  Retrying in ${delay / 1000}s...`);
+          await new Promise(resolve => setTimeout(resolve, delay));
+        }
+      }
     }
 
-    await save(embeddings);
-    console.log(`  ✅ ${Object.keys(embeddings).length}/${stars.length} embeddings generated`);
+    if (!success) {
+      console.warn(`  ❌ Batch ${batchNum} failed after 3 attempts, skipping ${batch.length} repos`);
+    }
 
     if (i + BATCH_SIZE < toProcess.length) {
-      await new Promise(resolve => setTimeout(resolve, 500));
+      await new Promise(resolve => setTimeout(resolve, 1000));
     }
   }
 
