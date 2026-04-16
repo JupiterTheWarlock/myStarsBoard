@@ -48,7 +48,7 @@ function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
   const [semanticMode, setSemanticMode] = useState(false);
   const [semanticResults, setSemanticResults] = useState<Map<number, number> | null>(null);
   const [semanticLoading, setSemanticLoading] = useState(false);
-  const debounceRef = useRef<ReturnType<typeof setTimeout>>(null);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const isIconUrl = icon && (icon.startsWith('http') || icon.startsWith('/'));
   const displayIcon = icon && !isIconUrl && icon.length <= 4 ? icon : '';
