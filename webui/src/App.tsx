@@ -117,7 +117,11 @@ function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ query }),
         });
-        if (!res.ok) throw new Error('embed API failed');
+        if (!res.ok) {
+          const errorText = await res.text();
+          console.error('[semantic] API error:', res.status, errorText);
+          throw new Error(`embed API ${res.status}: ${errorText}`);
+        }
         const { embedding } = await res.json();
 
         const scores = new Map<number, number>();
@@ -125,9 +129,10 @@ function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
           const sim = cosineSimilarity(embedding, emb);
           if (sim > 0.3) scores.set(Number(id), sim);
         }
+        console.log(`[semantic] query="${query}" matched ${scores.size} repos`);
         setSemanticResults(scores);
-      } catch {
-        // Fallback: semantic failed, keyword will be used
+      } catch (err) {
+        console.error('[semantic] failed:', (err as Error).message);
       } finally {
         setSemanticLoading(false);
       }
