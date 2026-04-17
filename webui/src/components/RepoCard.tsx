@@ -50,12 +50,24 @@ function RepoCard({ repo, animationDelay = 0 }: RepoCardProps) {
         )}
 
         {/* Meta footer */}
-        <div className="flex items-center gap-2 text-xs">
+        <div className="flex items-center gap-2 text-xs flex-wrap">
           <span className="text-term-accent tabular-nums">{formatStars(repo.stars)}★</span>
           {repo.language && (
             <>
               <span className="text-term-dim">·</span>
               <span className="text-term-dim">[{repo.language}]</span>
+            </>
+          )}
+          {repo.tags && repo.tags.length > 0 && (
+            <>
+              <span className="text-term-dim">·</span>
+              <span className="text-term-dim">
+                {repo.tags
+                  .filter((tag) => tag !== repo.language)
+                  .map((tag, i) => (
+                    <span key={i}>[{tag}]</span>
+                  ))}
+              </span>
             </>
           )}
         </div>
