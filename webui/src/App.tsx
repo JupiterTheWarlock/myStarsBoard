@@ -48,6 +48,7 @@ function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
   const [semanticMode, setSemanticMode] = useState(false);
   const [semanticResults, setSemanticResults] = useState<Map<number, number> | null>(null);
   const [semanticLoading, setSemanticLoading] = useState(false);
+  const [topK, setTopK] = useState(20);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const isIconUrl = icon && (icon.startsWith('http') || icon.startsWith('/'));
@@ -171,7 +172,8 @@ function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
     if (semanticMode && semanticResults) {
       return repos
         .filter(repo => semanticResults.has(repo.id))
-        .sort((a, b) => (semanticResults.get(b.id) ?? 0) - (semanticResults.get(a.id) ?? 0));
+        .sort((a, b) => (semanticResults.get(b.id) ?? 0) - (semanticResults.get(a.id) ?? 0))
+        .slice(0, topK);
     }
 
     // Keyword search fallback (or default mode)
@@ -182,7 +184,7 @@ function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
       repo.language?.toLowerCase().includes(query) ||
       repo.fullName.toLowerCase().includes(query)
     );
-  }, [initialData, selectedTag, searchQuery, semanticMode, semanticResults]);
+  }, [initialData, selectedTag, searchQuery, semanticMode, semanticResults, topK]);
 
   const currentTagCount = selectedTag && initialData[selectedTag]
     ? initialData[selectedTag].length
@@ -226,6 +228,9 @@ function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
             semantic={semanticMode}
             onToggleSemantic={toggleSemantic}
             loading={semanticLoading}
+            topK={topK}
+            matchedCount={semanticResults?.size ?? 0}
+            onTopKChange={setTopK}
           />
         </div>
       </header>
