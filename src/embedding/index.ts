@@ -1,15 +1,12 @@
 import OpenAI from 'openai';
 import fs from 'fs/promises';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import { config } from '../config/index.js';
 import type { Star } from '../types.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const EMBEDDINGS_FILE = path.join(__dirname, '..', '..', 'datas', 'embeddings.json');
-const DATA_DIR = path.join(__dirname, '..', '..', 'datas');
+const ROOT_DIR = process.cwd();
+const EMBEDDINGS_FILE = path.join(ROOT_DIR, 'datas', 'embeddings.json');
+const DATA_DIR = path.join(ROOT_DIR, 'datas');
 const EMBEDDING_MODEL = 'qwen/qwen3-embedding-8b';
 const EMBEDDING_DIMENSIONS = 256;
 const BATCH_SIZE = 20;
