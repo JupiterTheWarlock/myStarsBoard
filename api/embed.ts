@@ -1,5 +1,6 @@
 const EMBEDDING_MODEL = 'qwen/qwen3-embedding-8b';
 const EMBEDDING_DIMENSIONS = 256;
+const API_TIMEOUT = 8000;
 
 export default async function handler(req: Request): Promise<Response> {
   if (req.method !== 'POST') {
@@ -25,26 +26,37 @@ export default async function handler(req: Request): Promise<Response> {
 
   const baseUrl = process.env.OPENAI_BASE_URL || 'https://openrouter.ai/api/v1';
 
-  const res = await fetch(`${baseUrl}/embeddings`, {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${apiKey}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: EMBEDDING_MODEL,
-      input: query,
-      dimensions: EMBEDDING_DIMENSIONS,
-    }),
-  });
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), API_TIMEOUT);
 
-  if (!res.ok) {
-    const error = await res.text();
-    return Response.json({ error }, { status: res.status });
+    const res = await fetch(`${baseUrl}/embeddings`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: EMBEDDING_MODEL,
+        input: query,
+        dimensions: EMBEDDING_DIMENSIONS,
+      }),
+      signal: controller.signal,
+    });
+
+    clearTimeout(timeout);
+
+    if (!res.ok) {
+      const error = await res.text();
+      return Response.json({ error }, { status: res.status });
+    }
+
+    const data = await res.json();
+    const embedding: number[] = data.data[0].embedding;
+
+    return Response.json({ embedding });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : 'Unknown error';
+    return Response.json({ error: `Embedding API failed: ${message}` }, { status: 502 });
   }
-
-  const data = await res.json();
-  const embedding: number[] = data.data[0].embedding;
-
-  return Response.json({ embedding });
 }
