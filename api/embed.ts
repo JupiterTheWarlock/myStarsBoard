@@ -1,36 +1,30 @@
+import type { VercelRequest, VercelResponse } from '@vercel/node';
+
 const EMBEDDING_MODEL = 'qwen/qwen3-embedding-8b';
 const EMBEDDING_DIMENSIONS = 256;
-const API_TIMEOUT = 8000;
 
-export default async function handler(req: Request): Promise<Response> {
+export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') {
-    return new Response('Method not allowed', { status: 405 });
+    return res.status(405).send('Method not allowed');
   }
 
-  let body: { query?: string };
-  try {
-    body = await req.json();
-  } catch {
-    return Response.json({ error: 'Invalid JSON' }, { status: 400 });
-  }
-
-  const { query } = body;
+  const { query } = req.body || {};
   if (!query || typeof query !== 'string') {
-    return Response.json({ error: 'query is required' }, { status: 400 });
+    return res.status(400).json({ error: 'query is required' });
   }
 
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
-    return Response.json({ error: 'API key not configured' }, { status: 500 });
+    return res.status(500).json({ error: 'API key not configured' });
   }
 
   const baseUrl = process.env.OPENAI_BASE_URL || 'https://openrouter.ai/api/v1';
 
   try {
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), API_TIMEOUT);
+    const timeout = setTimeout(() => controller.abort(), 8000);
 
-    const res = await fetch(`${baseUrl}/embeddings`, {
+    const apiRes = await fetch(`${baseUrl}/embeddings`, {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
@@ -46,17 +40,17 @@ export default async function handler(req: Request): Promise<Response> {
 
     clearTimeout(timeout);
 
-    if (!res.ok) {
-      const error = await res.text();
-      return Response.json({ error }, { status: res.status });
+    if (!apiRes.ok) {
+      const error = await apiRes.text();
+      return res.status(apiRes.status).json({ error });
     }
 
-    const data = await res.json();
+    const data = await apiRes.json();
     const embedding: number[] = data.data[0].embedding;
 
-    return Response.json({ embedding });
+    return res.status(200).json({ embedding });
   } catch (err) {
     const message = err instanceof Error ? err.message : 'Unknown error';
-    return Response.json({ error: `Embedding API failed: ${message}` }, { status: 502 });
+    return res.status(502).json({ error: `Embedding API failed: ${message}` });
   }
 }
