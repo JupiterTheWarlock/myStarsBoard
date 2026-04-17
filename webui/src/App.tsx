@@ -127,7 +127,7 @@ function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
         const scores = new Map<number, number>();
         for (const [id, emb] of Object.entries(STARSBOARD_EMBEDDINGS)) {
           const sim = cosineSimilarity(embedding, emb);
-          if (sim > 0.3) scores.set(Number(id), sim);
+          if (sim > 0.6) scores.set(Number(id), sim);
         }
         console.log(`[semantic] query="${query}" matched ${scores.size} repos`);
         setSemanticResults(scores);
