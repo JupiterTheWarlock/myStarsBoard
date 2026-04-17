@@ -28,7 +28,7 @@ function RepoCard({ repo, animationDelay = 0 }: RepoCardProps) {
       href={repo.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="term-animate opacity-0 animate-term-print block border border-term-border hover:border-term-accent/50 transition-colors group"
+      className="term-animate opacity-0 animate-term-print flex flex-col border border-term-border hover:border-term-accent/50 transition-colors group"
       style={{ animationDelay: `${animationDelay}ms`, animationFillMode: 'forwards' }}
     >
       {/* Title bar */}
@@ -40,17 +40,17 @@ function RepoCard({ repo, animationDelay = 0 }: RepoCardProps) {
       </div>
 
       {/* Body */}
-      <div className="p-3">
+      <div className="p-3 flex flex-col flex-1">
         {repo.description ? (
-          <p className="text-term-muted text-xs leading-relaxed line-clamp-2 mb-2.5">
+          <p className="text-term-muted text-xs leading-relaxed line-clamp-2">
             {repo.description}
           </p>
         ) : (
-          <p className="text-term-dim text-xs italic mb-2.5">no description</p>
+          <p className="text-term-dim text-xs italic">no description</p>
         )}
 
         {/* Meta footer */}
-        <div className="flex items-center gap-2 text-xs flex-wrap">
+        <div className="flex items-center gap-2 text-xs flex-wrap mt-auto">
           <span className="text-term-accent tabular-nums">{formatStars(repo.stars)}★</span>
           {repo.language && (
             <>
