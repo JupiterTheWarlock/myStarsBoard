@@ -4328,5 +4328,20 @@
       "design",
       "JavaScript"
     ]
+  },
+  {
+    "id": 1188180267,
+    "name": "awesome-free-llm-apis",
+    "fullName": "mnfst/awesome-free-llm-apis",
+    "description": "Permanent Free LLM API List (API Keys) 😎🔑",
+    "language": "JavaScript",
+    "url": "https://github.com/mnfst/awesome-free-llm-apis",
+    "stars": 2703,
+    "updatedAt": "2026-04-20T02:53:29Z",
+    "tags": [
+      "LLM",
+      "API",
+      "list"
+    ]
   }
 ]
