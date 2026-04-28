@@ -1,7 +1,7 @@
 # StarsBoard GitHub Actions 工作流
-# 每天自动运行，获取 GitHub Stars 并生成 README
+# 每天自动运行，获取 GitHub Stars 并更新数据
 
-name: Update Stars README
+name: Update Stars Data
 
 on:
   # 每天 UTC 0:00 运行
@@ -26,7 +26,7 @@ permissions:
 
 jobs:
   update-stars:
-    name: Fetch Stars and Generate README
+    name: Fetch Stars and Update Data
     runs-on: ubuntu-latest
 
     steps:
@@ -90,9 +90,6 @@ jobs:
           echo "=== 检查文件状态 ==="
           git status
           echo ""
-          echo "=== 检查 README.md 前几行 ==="
-          head -20 README.md
-          echo ""
           echo "=== 检查 datas/stars.json 大小 ==="
           wc -c datas/stars.json || echo "文件不存在"
           echo ""
@@ -100,13 +97,13 @@ jobs:
           wc -c datas/tags.json || echo "文件不存在"
           echo ""
           echo "=== 尝试添加文件 ==="
-          git add README.md datas/
+          git add datas/
           echo ""
           echo "=== 检查暂存区状态 ==="
           git status
           echo ""
           echo "=== 尝试提交 ==="
-          git diff --staged --quiet || git commit -m "chore: update stars readme [skip ci]"
+          git diff --staged --quiet || git commit -m "chore: update stars data [skip ci]"
           echo ""
           echo "=== 最终状态 ==="
           git status
