@@ -4343,5 +4343,20 @@
       "API",
       "list"
     ]
+  },
+  {
+    "id": 1187377394,
+    "name": "dbskill",
+    "fullName": "dontbesilent2025/dbskill",
+    "description": "dontbesilent 的商业诊断 Skills for Claude Code",
+    "language": "Shell",
+    "url": "https://github.com/dontbesilent2025/dbskill",
+    "stars": 3709,
+    "updatedAt": "2026-04-29T03:25:21Z",
+    "tags": [
+      "shell",
+      "automation",
+      "workflow"
+    ]
   }
 ]
