@@ -4358,5 +4358,22 @@
       "automation",
       "workflow"
     ]
+  },
+  {
+    "id": 965415649,
+    "name": "codex",
+    "fullName": "openai/codex",
+    "description": "Lightweight coding agent that runs in your terminal",
+    "language": "Rust",
+    "url": "https://github.com/openai/codex",
+    "stars": 80199,
+    "updatedAt": "2026-05-06T03:23:35Z",
+    "tags": [
+      "terminal",
+      "automation",
+      "AI",
+      "CLI",
+      "Rust"
+    ]
   }
 ]
