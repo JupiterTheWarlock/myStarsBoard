@@ -4375,5 +4375,39 @@
       "CLI",
       "Rust"
     ]
+  },
+  {
+    "id": 1102932625,
+    "name": "sbox-public",
+    "fullName": "Facepunch/sbox-public",
+    "description": "s&box is a modern game engine, built on Valve's Source 2 and the latest .NET technology, it provides a modern intuitive editor for creating games",
+    "language": "C#",
+    "url": "https://github.com/Facepunch/sbox-public",
+    "stars": 6117,
+    "updatedAt": "2026-05-07T03:04:54Z",
+    "tags": [
+      "game-development",
+      "C++",
+      "C",
+      "framework",
+      "Unity3D"
+    ]
+  },
+  {
+    "id": 1579990,
+    "name": "MonoGame",
+    "fullName": "MonoGame/MonoGame",
+    "description": "One framework for creating powerful cross-platform games.",
+    "language": "C#",
+    "url": "https://github.com/MonoGame/MonoGame",
+    "stars": 13848,
+    "updatedAt": "2026-05-06T15:55:35Z",
+    "tags": [
+      "framework",
+      "game-development",
+      "C",
+      "desktop",
+      "mobile"
+    ]
   }
 ]
