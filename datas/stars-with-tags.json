@@ -4409,5 +4409,22 @@
       "desktop",
       "mobile"
     ]
+  },
+  {
+    "id": 1136752401,
+    "name": "Unity-Skills",
+    "fullName": "Besty0728/Unity-Skills",
+    "description": "AI automation skills specifically designed for Unity",
+    "language": "C#",
+    "url": "https://github.com/Besty0728/Unity-Skills",
+    "stars": 944,
+    "updatedAt": "2026-05-08T01:33:32Z",
+    "tags": [
+      "Unity3D",
+      "AI",
+      "automation",
+      "game-development",
+      "C"
+    ]
   }
 ]
