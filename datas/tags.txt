@@ -120,3 +120,4 @@ local
 integration
 design
 shader
+plugin

@@ -4426,5 +4426,54 @@
       "game-development",
       "C"
     ]
+  },
+  {
+    "id": 1194381044,
+    "name": "hastur-operation-plugin",
+    "fullName": "rayxuln/hastur-operation-plugin",
+    "description": "A plugin providing ability for executing any code on Godot Editor. So that any coding agent can do any operations with Godot Editor. This version is for GDScript. It can execute any GDScript code.",
+    "language": "Python",
+    "url": "https://github.com/rayxuln/hastur-operation-plugin",
+    "stars": 184,
+    "updatedAt": "2026-05-12T09:17:43Z",
+    "tags": [
+      "plugin",
+      "editor",
+      "game-development",
+      "Python",
+      "automation"
+    ]
+  },
+  {
+    "id": 51142932,
+    "name": "QFramework",
+    "fullName": "liangxiegame/QFramework",
+    "description": "Godot/Unity3D System Design Architecture",
+    "language": "C#",
+    "url": "https://github.com/liangxiegame/QFramework",
+    "stars": 5264,
+    "updatedAt": "2026-05-12T13:35:27Z",
+    "tags": [
+      "Unity3D",
+      "framework",
+      "library",
+      "game-development",
+      "C"
+    ]
+  },
+  {
+    "id": 33825948,
+    "name": "awesome-godot",
+    "fullName": "godotengine/awesome-godot",
+    "description": "A curated list of free/libre plugins, scripts and add-ons for Godot",
+    "language": "",
+    "url": "https://github.com/godotengine/awesome-godot",
+    "stars": 9938,
+    "updatedAt": "2026-05-13T01:08:19Z",
+    "tags": [
+      "list",
+      "game-development",
+      "collection"
+    ]
   }
 ]
