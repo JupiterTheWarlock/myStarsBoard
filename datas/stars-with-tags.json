@@ -4475,5 +4475,39 @@
       "game-development",
       "collection"
     ]
+  },
+  {
+    "id": 1223170290,
+    "name": "open-design",
+    "fullName": "nexu-io/open-design",
+    "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
+    "language": "TypeScript",
+    "url": "https://github.com/nexu-io/open-design",
+    "stars": 41724,
+    "updatedAt": "2026-05-16T03:25:52Z",
+    "tags": [
+      "frontend",
+      "design",
+      "UI",
+      "prototyping",
+      "TypeScript"
+    ]
+  },
+  {
+    "id": 1235403234,
+    "name": "html-anything",
+    "fullName": "nexu-io/html-anything",
+    "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
+    "language": "HTML",
+    "url": "https://github.com/nexu-io/html-anything",
+    "stars": 2045,
+    "updatedAt": "2026-05-16T03:24:47Z",
+    "tags": [
+      "ai",
+      "frontend",
+      "editor",
+      "automation",
+      "webui"
+    ]
   }
 ]
