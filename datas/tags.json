@@ -1526,6 +1526,23 @@
         "CLI",
         "library"
       ]
+    },
+    {
+      "id": 1137078255,
+      "name": "codegraph",
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "stars": 22775,
+      "updatedAt": "2026-05-25T04:03:15Z",
+      "tags": [
+        "tool",
+        "TypeScript",
+        "AI",
+        "local",
+        "developer-tools"
+      ]
     }
   ],
   "frontend": [
@@ -4812,6 +4829,23 @@
         "prototyping",
         "TypeScript"
       ]
+    },
+    {
+      "id": 1137078255,
+      "name": "codegraph",
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "stars": 22775,
+      "updatedAt": "2026-05-25T04:03:15Z",
+      "tags": [
+        "tool",
+        "TypeScript",
+        "AI",
+        "local",
+        "developer-tools"
+      ]
     }
   ],
   "ai": [
@@ -6952,6 +6986,23 @@
         "Python",
         "automation"
       ]
+    },
+    {
+      "id": 1200597263,
+      "name": "graphify",
+      "fullName": "safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "language": "Python",
+      "url": "https://github.com/safishamsi/graphify",
+      "stars": 53157,
+      "updatedAt": "2026-05-25T03:59:45Z",
+      "tags": [
+        "AI",
+        "automation",
+        "database",
+        "developer-tools",
+        "Python"
+      ]
     }
   ],
   "backend": [
@@ -8345,6 +8396,23 @@
         "devops",
         "database",
         "framework"
+      ]
+    },
+    {
+      "id": 1200597263,
+      "name": "graphify",
+      "fullName": "safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "language": "Python",
+      "url": "https://github.com/safishamsi/graphify",
+      "stars": 53157,
+      "updatedAt": "2026-05-25T03:59:45Z",
+      "tags": [
+        "AI",
+        "automation",
+        "database",
+        "developer-tools",
+        "Python"
       ]
     }
   ],
@@ -11501,6 +11569,23 @@
         "editor",
         "automation",
         "webui"
+      ]
+    },
+    {
+      "id": 1200597263,
+      "name": "graphify",
+      "fullName": "safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "language": "Python",
+      "url": "https://github.com/safishamsi/graphify",
+      "stars": 53157,
+      "updatedAt": "2026-05-25T03:59:45Z",
+      "tags": [
+        "AI",
+        "automation",
+        "database",
+        "developer-tools",
+        "Python"
       ]
     }
   ],
@@ -14865,6 +14950,40 @@
         "game-development",
         "C"
       ]
+    },
+    {
+      "id": 1137078255,
+      "name": "codegraph",
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "stars": 22775,
+      "updatedAt": "2026-05-25T04:03:15Z",
+      "tags": [
+        "tool",
+        "TypeScript",
+        "AI",
+        "local",
+        "developer-tools"
+      ]
+    },
+    {
+      "id": 1200597263,
+      "name": "graphify",
+      "fullName": "safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "language": "Python",
+      "url": "https://github.com/safishamsi/graphify",
+      "stars": 53157,
+      "updatedAt": "2026-05-25T03:59:45Z",
+      "tags": [
+        "AI",
+        "automation",
+        "database",
+        "developer-tools",
+        "Python"
+      ]
     }
   ],
   "playground": [
@@ -15992,6 +16111,40 @@
         "AI",
         "developer-tools",
         "prompt-engineering"
+      ]
+    },
+    {
+      "id": 1137078255,
+      "name": "codegraph",
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "stars": 22775,
+      "updatedAt": "2026-05-25T04:03:15Z",
+      "tags": [
+        "tool",
+        "TypeScript",
+        "AI",
+        "local",
+        "developer-tools"
+      ]
+    },
+    {
+      "id": 1200597263,
+      "name": "graphify",
+      "fullName": "safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "language": "Python",
+      "url": "https://github.com/safishamsi/graphify",
+      "stars": 53157,
+      "updatedAt": "2026-05-25T03:59:45Z",
+      "tags": [
+        "AI",
+        "automation",
+        "database",
+        "developer-tools",
+        "Python"
       ]
     }
   ],
@@ -18840,6 +18993,23 @@
         "CLI",
         "TypeScript",
         "local"
+      ]
+    },
+    {
+      "id": 1137078255,
+      "name": "codegraph",
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "stars": 22775,
+      "updatedAt": "2026-05-25T04:03:15Z",
+      "tags": [
+        "tool",
+        "TypeScript",
+        "AI",
+        "local",
+        "developer-tools"
       ]
     }
   ],
