@@ -2558,6 +2558,23 @@
         "automation",
         "webui"
       ]
+    },
+    {
+      "id": 1142019171,
+      "name": "lumno-extension",
+      "fullName": "kubai087/lumno-extension",
+      "description": "A lightweight command bar for Chromium browsers. ",
+      "language": "JavaScript",
+      "url": "https://github.com/kubai087/lumno-extension",
+      "stars": 105,
+      "updatedAt": "2026-05-25T16:40:36Z",
+      "tags": [
+        "frontend",
+        "browser",
+        "extension",
+        "JavaScript",
+        "utility"
+      ]
     }
   ],
   "library": [
@@ -12540,6 +12557,23 @@
         "design",
         "JavaScript"
       ]
+    },
+    {
+      "id": 1142019171,
+      "name": "lumno-extension",
+      "fullName": "kubai087/lumno-extension",
+      "description": "A lightweight command bar for Chromium browsers. ",
+      "language": "JavaScript",
+      "url": "https://github.com/kubai087/lumno-extension",
+      "stars": 105,
+      "updatedAt": "2026-05-25T16:40:36Z",
+      "tags": [
+        "frontend",
+        "browser",
+        "extension",
+        "JavaScript",
+        "utility"
+      ]
     }
   ],
   "API": [
@@ -13838,6 +13872,23 @@
         "chatbot",
         "voice",
         "extension"
+      ]
+    },
+    {
+      "id": 1142019171,
+      "name": "lumno-extension",
+      "fullName": "kubai087/lumno-extension",
+      "description": "A lightweight command bar for Chromium browsers. ",
+      "language": "JavaScript",
+      "url": "https://github.com/kubai087/lumno-extension",
+      "stars": 105,
+      "updatedAt": "2026-05-25T16:40:36Z",
+      "tags": [
+        "frontend",
+        "browser",
+        "extension",
+        "JavaScript",
+        "utility"
       ]
     }
   ],
@@ -17948,6 +17999,23 @@
         "utility",
         "backend"
       ]
+    },
+    {
+      "id": 1142019171,
+      "name": "lumno-extension",
+      "fullName": "kubai087/lumno-extension",
+      "description": "A lightweight command bar for Chromium browsers. ",
+      "language": "JavaScript",
+      "url": "https://github.com/kubai087/lumno-extension",
+      "stars": 105,
+      "updatedAt": "2026-05-25T16:40:36Z",
+      "tags": [
+        "frontend",
+        "browser",
+        "extension",
+        "JavaScript",
+        "utility"
+      ]
     }
   ],
   "Chinese": [
@@ -19155,6 +19223,25 @@
         "UI",
         "prototyping",
         "TypeScript"
+      ]
+    }
+  ],
+  "browser": [
+    {
+      "id": 1142019171,
+      "name": "lumno-extension",
+      "fullName": "kubai087/lumno-extension",
+      "description": "A lightweight command bar for Chromium browsers. ",
+      "language": "JavaScript",
+      "url": "https://github.com/kubai087/lumno-extension",
+      "stars": 105,
+      "updatedAt": "2026-05-25T16:40:36Z",
+      "tags": [
+        "frontend",
+        "browser",
+        "extension",
+        "JavaScript",
+        "utility"
       ]
     }
   ]
