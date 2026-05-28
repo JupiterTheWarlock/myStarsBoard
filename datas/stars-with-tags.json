@@ -4560,5 +4560,22 @@
       "JavaScript",
       "utility"
     ]
+  },
+  {
+    "id": 881458615,
+    "name": "browser-use",
+    "fullName": "browser-use/browser-use",
+    "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "language": "Python",
+    "url": "https://github.com/browser-use/browser-use",
+    "stars": 95907,
+    "updatedAt": "2026-05-28T03:40:22Z",
+    "tags": [
+      "automation",
+      "Python",
+      "AI",
+      "browser",
+      "webui"
+    ]
   }
 ]
