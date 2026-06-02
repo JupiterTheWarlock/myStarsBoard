@@ -4577,5 +4577,21 @@
       "browser",
       "webui"
     ]
+  },
+  {
+    "id": 1217551679,
+    "name": "Locus",
+    "fullName": "r1n7aro/Locus",
+    "description": "The open source Unity Dev Agent",
+    "language": "Rust",
+    "url": "https://github.com/r1n7aro/Locus",
+    "stars": 492,
+    "updatedAt": "2026-06-01T14:09:53Z",
+    "tags": [
+      "Unity3D",
+      "agent",
+      "automation",
+      "Rust"
+    ]
   }
 ]
