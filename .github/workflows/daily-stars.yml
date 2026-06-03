@@ -64,6 +64,7 @@ jobs:
           AI_MODEL: ${{ vars.AI_MODEL }}
           TAG_COUNT_MIN: ${{ vars.TAG_COUNT_MIN || '3' }}
           TAG_COUNT_MAX: ${{ vars.TAG_COUNT_MAX || '5' }}
+          ENABLE_AI_TAGGING: ${{ vars.ENABLE_AI_TAGGING || 'false' }}
           ENABLE_NEW_TAGS: ${{ vars.ENABLE_NEW_TAGS || 'true' }}
           ENABLE_THINKING: ${{ vars.ENABLE_THINKING || 'false' }}
           BATCH_SIZE: ${{ vars.BATCH_SIZE || '5' }}

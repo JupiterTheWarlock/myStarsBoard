@@ -30,6 +30,7 @@ export function loadConfig(): Config {
     tagCountMin: parseInt(process.env.TAG_COUNT_MIN || '3', 10),
     tagCountMax: parseInt(process.env.TAG_COUNT_MAX || '5', 10),
     enableNewTags: process.env.ENABLE_NEW_TAGS !== 'false',
+    enableAiTagging: process.env.ENABLE_AI_TAGGING === 'true',
     enableThinking: process.env.ENABLE_THINKING === 'true',
     batchSize: parseInt(process.env.BATCH_SIZE || '5', 10),
   };

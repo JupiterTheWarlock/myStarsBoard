@@ -1,14 +1,10 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import type { Star, TagKeywords } from '../types.js';
+import { DATA_DIR } from '../paths.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const TAGS_TXT_FILE = path.join(__dirname, '..', 'datas', 'tags.txt');
-const TAG_KEYWORDS_FILE = path.join(__dirname, '..', 'datas', 'tag-keywords.json');
-const DATA_DIR = path.join(__dirname, '..', 'datas');
+const TAGS_TXT_FILE = path.join(DATA_DIR, 'tags.txt');
+const TAG_KEYWORDS_FILE = path.join(DATA_DIR, 'tag-keywords.json');
 
 /**
  * Loads tags from tags.txt file
@@ -23,7 +19,7 @@ export async function loadTagsTxt(): Promise<string[]> {
       .filter((line) => line.length > 0 && !line.startsWith('#'));
   } catch {
     // Return default tags if file doesn't exist
-    return ['frontend', 'backend', 'ai', 'tool', 'library', 'tutorial', 'util', 'Uncategorized'];
+    return ['前端', '后端', 'Unity', '游戏开发', '独立游戏', '信息收集', 'AI Agent', 'AI工具', '开发工具', '未分类'];
   }
 }
 
@@ -58,15 +54,35 @@ export async function loadTagKeywords(): Promise<TagKeywords> {
   } catch {
     // Return default keywords if file doesn't exist
     return {
-      frontend: ['react', 'vue', 'angular', 'svelte', 'ui', 'component', 'javascript', 'typescript', 'css', 'html'],
-      backend: ['express', 'fastify', 'nest', 'koa', 'server', 'api', 'rest', 'graphql', 'microservice'],
-      ai: ['machine learning', 'deep learning', 'neural', 'tensorflow', 'pytorch', 'llm', 'gpt', 'openai'],
-      tool: ['cli', 'utility', 'helper', 'tool', 'script', 'automation'],
-      library: ['lib', 'framework', 'sdk', 'package'],
-      tutorial: ['tutorial', 'guide', 'learn', 'course', 'example', 'demo'],
-      util: ['util', 'helper', 'common', 'shared'],
+      前端: ['react', 'vue', 'angular', 'svelte', 'ui', 'component', 'javascript', 'typescript', 'css', 'html'],
+      后端: ['server', 'api', 'backend', 'database', 'graphql', 'rest', 'fastapi', 'express'],
+      Unity: ['unity', 'unity3d', 'c#', 'shadergraph', 'assetbundle'],
+      游戏开发: ['game', 'gamedev', 'godot', 'unreal', 'shader', 'graphics', '3d'],
+      独立游戏: ['indie game', 'indiegame', 'itch.io', 'steam'],
+      信息收集: ['rss', 'crawler', 'scraper', 'bookmark', 'archive', 'collector', 'news'],
+      'AI Agent': ['agent', 'mcp', 'claude', 'autonomous', 'multi-agent', 'workflow'],
+      AI工具: ['llm', 'gpt', 'openai', 'embedding', 'machine learning', 'ai', 'rag'],
+      开发工具: ['cli', 'tool', 'developer', 'debug', 'automation', 'script'],
     };
   }
+}
+
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function keywordMatches(searchText: string, keyword: string): boolean {
+  const normalized = keyword.toLowerCase().trim();
+  if (normalized.length === 0) {
+    return false;
+  }
+
+  if (/^[a-z0-9][a-z0-9+#.\s-]*$/i.test(normalized)) {
+    const pattern = new RegExp(`(^|[^a-z0-9])${escapeRegExp(normalized)}([^a-z0-9]|$)`, 'i');
+    return pattern.test(searchText);
+  }
+
+  return searchText.includes(normalized);
 }
 
 /**
@@ -76,6 +92,18 @@ export async function loadTagKeywords(): Promise<TagKeywords> {
  * @returns Matched tag name or null
  */
 export function matchTagByKeywords(repo: Star, tagKeywords: TagKeywords): string | null {
+  const matches = matchTagsByKeywords(repo, tagKeywords, 1);
+  return matches[0] ?? null;
+}
+
+/**
+ * Finds matching tags based on keyword scores.
+ * @param repo - Repository to analyze
+ * @param tagKeywords - Tag keywords mapping
+ * @param maxTags - Maximum number of tags to return
+ * @returns Matched tags ordered by score
+ */
+export function matchTagsByKeywords(repo: Star, tagKeywords: TagKeywords, maxTags: number): string[] {
   const searchText = `${repo.name} ${repo.description} ${repo.language}`.toLowerCase();
 
   // Score each tag by keyword matches
@@ -84,7 +112,7 @@ export function matchTagByKeywords(repo: Star, tagKeywords: TagKeywords): string
   for (const [tag, keywords] of Object.entries(tagKeywords)) {
     let score = 0;
     for (const keyword of keywords) {
-      if (searchText.includes(keyword.toLowerCase())) {
+      if (keywordMatches(searchText, keyword)) {
         score += 1;
       }
     }
@@ -95,9 +123,11 @@ export function matchTagByKeywords(repo: Star, tagKeywords: TagKeywords): string
 
   // Return tag with highest score
   if (Object.keys(scores).length === 0) {
-    return null;
+    return [];
   }
 
-  const bestTag = Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0];
-  return bestTag;
+  return Object.entries(scores)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, maxTags)
+    .map(([tag]) => tag);
 }

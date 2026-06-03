@@ -17,7 +17,7 @@ async function main(): Promise<void> {
     await saveStars(stars);
     console.log('✅ Stars 数据已保存');
 
-    console.log(`🤖 开始生成标签（${config.enableThinking ? '✓ Thinking模式' : '✗ 普通模式'}）...`);
+    console.log(`🏷️ 开始生成标签（${config.enableAiTagging ? 'AI模式' : '手动规则模式'}）...`);
     const starsWithTags = await generateTagsBatch(stars);
     console.log('✅ 标签生成完成');
 

@@ -1,4 +1,4 @@
-# StarsBoard Build Instructions
+# StarsBoard Agent Guide
 
 ## Project Setup
 ```bash
@@ -36,8 +36,8 @@ npm run test:watch
 # Run tests with coverage
 npm run test:coverage
 
-# Run tests for specific file
-npm test -- github.test.ts
+# Run tests for a specific file
+npm test -- tests/github.test.ts
 ```
 
 ## Build Commands
@@ -54,11 +54,7 @@ npm run start
 # Run directly with tsx (development)
 npm run dev
 
-# Lint code
-npm run lint
-
-# Format code
-npm run format
+# Note: lint/format scripts are not currently defined in package.json.
 ```
 
 ## Running the Application
@@ -93,55 +89,45 @@ src/
 
 ## Feature Development Quality Standards
 
-**CRITICAL**: All new features MUST meet the following mandatory requirements before being considered complete.
+Use the checks that match the changed surface. Do not apply generic quality gates that are not configured in this repository.
 
 ### Testing Requirements
 
-- **Minimum Coverage**: 85% code coverage ratio required for all new code
-- **Test Pass Rate**: 100% - all tests must pass, no exceptions
-- **Test Types Required**:
-  - Unit tests for all business logic and services
-  - Integration tests for API endpoints or main functionality
-  - End-to-end tests for critical user workflows
-- **Coverage Validation**: Run coverage reports before marking features complete:
-  ```bash
-  # Vitest coverage for StarsBoard
-  npm run test:coverage
-  ```
-- **Test Quality**: Tests must validate behavior, not just achieve coverage metrics
-- **Test Documentation**: Complex test scenarios must include comments explaining the test strategy
+- Tests must validate behavior, not only call implementation details.
+- Do not call real GitHub or OpenAI APIs in automated tests.
+- Run `npm test` for core source changes.
+- Run `npm run type-check` for TypeScript contract changes.
+- Run `npm run build` when entrypoints, runtime paths, or bundling change.
+- Run `npm run test:coverage` only when coverage is the actual task.
 
 ### Git Workflow Requirements
 
-Before moving to the next feature, ALL changes must be:
+Before moving to the next feature, keep changes reviewable:
 
 1. **Committed with Clear Messages**:
    ```bash
-   git add .
+   git add <relevant-files>
    git commit -m "feat(module): descriptive message following conventional commits"
    ```
    - Use conventional commit format: `feat:`, `fix:`, `docs:`, `test:`, `refactor:`, etc.
    - Include scope when applicable: `feat(api):`, `fix(ui):`, `test(auth):`
    - Write descriptive messages that explain WHAT changed and WHY
 
-2. **Pushed to Remote Repository**:
+2. **Pushed to Remote Repository when requested**:
    ```bash
    git push origin <branch-name>
    ```
-   - Never leave completed features uncommitted
-   - Push regularly to maintain backup and enable collaboration
-   - Ensure CI/CD pipelines pass before considering feature complete
+   - Do not push without user intent.
+   - Ensure CI/CD pipelines pass before treating a release workflow as complete.
 
 3. **Branch Hygiene**:
-   - Work on feature branches, never directly on `main`
+   - Prefer feature branches for significant work.
    - Branch naming convention: `feature/<feature-name>`, `fix/<issue-name>`, `docs/<doc-update>`
    - Create pull requests for all significant changes
 
-4. **Ralph Integration**:
-   - Update @fix_plan.md with new tasks before starting work
-   - Mark items complete in @fix_plan.md upon completion
-   - Update PROMPT.md if development patterns change
-   - Test features work within Ralph's autonomous loop
+4. **Agent Guidance**:
+   - Update `PROMPT.md` or this file only when agent behavior or commands change.
+   - Use `@fix_plan.md` as context, not as an automatic task queue unless the user asks for autonomous maintenance.
 
 ### Documentation Requirements
 
@@ -175,19 +161,13 @@ Before moving to the next feature, ALL changes must be:
 Before marking ANY feature as complete, verify:
 
 - [ ] All tests pass with appropriate framework command
-- [ ] Code coverage meets 85% minimum threshold
-- [ ] Coverage report reviewed for meaningful test quality
+- [ ] Type checking passes for TypeScript changes
 - [ ] Code formatted according to project standards
 - [ ] Type checking passes (if applicable)
-- [ ] All changes committed with conventional commit messages
-- [ ] All commits pushed to remote repository
-- [ ] @fix_plan.md task marked as complete
-- [ ] Implementation documentation updated
+- [ ] Generated data was left untouched unless this was a data refresh
+- [ ] Documentation updated only when commands or behavior changed
 - [ ] Inline code comments updated or added
-- [ ] AGENT.md updated (if new patterns introduced)
 - [ ] Breaking changes documented
-- [ ] Features tested within Ralph loop (if applicable)
-- [ ] CI/CD pipeline passes
 
 ### Rationale
 

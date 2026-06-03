@@ -4,6 +4,7 @@ import {
   appendTagToTagsTxt,
   loadTagKeywords,
   matchTagByKeywords,
+  matchTagsByKeywords,
 } from '../src/keyword/index.js';
 import type { Star } from '../src/types.js';
 import fs from 'fs/promises';
@@ -51,7 +52,7 @@ tutorial
 
       const tags = await loadTagsTxt();
 
-      expect(tags).toEqual(['frontend', 'backend', 'ai', 'tool', 'library', 'tutorial', 'util', 'Uncategorized']);
+      expect(tags).toEqual(['前端', '后端', 'Unity', '游戏开发', '独立游戏', '信息收集', 'AI Agent', 'AI工具', '开发工具', '未分类']);
     });
 
     it('should handle empty file', async () => {
@@ -128,10 +129,10 @@ tutorial
 
       const keywords = await loadTagKeywords();
 
-      expect(keywords).toHaveProperty('frontend');
-      expect(keywords).toHaveProperty('backend');
-      expect(keywords).toHaveProperty('ai');
-      expect(Array.isArray(keywords.frontend)).toBe(true);
+      expect(keywords).toHaveProperty('前端');
+      expect(keywords).toHaveProperty('后端');
+      expect(keywords).toHaveProperty('AI工具');
+      expect(Array.isArray(keywords.前端)).toBe(true);
     });
   });
 
@@ -243,6 +244,50 @@ tutorial
       const match = matchTagByKeywords(repo, tagKeywords);
 
       expect(match).toBe('frontend');
+    });
+
+    it('should not match short keywords inside longer words', () => {
+      const repo: Star = {
+        id: 1,
+        name: 'tailwind-helper',
+        fullName: 'user/tailwind-helper',
+        description: 'CSS helper',
+        language: 'JavaScript',
+        url: 'https://github.com/user/tailwind-helper',
+        stars: 100,
+        updatedAt: '2024-01-01T00:00:00Z',
+      };
+      const keywords = {
+        AI工具: ['ai'],
+        自动化: ['script'],
+        前端: ['tailwind', 'javascript'],
+      };
+
+      const matches = matchTagsByKeywords(repo, keywords, 3);
+
+      expect(matches).toEqual(['前端']);
+    });
+
+    it('should return multiple matching tags ordered by score', () => {
+      const repo: Star = {
+        id: 1,
+        name: 'agent-react-dashboard',
+        fullName: 'user/agent-react-dashboard',
+        description: 'React dashboard for MCP agent workflows',
+        language: 'TypeScript',
+        url: 'https://github.com/user/agent-react-dashboard',
+        stars: 100,
+        updatedAt: '2024-01-01T00:00:00Z',
+      };
+      const keywords = {
+        前端: ['react', 'dashboard', 'typescript'],
+        'AI Agent': ['agent', 'mcp', 'workflow'],
+        开发工具: ['cli'],
+      };
+
+      const matches = matchTagsByKeywords(repo, keywords, 3);
+
+      expect(matches).toEqual(['前端', 'AI Agent']);
     });
   });
 });

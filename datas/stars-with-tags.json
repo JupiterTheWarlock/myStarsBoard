@@ -9,10 +9,8 @@
     "stars": 11004,
     "updatedAt": "2026-01-19T21:35:39Z",
     "tags": [
-      "tool",
-      "frontend",
-      "library",
-      "TypeScript"
+      "内容创作",
+      "前端"
     ]
   },
   {
@@ -25,9 +23,7 @@
     "stars": 53334,
     "updatedAt": "2026-01-20T09:23:14Z",
     "tags": [
-      "ai",
-      "Python",
-      "tool"
+      "AI Agent"
     ]
   },
   {
@@ -40,9 +36,8 @@
     "stars": 30392,
     "updatedAt": "2026-01-20T09:43:04Z",
     "tags": [
-      "library",
-      "tool",
-      "ai"
+      "AI Agent",
+      "开发工具"
     ]
   },
   {
@@ -55,10 +50,9 @@
     "stars": 12361,
     "updatedAt": "2026-01-20T09:44:49Z",
     "tags": [
-      "ai",
-      "tool",
-      "frontend",
-      "TypeScript"
+      "AI Agent",
+      "前端",
+      "自动化"
     ]
   },
   {
@@ -71,10 +65,7 @@
     "stars": 1301,
     "updatedAt": "2026-01-20T09:33:58Z",
     "tags": [
-      "Python",
-      "backend",
-      "ai",
-      "library"
+      "后端"
     ]
   },
   {
@@ -87,10 +78,8 @@
     "stars": 26,
     "updatedAt": "2026-01-18T08:57:44Z",
     "tags": [
-      "Python",
-      "ai",
-      "tool",
-      "util"
+      "AI Agent",
+      "信息收集"
     ]
   },
   {
@@ -103,9 +92,10 @@
     "stars": 25,
     "updatedAt": "2026-01-17T11:56:12Z",
     "tags": [
-      "frontend",
-      "tool",
-      "util"
+      "AI Agent",
+      "前端",
+      "信息收集",
+      "开发工具"
     ]
   },
   {
@@ -118,9 +108,9 @@
     "stars": 427,
     "updatedAt": "2026-01-20T08:51:09Z",
     "tags": [
-      "ai",
-      "tool",
-      "Python"
+      "AI Agent",
+      "信息收集",
+      "内容创作"
     ]
   },
   {
@@ -133,10 +123,9 @@
     "stars": 18632,
     "updatedAt": "2026-01-20T09:42:29Z",
     "tags": [
-      "frontend",
-      "ai",
-      "tool",
-      "Python"
+      "前端",
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -149,9 +138,8 @@
     "stars": 1849,
     "updatedAt": "2026-01-20T08:33:07Z",
     "tags": [
-      "tool",
-      "ai",
-      "backend"
+      "AI Agent",
+      "自动化"
     ]
   },
   {
@@ -164,9 +152,9 @@
     "stars": 11631,
     "updatedAt": "2026-01-20T08:36:09Z",
     "tags": [
-      "tutorial",
-      "docs",
-      "Uncategorized"
+      "独立游戏",
+      "游戏开发",
+      "信息收集"
     ]
   },
   {
@@ -179,9 +167,8 @@
     "stars": 75881,
     "updatedAt": "2026-01-20T09:34:41Z",
     "tags": [
-      "frontend",
-      "tool",
-      "TypeScript"
+      "前端",
+      "后端"
     ]
   },
   {
@@ -194,9 +181,8 @@
     "stars": 500,
     "updatedAt": "2026-01-20T09:38:14Z",
     "tags": [
-      "ai",
-      "tool",
-      "Python"
+      "独立游戏",
+      "AI工具"
     ]
   },
   {
@@ -209,9 +195,8 @@
     "stars": 7500,
     "updatedAt": "2026-01-20T09:34:44Z",
     "tags": [
-      "ai",
-      "Python",
-      "library"
+      "AI Agent",
+      "信息收集"
     ]
   },
   {
@@ -224,9 +209,9 @@
     "stars": 5280,
     "updatedAt": "2026-01-20T09:44:28Z",
     "tags": [
-      "ai",
-      "tool",
-      "TypeScript"
+      "AI Agent",
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -239,9 +224,7 @@
     "stars": 5485,
     "updatedAt": "2026-01-20T09:33:45Z",
     "tags": [
-      "ai",
-      "Python",
-      "library"
+      "AI Agent"
     ]
   },
   {
@@ -254,10 +237,8 @@
     "stars": 24458,
     "updatedAt": "2026-01-20T08:55:08Z",
     "tags": [
-      "frontend",
-      "ai",
-      "tool",
-      "TypeScript"
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -270,10 +251,8 @@
     "stars": 20293,
     "updatedAt": "2026-01-20T09:44:55Z",
     "tags": [
-      "frontend",
-      "ai",
-      "tool",
-      "TypeScript"
+      "前端",
+      "AI Agent"
     ]
   },
   {
@@ -286,9 +265,9 @@
     "stars": 1249,
     "updatedAt": "2026-01-20T09:24:17Z",
     "tags": [
-      "frontend",
-      "tool",
-      "TypeScript"
+      "前端",
+      "Unity",
+      "内容创作"
     ]
   },
   {
@@ -301,10 +280,9 @@
     "stars": 10183,
     "updatedAt": "2026-01-20T09:43:35Z",
     "tags": [
-      "Python",
-      "ai",
-      "tool",
-      "util"
+      "AI Agent",
+      "自动化",
+      "内容创作"
     ]
   },
   {
@@ -317,9 +295,8 @@
     "stars": 7411,
     "updatedAt": "2026-01-20T09:42:28Z",
     "tags": [
-      "tool",
-      "util",
-      "Uncategorized"
+      "AI Agent",
+      "内容创作"
     ]
   },
   {
@@ -332,9 +309,7 @@
     "stars": 249,
     "updatedAt": "2026-01-20T08:40:42Z",
     "tags": [
-      "TypeScript",
-      "frontend",
-      "util"
+      "前端"
     ]
   },
   {
@@ -347,9 +322,10 @@
     "stars": 8,
     "updatedAt": "2026-01-09T13:33:12Z",
     "tags": [
-      "frontend",
-      "tool",
-      "TypeScript"
+      "后端",
+      "前端",
+      "开发工具",
+      "内容创作"
     ]
   },
   {
@@ -362,10 +338,10 @@
     "stars": 2157,
     "updatedAt": "2026-01-20T09:34:03Z",
     "tags": [
-      "Python",
-      "tool",
-      "library",
-      "ai"
+      "AI Agent",
+      "前端",
+      "自动化",
+      "开发工具"
     ]
   },
   {
@@ -378,9 +354,10 @@
     "stars": 1122,
     "updatedAt": "2026-01-20T09:38:54Z",
     "tags": [
-      "frontend",
-      "tool",
-      "TypeScript"
+      "前端",
+      "AI Agent",
+      "开发工具",
+      "内容创作"
     ]
   },
   {
@@ -393,9 +370,7 @@
     "stars": 1900,
     "updatedAt": "2026-01-20T03:11:32Z",
     "tags": [
-      "library",
-      "tool",
-      "blueprint"
+      "游戏开发"
     ]
   },
   {
@@ -408,9 +383,8 @@
     "stars": 79540,
     "updatedAt": "2026-01-20T09:44:20Z",
     "tags": [
-      "ai",
-      "tool",
-      "TypeScript"
+      "前端",
+      "AI Agent"
     ]
   },
   {
@@ -423,9 +397,7 @@
     "stars": 2837,
     "updatedAt": "2026-01-20T08:59:13Z",
     "tags": [
-      "frontend",
-      "ai",
-      "docs"
+      "信息收集"
     ]
   },
   {
@@ -438,9 +410,11 @@
     "stars": 2185,
     "updatedAt": "2026-01-20T08:52:01Z",
     "tags": [
-      "ai",
-      "library",
-      "TypeScript"
+      "AI Agent",
+      "前端",
+      "AI工具",
+      "开发工具",
+      "多媒体"
     ]
   },
   {
@@ -453,9 +427,9 @@
     "stars": 15822,
     "updatedAt": "2026-01-20T09:37:09Z",
     "tags": [
-      "tutorial",
-      "ai",
-      "tool"
+      "文档教程",
+      "AI工具",
+      "金融交易"
     ]
   },
   {
@@ -468,9 +442,9 @@
     "stars": 6140,
     "updatedAt": "2026-01-20T09:43:02Z",
     "tags": [
-      "TypeScript",
-      "ai",
-      "tool"
+      "AI Agent",
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -483,10 +457,8 @@
     "stars": 6133,
     "updatedAt": "2026-01-20T09:41:12Z",
     "tags": [
-      "frontend",
-      "tool",
-      "TypeScript",
-      "devops"
+      "前端",
+      "部署运维"
     ]
   },
   {
@@ -499,9 +471,7 @@
     "stars": 2043,
     "updatedAt": "2026-01-20T01:23:41Z",
     "tags": [
-      "frontend",
-      "tool",
-      "TypeScript"
+      "前端"
     ]
   },
   {
@@ -514,9 +484,7 @@
     "stars": 9982,
     "updatedAt": "2026-01-20T09:36:28Z",
     "tags": [
-      "ai",
-      "Python",
-      "tool"
+      "AI工具"
     ]
   },
   {
@@ -529,9 +497,10 @@
     "stars": 6202,
     "updatedAt": "2026-01-20T09:44:50Z",
     "tags": [
-      "library",
-      "TypeScript",
-      "prompt-engineering"
+      "前端",
+      "信息收集",
+      "AI工具",
+      "开发工具"
     ]
   },
   {
@@ -544,9 +513,9 @@
     "stars": 9047,
     "updatedAt": "2026-01-20T09:43:52Z",
     "tags": [
-      "TypeScript",
-      "ai",
-      "tool"
+      "AI Agent",
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -559,10 +528,9 @@
     "stars": 5879,
     "updatedAt": "2026-01-20T07:00:35Z",
     "tags": [
-      "TypeScript",
-      "frontend",
-      "library",
-      "Uncategorized"
+      "前端",
+      "Unity",
+      "游戏开发"
     ]
   },
   {
@@ -575,10 +543,8 @@
     "stars": 22255,
     "updatedAt": "2026-01-20T09:38:26Z",
     "tags": [
-      "frontend",
-      "ai",
-      "tool",
-      "TypeScript"
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -591,9 +557,8 @@
     "stars": 20077,
     "updatedAt": "2026-01-20T09:33:02Z",
     "tags": [
-      "frontend",
-      "tool",
-      "TypeScript"
+      "AI Agent",
+      "前端"
     ]
   },
   {
@@ -606,10 +571,8 @@
     "stars": 22128,
     "updatedAt": "2026-01-20T09:34:42Z",
     "tags": [
-      "ai",
-      "database",
-      "Python",
-      "library"
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -622,9 +585,7 @@
     "stars": 2977,
     "updatedAt": "2026-01-20T08:17:14Z",
     "tags": [
-      "tool",
-      "ai",
-      "Uncategorized"
+      "AI Agent"
     ]
   },
   {
@@ -637,9 +598,9 @@
     "stars": 15442,
     "updatedAt": "2026-01-20T09:11:05Z",
     "tags": [
-      "database",
-      "ai",
-      "library"
+      "数据库",
+      "信息收集",
+      "部署运维"
     ]
   },
   {
@@ -652,9 +613,8 @@
     "stars": 121,
     "updatedAt": "2026-01-20T07:44:09Z",
     "tags": [
-      "backend",
-      "ai",
-      "library"
+      "Unity",
+      "开发工具"
     ]
   },
   {
@@ -667,10 +627,9 @@
     "stars": 22320,
     "updatedAt": "2026-01-20T09:44:33Z",
     "tags": [
-      "ai",
-      "Python",
-      "library",
-      "framework"
+      "AI Agent",
+      "AI工具",
+      "开发工具"
     ]
   },
   {
@@ -683,9 +642,11 @@
     "stars": 42657,
     "updatedAt": "2026-01-20T09:39:51Z",
     "tags": [
-      "ai",
-      "TypeScript",
-      "tool"
+      "前端",
+      "后端",
+      "AI Agent",
+      "AI工具",
+      "文档教程"
     ]
   },
   {
@@ -698,10 +659,9 @@
     "stars": 8350,
     "updatedAt": "2026-01-20T09:03:59Z",
     "tags": [
-      "tool",
-      "testing",
-      "TypeScript",
-      "frontend"
+      "前端",
+      "AI Agent",
+      "开发工具"
     ]
   },
   {
@@ -714,10 +674,8 @@
     "stars": 18163,
     "updatedAt": "2026-01-20T09:17:43Z",
     "tags": [
-      "TypeScript",
-      "util",
-      "tool",
-      "backend"
+      "安全隐私",
+      "前端"
     ]
   },
   {
@@ -730,10 +688,10 @@
     "stars": 1177,
     "updatedAt": "2026-01-20T08:19:21Z",
     "tags": [
-      "ai",
-      "tool",
-      "TypeScript",
-      "monitoring"
+      "前端",
+      "信息收集",
+      "AI工具",
+      "部署运维"
     ]
   },
   {
@@ -746,9 +704,9 @@
     "stars": 1177,
     "updatedAt": "2026-01-20T02:52:36Z",
     "tags": [
-      "tool",
-      "devops",
-      "Go"
+      "开发工具",
+      "AI Agent",
+      "部署运维"
     ]
   },
   {
@@ -761,10 +719,9 @@
     "stars": 16096,
     "updatedAt": "2026-01-20T07:42:08Z",
     "tags": [
-      "backend",
-      "devops",
-      "database",
-      "framework"
+      "后端",
+      "AI工具",
+      "部署运维"
     ]
   },
   {
@@ -777,10 +734,8 @@
     "stars": 7339,
     "updatedAt": "2026-01-20T08:09:37Z",
     "tags": [
-      "ai",
-      "backend",
-      "Go",
-      "framework"
+      "后端",
+      "AI工具"
     ]
   },
   {
@@ -793,9 +748,9 @@
     "stars": 509,
     "updatedAt": "2026-01-20T03:53:02Z",
     "tags": [
-      "TypeScript",
-      "tool",
-      "monitoring"
+      "前端",
+      "后端",
+      "AI Agent"
     ]
   },
   {
@@ -808,10 +763,8 @@
     "stars": 404,
     "updatedAt": "2026-01-20T06:28:27Z",
     "tags": [
-      "devops",
-      "Go",
-      "monitoring",
-      "backend"
+      "AI Agent",
+      "部署运维"
     ]
   },
   {
@@ -824,10 +777,9 @@
     "stars": 2978,
     "updatedAt": "2026-01-20T08:10:28Z",
     "tags": [
-      "ai",
-      "tool",
-      "TypeScript",
-      "library"
+      "前端",
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -840,9 +792,8 @@
     "stars": 8966,
     "updatedAt": "2026-01-20T09:40:39Z",
     "tags": [
-      "TypeScript",
-      "ai",
-      "tool"
+      "AI Agent",
+      "前端"
     ]
   },
   {
@@ -855,10 +806,11 @@
     "stars": 29154,
     "updatedAt": "2026-01-20T09:33:41Z",
     "tags": [
-      "ai",
-      "tool",
-      "library",
-      "backend"
+      "前端",
+      "AI工具",
+      "后端",
+      "AI Agent",
+      "部署运维"
     ]
   },
   {
@@ -871,11 +823,10 @@
     "stars": 15591,
     "updatedAt": "2026-01-20T09:44:42Z",
     "tags": [
-      "ai",
-      "tool",
-      "library",
-      "Python",
-      "TypeScript"
+      "AI工具",
+      "前端",
+      "后端",
+      "AI Agent"
     ]
   },
   {
@@ -888,9 +839,9 @@
     "stars": 347,
     "updatedAt": "2026-01-19T06:05:25Z",
     "tags": [
-      "frontend",
-      "ai",
-      "TypeScript"
+      "前端",
+      "独立游戏",
+      "AI工具"
     ]
   },
   {
@@ -903,9 +854,8 @@
     "stars": 24585,
     "updatedAt": "2026-01-20T04:38:18Z",
     "tags": [
-      "tutorial",
-      "library",
-      "framework"
+      "Unity",
+      "文档教程"
     ]
   },
   {
@@ -918,10 +868,9 @@
     "stars": 11372,
     "updatedAt": "2026-01-20T01:39:58Z",
     "tags": [
-      "backend",
-      "Python",
-      "framework",
-      "tool"
+      "后端",
+      "AI Agent",
+      "安全隐私"
     ]
   },
   {
@@ -934,9 +883,7 @@
     "stars": 31691,
     "updatedAt": "2026-01-20T09:17:34Z",
     "tags": [
-      "tool",
-      "Rust",
-      "terminal"
+      "开发工具"
     ]
   },
   {
@@ -949,10 +896,8 @@
     "stars": 31,
     "updatedAt": "2026-01-20T05:43:10Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "tool",
-      "library"
+      "前端",
+      "Unity"
     ]
   },
   {
@@ -965,9 +910,8 @@
     "stars": 22,
     "updatedAt": "2026-01-12T04:44:27Z",
     "tags": [
-      "tool",
-      "util",
-      "C"
+      "Unity",
+      "内容创作"
     ]
   },
   {
@@ -980,9 +924,7 @@
     "stars": 46269,
     "updatedAt": "2026-01-20T09:45:01Z",
     "tags": [
-      "ai",
-      "tool",
-      "Python"
+      "AI Agent"
     ]
   },
   {
@@ -995,10 +937,9 @@
     "stars": 22357,
     "updatedAt": "2026-01-20T09:45:02Z",
     "tags": [
-      "ai",
-      "tool",
-      "Python",
-      "library"
+      "信息收集",
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -1011,9 +952,7 @@
     "stars": 1526,
     "updatedAt": "2026-01-20T00:36:49Z",
     "tags": [
-      "Python",
-      "util",
-      "Uncategorized"
+      "金融交易"
     ]
   },
   {
@@ -1026,10 +965,7 @@
     "stars": 28317,
     "updatedAt": "2026-01-20T07:56:40Z",
     "tags": [
-      "Go",
-      "util",
-      "devops",
-      "monitoring"
+      "后端"
     ]
   },
   {
@@ -1042,10 +978,10 @@
     "stars": 43926,
     "updatedAt": "2026-01-20T09:33:37Z",
     "tags": [
-      "ai",
-      "monitoring",
-      "tool",
-      "Python"
+      "信息收集",
+      "AI Agent",
+      "AI工具",
+      "部署运维"
     ]
   },
   {
@@ -1058,11 +994,8 @@
     "stars": 12441,
     "updatedAt": "2026-01-20T09:43:41Z",
     "tags": [
-      "tool",
-      "Rust",
-      "desktop",
-      "assistant",
-      "terminal"
+      "AI Agent",
+      "开发工具"
     ]
   },
   {
@@ -1075,9 +1008,7 @@
     "stars": 1919,
     "updatedAt": "2026-01-20T02:46:51Z",
     "tags": [
-      "Go",
-      "tool",
-      "util"
+      "内容创作"
     ]
   },
   {
@@ -1090,10 +1021,7 @@
     "stars": 47,
     "updatedAt": "2026-01-03T01:31:05Z",
     "tags": [
-      "backend",
-      "Go",
-      "library",
-      "util"
+      "未分类"
     ]
   },
   {
@@ -1106,10 +1034,7 @@
     "stars": 34725,
     "updatedAt": "2026-01-20T09:38:16Z",
     "tags": [
-      "ai",
-      "Python",
-      "util",
-      "assistant"
+      "AI Agent"
     ]
   },
   {
@@ -1122,9 +1047,8 @@
     "stars": 8319,
     "updatedAt": "2026-01-20T08:18:10Z",
     "tags": [
-      "frontend",
-      "tool",
-      "TypeScript"
+      "前端",
+      "数据可视化"
     ]
   },
   {
@@ -1137,9 +1061,8 @@
     "stars": 184094,
     "updatedAt": "2026-01-20T09:31:15Z",
     "tags": [
-      "framework",
-      "terminal",
-      "tool"
+      "开发工具",
+      "部署运维"
     ]
   },
   {
@@ -1152,9 +1075,7 @@
     "stars": 2431,
     "updatedAt": "2026-01-20T07:24:34Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "mobile"
+      "前端"
     ]
   },
   {
@@ -1167,10 +1088,8 @@
     "stars": 48857,
     "updatedAt": "2026-01-20T08:46:20Z",
     "tags": [
-      "Go",
-      "desktop",
-      "util",
-      "backend"
+      "后端",
+      "信息收集"
     ]
   },
   {
@@ -1183,9 +1102,7 @@
     "stars": 5171,
     "updatedAt": "2026-01-20T09:17:07Z",
     "tags": [
-      "backend",
-      "Go",
-      "util"
+      "后端"
     ]
   },
   {
@@ -1198,10 +1115,7 @@
     "stars": 8511,
     "updatedAt": "2026-01-20T08:28:02Z",
     "tags": [
-      "tool",
-      "shell",
-      "devops",
-      "automation"
+      "AI Agent"
     ]
   },
   {
@@ -1214,10 +1128,9 @@
     "stars": 10069,
     "updatedAt": "2026-01-20T09:23:00Z",
     "tags": [
-      "Go",
-      "ai",
-      "tool",
-      "backend"
+      "AI工具",
+      "部署运维",
+      "金融交易"
     ]
   },
   {
@@ -1230,10 +1143,7 @@
     "stars": 4800,
     "updatedAt": "2026-01-20T09:31:30Z",
     "tags": [
-      "ai",
-      "Python",
-      "assistant",
-      "prompt-engineering"
+      "AI工具"
     ]
   },
   {
@@ -1246,9 +1156,8 @@
     "stars": 12459,
     "updatedAt": "2026-01-20T09:36:17Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "desktop"
+      "多媒体",
+      "前端"
     ]
   },
   {
@@ -1261,11 +1170,10 @@
     "stars": 20424,
     "updatedAt": "2026-01-20T09:42:57Z",
     "tags": [
-      "tool",
-      "automation",
-      "frontend",
-      "backend",
-      "terminal"
+      "前端",
+      "后端",
+      "开发工具",
+      "个人网站"
     ]
   },
   {
@@ -1278,10 +1186,8 @@
     "stars": 61994,
     "updatedAt": "2026-01-20T09:26:39Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "desktop",
-      "automation"
+      "前端",
+      "安全隐私"
     ]
   },
   {
@@ -1294,10 +1200,9 @@
     "stars": 24934,
     "updatedAt": "2026-01-20T08:51:20Z",
     "tags": [
-      "tool",
-      "ai",
-      "automation",
-      "assistant"
+      "前端",
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -1310,10 +1215,9 @@
     "stars": 5605,
     "updatedAt": "2026-01-20T09:15:13Z",
     "tags": [
-      "frontend",
-      "webui",
-      "assistant",
-      "tool"
+      "前端",
+      "AI Agent",
+      "开发工具"
     ]
   },
   {
@@ -1326,9 +1230,7 @@
     "stars": 5713,
     "updatedAt": "2026-01-19T16:13:44Z",
     "tags": [
-      "Unity3D",
-      "testing",
-      "tool"
+      "Unity"
     ]
   },
   {
@@ -1341,9 +1243,7 @@
     "stars": 15023,
     "updatedAt": "2026-01-20T07:50:01Z",
     "tags": [
-      "ai",
-      "Python",
-      "assistant"
+      "AI工具"
     ]
   },
   {
@@ -1356,11 +1256,11 @@
     "stars": 2833,
     "updatedAt": "2026-01-20T09:31:35Z",
     "tags": [
-      "ai",
-      "library",
-      "JavaScript",
-      "API",
-      "automation"
+      "AI工具",
+      "前端",
+      "后端",
+      "AI Agent",
+      "开发工具"
     ]
   },
   {
@@ -1373,9 +1273,7 @@
     "stars": 750,
     "updatedAt": "2026-01-18T18:14:14Z",
     "tags": [
-      "ai",
-      "Python",
-      "automation"
+      "AI工具"
     ]
   },
   {
@@ -1388,10 +1286,8 @@
     "stars": 15288,
     "updatedAt": "2026-01-20T09:44:53Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "tool",
-      "webui"
+      "前端",
+      "部署运维"
     ]
   },
   {
@@ -1404,11 +1300,7 @@
     "stars": 53945,
     "updatedAt": "2026-01-20T08:37:35Z",
     "tags": [
-      "finance",
-      "personal-finance",
-      "Ruby",
-      "desktop",
-      "webui"
+      "金融交易"
     ]
   },
   {
@@ -1421,10 +1313,7 @@
     "stars": 392168,
     "updatedAt": "2026-01-20T09:30:24Z",
     "tags": [
-      "API",
-      "library",
-      "Python",
-      "backend"
+      "信息收集"
     ]
   },
   {
@@ -1437,11 +1326,9 @@
     "stars": 5135,
     "updatedAt": "2026-01-20T08:12:22Z",
     "tags": [
-      "Python",
-      "automation",
-      "ai",
-      "tool",
-      "backend"
+      "自动化",
+      "金融交易",
+      "AI工具"
     ]
   },
   {
@@ -1454,9 +1341,8 @@
     "stars": 3442,
     "updatedAt": "2026-01-20T06:38:59Z",
     "tags": [
-      "frontend",
-      "tool",
-      "TypeScript"
+      "前端",
+      "后端"
     ]
   },
   {
@@ -1469,11 +1355,8 @@
     "stars": 9952,
     "updatedAt": "2026-01-20T04:29:27Z",
     "tags": [
-      "Python",
-      "webui",
-      "devops",
-      "bookmark",
-      "automation"
+      "部署运维",
+      "信息收集"
     ]
   },
   {
@@ -1486,11 +1369,7 @@
     "stars": 1920,
     "updatedAt": "2026-01-20T08:51:09Z",
     "tags": [
-      "frontend",
-      "desktop",
-      "automation",
-      "JavaScript",
-      "voice"
+      "前端"
     ]
   },
   {
@@ -1503,11 +1382,7 @@
     "stars": 22103,
     "updatedAt": "2026-01-20T08:36:09Z",
     "tags": [
-      "personal-finance",
-      "finance",
-      "PHP",
-      "automation",
-      "webui"
+      "金融交易"
     ]
   },
   {
@@ -1520,11 +1395,8 @@
     "stars": 7950,
     "updatedAt": "2026-01-20T08:33:37Z",
     "tags": [
-      "devops",
-      "automation",
-      "cloud",
-      "deployment",
-      "self-hosted"
+      "信息收集",
+      "部署运维"
     ]
   },
   {
@@ -1537,10 +1409,7 @@
     "stars": 53749,
     "updatedAt": "2026-01-20T09:30:58Z",
     "tags": [
-      "Rust",
-      "backend",
-      "security",
-      "Uncategorized"
+      "后端"
     ]
   },
   {
@@ -1553,10 +1422,7 @@
     "stars": 1198,
     "updatedAt": "2026-01-20T09:32:50Z",
     "tags": [
-      "automation",
-      "shell",
-      "API",
-      "tool"
+      "信息收集"
     ]
   },
   {
@@ -1569,9 +1435,8 @@
     "stars": 7348,
     "updatedAt": "2026-01-20T08:00:53Z",
     "tags": [
-      "ai",
-      "tool",
-      "automation"
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -1584,9 +1449,8 @@
     "stars": 89739,
     "updatedAt": "2026-01-20T09:13:53Z",
     "tags": [
-      "tutorial",
-      "project-ideas",
-      "learning"
+      "信息收集",
+      "AI Agent"
     ]
   },
   {
@@ -1599,10 +1463,8 @@
     "stars": 15675,
     "updatedAt": "2026-01-20T09:30:54Z",
     "tags": [
-      "TypeScript",
-      "frontend",
-      "library",
-      "API"
+      "前端",
+      "AI Agent"
     ]
   },
   {
@@ -1615,10 +1477,7 @@
     "stars": 828,
     "updatedAt": "2026-01-19T09:49:21Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "extension",
-      "bookmark"
+      "前端"
     ]
   },
   {
@@ -1631,11 +1490,8 @@
     "stars": 1143,
     "updatedAt": "2026-01-20T03:45:04Z",
     "tags": [
-      "ai",
-      "automation",
-      "JavaScript",
-      "news-aggregator",
-      "daily"
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -1648,11 +1504,9 @@
     "stars": 26215,
     "updatedAt": "2026-01-20T09:45:06Z",
     "tags": [
-      "frontend",
-      "tool",
-      "TypeScript",
-      "automation",
-      "desktop"
+      "前端",
+      "内容创作",
+      "多媒体"
     ]
   },
   {
@@ -1665,11 +1519,10 @@
     "stars": 76129,
     "updatedAt": "2026-01-20T09:37:40Z",
     "tags": [
-      "ai",
-      "API",
-      "TypeScript",
-      "webui",
-      "library"
+      "AI工具",
+      "前端",
+      "后端",
+      "内容创作"
     ]
   },
   {
@@ -1682,10 +1535,8 @@
     "stars": 3775,
     "updatedAt": "2026-01-18T09:23:43Z",
     "tags": [
-      "frontend",
-      "API",
-      "self-hosted",
-      "automation"
+      "前端",
+      "内容创作"
     ]
   },
   {
@@ -1698,11 +1549,7 @@
     "stars": 40690,
     "updatedAt": "2026-01-20T08:32:20Z",
     "tags": [
-      "ai",
-      "Python",
-      "automation",
-      "assistant",
-      "chatbot"
+      "AI Agent"
     ]
   },
   {
@@ -1715,11 +1562,8 @@
     "stars": 16818,
     "updatedAt": "2026-01-19T18:51:50Z",
     "tags": [
-      "Go",
-      "proxy",
-      "backend",
-      "security",
-      "cloud"
+      "后端",
+      "安全隐私"
     ]
   },
   {
@@ -1732,10 +1576,7 @@
     "stars": 85448,
     "updatedAt": "2026-01-20T09:12:57Z",
     "tags": [
-      "Python",
-      "tool",
-      "library",
-      "automation"
+      "内容创作"
     ]
   },
   {
@@ -1748,11 +1589,7 @@
     "stars": 1319,
     "updatedAt": "2026-01-19T10:21:50Z",
     "tags": [
-      "Python",
-      "voice",
-      "ai",
-      "library",
-      "automation"
+      "多媒体"
     ]
   },
   {
@@ -1765,11 +1602,8 @@
     "stars": 2731,
     "updatedAt": "2026-01-20T07:26:17Z",
     "tags": [
-      "ai",
-      "automation",
-      "TypeScript",
-      "API",
-      "tool"
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -1782,11 +1616,8 @@
     "stars": 22344,
     "updatedAt": "2026-01-20T08:55:29Z",
     "tags": [
-      "chatbot",
-      "TypeScript",
-      "automation",
-      "library",
-      "SDK"
+      "前端",
+      "开发工具"
     ]
   },
   {
@@ -1799,11 +1630,9 @@
     "stars": 5770,
     "updatedAt": "2026-01-20T09:13:01Z",
     "tags": [
-      "frontend",
-      "desktop",
-      "TypeScript",
-      "multimodal",
-      "assistant"
+      "前端",
+      "多媒体",
+      "安全隐私"
     ]
   },
   {
@@ -1816,10 +1645,8 @@
     "stars": 2648,
     "updatedAt": "2026-01-20T08:27:42Z",
     "tags": [
-      "tool",
-      "tutorial",
-      "automation",
-      "API"
+      "信息收集",
+      "自动化"
     ]
   },
   {
@@ -1832,11 +1659,7 @@
     "stars": 49048,
     "updatedAt": "2026-01-20T09:09:59Z",
     "tags": [
-      "ai",
-      "automation",
-      "Python",
-      "video",
-      "multimodal"
+      "AI工具"
     ]
   },
   {
@@ -1849,11 +1672,8 @@
     "stars": 139,
     "updatedAt": "2026-01-08T03:58:35Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "AI",
-      "bookmark",
-      "automation"
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -1866,11 +1686,7 @@
     "stars": 1480,
     "updatedAt": "2026-01-20T05:41:51Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "playground",
-      "OpenAPI",
-      "tokenizer"
+      "前端"
     ]
   },
   {
@@ -1883,11 +1699,9 @@
     "stars": 8501,
     "updatedAt": "2026-01-20T08:20:05Z",
     "tags": [
-      "frontend",
-      "ai",
-      "TypeScript",
-      "search",
-      "webui"
+      "前端",
+      "信息收集",
+      "AI工具"
     ]
   },
   {
@@ -1900,11 +1714,7 @@
     "stars": 5749,
     "updatedAt": "2026-01-20T04:34:13Z",
     "tags": [
-      "Python",
-      "automation",
-      "AI",
-      "audio",
-      "tool"
+      "多媒体"
     ]
   },
   {
@@ -1917,10 +1727,7 @@
     "stars": 9534,
     "updatedAt": "2026-01-20T07:22:58Z",
     "tags": [
-      "ai",
-      "Python",
-      "speech-to-text",
-      "voice"
+      "多媒体"
     ]
   },
   {
@@ -1933,11 +1740,7 @@
     "stars": 12528,
     "updatedAt": "2026-01-20T09:20:40Z",
     "tags": [
-      "ai",
-      "backend",
-      "Python",
-      "chatbot",
-      "search"
+      "AI工具"
     ]
   },
   {
@@ -1950,10 +1753,7 @@
     "stars": 41,
     "updatedAt": "2026-01-04T15:40:09Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "tool",
-      "automation"
+      "前端"
     ]
   },
   {
@@ -1966,10 +1766,7 @@
     "stars": 78014,
     "updatedAt": "2026-01-20T09:21:45Z",
     "tags": [
-      "frontend",
-      "JavaScript",
-      "API",
-      "tool"
+      "前端"
     ]
   },
   {
@@ -1982,11 +1779,10 @@
     "stars": 15897,
     "updatedAt": "2026-01-20T09:31:03Z",
     "tags": [
-      "finance",
-      "ai",
-      "automation",
-      "Python",
-      "backend"
+      "信息收集",
+      "AI工具",
+      "文档教程",
+      "金融交易"
     ]
   },
   {
@@ -1999,11 +1795,8 @@
     "stars": 7048,
     "updatedAt": "2026-01-20T08:35:47Z",
     "tags": [
-      "desktop",
-      "editor",
-      "graphics",
-      "C",
-      "tool"
+      "Unity",
+      "内容创作"
     ]
   },
   {
@@ -2016,11 +1809,8 @@
     "stars": 11310,
     "updatedAt": "2026-01-20T09:05:49Z",
     "tags": [
-      "backend",
-      "Go",
-      "search",
-      "API",
-      "self-hosted"
+      "后端",
+      "部署运维"
     ]
   },
   {
@@ -2033,10 +1823,7 @@
     "stars": 21938,
     "updatedAt": "2026-01-20T05:07:05Z",
     "tags": [
-      "learning",
-      "tutorial",
-      "docs",
-      "Uncategorized"
+      "文档教程"
     ]
   },
   {
@@ -2049,11 +1836,9 @@
     "stars": 36710,
     "updatedAt": "2026-01-20T09:42:50Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "AI",
-      "reader",
-      "news-aggregator"
+      "前端",
+      "信息收集",
+      "AI工具"
     ]
   },
   {
@@ -2066,11 +1851,7 @@
     "stars": 6578,
     "updatedAt": "2026-01-20T04:48:59Z",
     "tags": [
-      "tool",
-      "Python",
-      "mobile",
-      "location",
-      "security"
+      "安全隐私"
     ]
   },
   {
@@ -2083,11 +1864,7 @@
     "stars": 142827,
     "updatedAt": "2026-01-20T09:14:31Z",
     "tags": [
-      "tool",
-      "Python",
-      "audio",
-      "video",
-      "terminal"
+      "多媒体"
     ]
   },
   {
@@ -2100,11 +1877,8 @@
     "stars": 2223,
     "updatedAt": "2026-01-20T01:38:37Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "3D",
-      "animation",
-      "Unity3D"
+      "前端",
+      "游戏开发"
     ]
   },
   {
@@ -2117,11 +1891,7 @@
     "stars": 44617,
     "updatedAt": "2026-01-20T09:26:54Z",
     "tags": [
-      "news-aggregator",
-      "daily",
-      "developer-tools",
-      "tutorial",
-      "OpenAPI"
+      "信息收集"
     ]
   },
   {
@@ -2134,11 +1904,9 @@
     "stars": 1031,
     "updatedAt": "2026-01-20T09:15:20Z",
     "tags": [
-      "automation",
-      "workflow",
-      "YouTube",
-      "n8n",
-      "configuration"
+      "信息收集",
+      "自动化",
+      "多媒体"
     ]
   },
   {
@@ -2151,11 +1919,9 @@
     "stars": 88327,
     "updatedAt": "2026-01-20T09:41:35Z",
     "tags": [
-      "ai",
-      "collection",
-      "LLM",
-      "OpenAPI",
-      "developer-tools"
+      "AI工具",
+      "信息收集",
+      "AI Agent"
     ]
   },
   {
@@ -2168,10 +1934,7 @@
     "stars": 46250,
     "updatedAt": "2026-01-20T09:23:10Z",
     "tags": [
-      "developer-tools",
-      "project-ideas",
-      "list",
-      "community"
+      "信息收集"
     ]
   },
   {
@@ -2184,10 +1947,7 @@
     "stars": 1303,
     "updatedAt": "2026-01-20T07:56:36Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "tool",
-      "bookmark"
+      "前端"
     ]
   },
   {
@@ -2200,11 +1960,7 @@
     "stars": 3931,
     "updatedAt": "2026-01-20T04:16:44Z",
     "tags": [
-      "speech-to-text",
-      "TypeScript",
-      "desktop",
-      "automation",
-      "frontend"
+      "前端"
     ]
   },
   {
@@ -2217,10 +1973,7 @@
     "stars": 8909,
     "updatedAt": "2026-01-20T08:34:35Z",
     "tags": [
-      "project-ideas",
-      "project-management",
-      "PHP",
-      "workflow"
+      "开发工具"
     ]
   },
   {
@@ -2233,11 +1986,8 @@
     "stars": 11880,
     "updatedAt": "2026-01-20T00:50:22Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "security",
-      "desktop",
-      "extension"
+      "前端",
+      "开发工具"
     ]
   },
   {
@@ -2250,11 +2000,8 @@
     "stars": 93343,
     "updatedAt": "2026-01-20T09:44:30Z",
     "tags": [
-      "JavaScript",
-      "API",
-      "library",
-      "automation",
-      "testing"
+      "前端",
+      "后端"
     ]
   },
   {
@@ -2267,11 +2014,9 @@
     "stars": 16950,
     "updatedAt": "2026-01-20T09:44:13Z",
     "tags": [
-      "AI",
-      "voice",
-      "chatbot",
-      "desktop",
-      "self-hosted"
+      "前端",
+      "AI工具",
+      "多媒体"
     ]
   },
   {
@@ -2284,9 +2029,8 @@
     "stars": 6084,
     "updatedAt": "2026-01-19T09:54:18Z",
     "tags": [
-      "Python",
-      "finance",
-      "library"
+      "金融交易",
+      "开发工具"
     ]
   },
   {
@@ -2299,11 +2043,8 @@
     "stars": 46055,
     "updatedAt": "2026-01-20T08:31:34Z",
     "tags": [
-      "Python",
-      "finance",
-      "automation",
-      "trading",
-      "self-hosted"
+      "金融交易",
+      "自动化"
     ]
   },
   {
@@ -2316,10 +2057,7 @@
     "stars": 45333,
     "updatedAt": "2026-01-20T09:24:52Z",
     "tags": [
-      "finance",
-      "ai",
-      "Python",
-      "project-ideas"
+      "AI工具"
     ]
   },
   {
@@ -2332,11 +2070,10 @@
     "stars": 81444,
     "updatedAt": "2026-01-20T09:39:12Z",
     "tags": [
-      "testing",
-      "automation",
-      "TypeScript",
-      "library",
-      "framework"
+      "开发工具",
+      "前端",
+      "后端",
+      "自动化"
     ]
   },
   {
@@ -2349,9 +2086,8 @@
     "stars": 269067,
     "updatedAt": "2026-01-20T09:40:08Z",
     "tags": [
-      "self-hosted",
-      "list",
-      "collection"
+      "信息收集",
+      "部署运维"
     ]
   },
   {
@@ -2364,11 +2100,8 @@
     "stars": 17557,
     "updatedAt": "2026-01-20T09:01:02Z",
     "tags": [
-      "LLM",
-      "Python",
-      "automation",
-      "AI",
-      "developer-tools"
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -2381,11 +2114,9 @@
     "stars": 4111,
     "updatedAt": "2026-01-20T07:46:17Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "personal-website",
-      "minimalist",
-      "blog"
+      "内容创作",
+      "前端",
+      "个人网站"
     ]
   },
   {
@@ -2398,10 +2129,8 @@
     "stars": 24470,
     "updatedAt": "2026-01-20T09:29:53Z",
     "tags": [
-      "automation",
-      "devops",
-      "docker",
-      "container"
+      "部署运维",
+      "多媒体"
     ]
   },
   {
@@ -2414,11 +2143,8 @@
     "stars": 8709,
     "updatedAt": "2026-01-20T07:39:58Z",
     "tags": [
-      "frontend",
-      "RSS",
-      "self-hosted",
-      "TypeScript",
-      "blog"
+      "前端",
+      "信息收集"
     ]
   },
   {
@@ -2431,11 +2157,7 @@
     "stars": 41249,
     "updatedAt": "2026-01-20T08:08:38Z",
     "tags": [
-      "TypeScript",
-      "frontend",
-      "news-aggregator",
-      "RSS",
-      "automation"
+      "前端"
     ]
   },
   {
@@ -2448,9 +2170,7 @@
     "stars": 37,
     "updatedAt": "2026-01-16T07:48:12Z",
     "tags": [
-      "Python",
-      "automation",
-      "devops"
+      "自动化"
     ]
   },
   {
@@ -2463,11 +2183,8 @@
     "stars": 861,
     "updatedAt": "2026-01-18T16:51:24Z",
     "tags": [
-      "n8n",
-      "TypeScript",
-      "automation",
-      "workflow",
-      "API"
+      "前端",
+      "自动化"
     ]
   },
   {
@@ -2480,11 +2197,10 @@
     "stars": 18162,
     "updatedAt": "2026-01-20T09:32:01Z",
     "tags": [
-      "workflow",
-      "automation",
-      "tool",
-      "collection",
-      "n8n"
+      "自动化",
+      "信息收集",
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -2497,11 +2213,7 @@
     "stars": 50149,
     "updatedAt": "2026-01-20T09:26:35Z",
     "tags": [
-      "workflow",
-      "automation",
-      "n8n",
-      "collection",
-      "Python"
+      "自动化"
     ]
   },
   {
@@ -2514,10 +2226,7 @@
     "stars": 12768,
     "updatedAt": "2026-01-20T09:06:56Z",
     "tags": [
-      "tutorial",
-      "blog",
-      "project-management",
-      "learning"
+      "内容创作"
     ]
   },
   {
@@ -2530,10 +2239,7 @@
     "stars": 2618,
     "updatedAt": "2026-01-20T06:22:32Z",
     "tags": [
-      "ai",
-      "tool",
-      "automation",
-      "productivity"
+      "AI工具"
     ]
   },
   {
@@ -2546,10 +2252,7 @@
     "stars": 7821,
     "updatedAt": "2026-01-20T09:29:19Z",
     "tags": [
-      "project-management",
-      "learning",
-      "collection",
-      "methodology"
+      "内容创作"
     ]
   },
   {
@@ -2562,10 +2265,8 @@
     "stars": 109606,
     "updatedAt": "2026-01-20T09:41:51Z",
     "tags": [
-      "AI",
-      "prompt-engineering",
-      "system-prompts",
-      "collection"
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -2578,10 +2279,7 @@
     "stars": 4046,
     "updatedAt": "2026-01-20T06:25:36Z",
     "tags": [
-      "Python",
-      "audio",
-      "automation",
-      "reader"
+      "多媒体"
     ]
   },
   {
@@ -2594,11 +2292,8 @@
     "stars": 13613,
     "updatedAt": "2026-01-20T03:53:39Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "productivity",
-      "finance",
-      "project-management"
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -2611,11 +2306,8 @@
     "stars": 19303,
     "updatedAt": "2026-01-20T09:12:24Z",
     "tags": [
-      "frontend",
-      "AI",
-      "TypeScript",
-      "framework",
-      "developer-tools"
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -2628,11 +2320,10 @@
     "stars": 21020,
     "updatedAt": "2026-01-20T09:38:57Z",
     "tags": [
-      "TypeScript",
-      "AI",
-      "tool",
-      "library",
-      "SDK"
+      "前端",
+      "开发工具",
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -2645,11 +2336,7 @@
     "stars": 27986,
     "updatedAt": "2026-01-20T09:37:15Z",
     "tags": [
-      "Python",
-      "framework",
-      "webui",
-      "frontend",
-      "library"
+      "前端"
     ]
   },
   {
@@ -2662,10 +2349,8 @@
     "stars": 25735,
     "updatedAt": "2026-01-20T09:36:26Z",
     "tags": [
-      "project-management",
-      "self-hosted",
-      "TypeScript",
-      "desktop"
+      "前端",
+      "部署运维"
     ]
   },
   {
@@ -2678,11 +2363,10 @@
     "stars": 22791,
     "updatedAt": "2026-01-20T09:35:08Z",
     "tags": [
-      "AI",
-      "collection",
-      "project-ideas",
-      "LLM",
-      "list"
+      "AI Agent",
+      "信息收集",
+      "AI工具",
+      "金融交易"
     ]
   },
   {
@@ -2695,9 +2379,7 @@
     "stars": 430734,
     "updatedAt": "2026-01-20T09:39:46Z",
     "tags": [
-      "list",
-      "collection",
-      "community"
+      "信息收集"
     ]
   },
   {
@@ -2710,9 +2392,8 @@
     "stars": 18737,
     "updatedAt": "2026-01-20T09:34:43Z",
     "tags": [
-      "prompt-engineering",
-      "TypeScript",
-      "tool"
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -2725,11 +2406,7 @@
     "stars": 41184,
     "updatedAt": "2026-01-20T08:35:27Z",
     "tags": [
-      "backend",
-      "Python",
-      "file-server",
-      "WebDAV",
-      "SFTP"
+      "后端"
     ]
   },
   {
@@ -2742,11 +2419,9 @@
     "stars": 1968,
     "updatedAt": "2026-01-19T13:36:13Z",
     "tags": [
-      "task-management",
-      "self-hosted",
-      "productivity",
-      "markdown",
-      "JavaScript"
+      "前端",
+      "部署运维",
+      "内容创作"
     ]
   },
   {
@@ -2759,11 +2434,8 @@
     "stars": 23531,
     "updatedAt": "2026-01-20T09:25:10Z",
     "tags": [
-      "Python",
-      "framework",
-      "LLM",
-      "automation",
-      "AI"
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -2776,10 +2448,7 @@
     "stars": 3661,
     "updatedAt": "2026-01-20T09:14:44Z",
     "tags": [
-      "AI",
-      "tutorial",
-      "Python",
-      "LLM"
+      "AI工具"
     ]
   },
   {
@@ -2792,10 +2461,7 @@
     "stars": 2052,
     "updatedAt": "2026-01-13T11:43:32Z",
     "tags": [
-      "Unity3D",
-      "testing",
-      "tool",
-      "library"
+      "Unity"
     ]
   },
   {
@@ -2808,11 +2474,8 @@
     "stars": 702,
     "updatedAt": "2026-01-18T04:26:08Z",
     "tags": [
-      "frontend",
-      "AI",
-      "prompt-engineering",
-      "productivity",
-      "desktop"
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -2825,11 +2488,7 @@
     "stars": 212,
     "updatedAt": "2026-01-18T15:54:06Z",
     "tags": [
-      "JavaScript",
-      "3D",
-      "converter",
-      "tool",
-      "library"
+      "前端"
     ]
   },
   {
@@ -2842,11 +2501,7 @@
     "stars": 1916,
     "updatedAt": "2026-01-20T07:33:54Z",
     "tags": [
-      "library",
-      "3D",
-      "OpenSCAD",
-      "automation",
-      "graphics"
+      "开发工具"
     ]
   },
   {
@@ -2859,9 +2514,7 @@
     "stars": 2022,
     "updatedAt": "2026-01-18T06:45:47Z",
     "tags": [
-      "3D",
-      "OpenSCAD",
-      "library"
+      "金融交易"
     ]
   },
   {
@@ -2874,11 +2527,8 @@
     "stars": 58462,
     "updatedAt": "2026-01-20T09:44:57Z",
     "tags": [
-      "terminal",
-      "automation",
-      "tool",
-      "developer-tools",
-      "shell"
+      "AI Agent",
+      "开发工具"
     ]
   },
   {
@@ -2891,10 +2541,7 @@
     "stars": 9163,
     "updatedAt": "2026-01-20T09:16:42Z",
     "tags": [
-      "tool",
-      "chatbot",
-      "personal",
-      "utility"
+      "信息收集"
     ]
   },
   {
@@ -2907,9 +2554,8 @@
     "stars": 12950,
     "updatedAt": "2026-01-19T17:02:59Z",
     "tags": [
-      "automation",
-      "finance",
-      "Python"
+      "自动化",
+      "金融交易"
     ]
   },
   {
@@ -2922,11 +2568,9 @@
     "stars": 17798,
     "updatedAt": "2026-01-20T09:02:40Z",
     "tags": [
-      "LLM",
-      "TypeScript",
-      "methodology",
-      "project-management",
-      "developer-tools"
+      "前端",
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -2939,10 +2583,8 @@
     "stars": 29011,
     "updatedAt": "2026-01-20T09:08:57Z",
     "tags": [
-      "tutorial",
-      "prompt-engineering",
-      "AI",
-      "developer-tools"
+      "AI工具",
+      "文档教程"
     ]
   },
   {
@@ -2955,10 +2597,9 @@
     "stars": 37194,
     "updatedAt": "2026-01-20T09:26:36Z",
     "tags": [
-      "ai",
-      "editor",
-      "configuration",
-      "developer-tools"
+      "信息收集",
+      "AI工具",
+      "内容创作"
     ]
   },
   {
@@ -2971,10 +2612,7 @@
     "stars": 263,
     "updatedAt": "2026-01-09T21:27:03Z",
     "tags": [
-      "extension",
-      "TypeScript",
-      "tool",
-      "developer-tools"
+      "前端"
     ]
   },
   {
@@ -2987,11 +2625,10 @@
     "stars": 91763,
     "updatedAt": "2026-01-20T09:41:33Z",
     "tags": [
-      "terminal",
-      "AI",
-      "TypeScript",
-      "tool",
-      "automation"
+      "开发工具",
+      "前端",
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -3004,11 +2641,7 @@
     "stars": 1,
     "updatedAt": "2025-12-16T23:21:05Z",
     "tags": [
-      "frontend",
-      "JavaScript",
-      "bookmark",
-      "list",
-      "collection"
+      "前端"
     ]
   },
   {
@@ -3021,11 +2654,7 @@
     "stars": 1006,
     "updatedAt": "2026-01-17T06:57:10Z",
     "tags": [
-      "library",
-      "Chinese",
-      "lexicon",
-      "nlp",
-      "Open"
+      "AI工具"
     ]
   },
   {
@@ -3038,11 +2667,7 @@
     "stars": 34709,
     "updatedAt": "2026-01-20T09:25:08Z",
     "tags": [
-      "Python",
-      "library",
-      "AI",
-      "tokenizer",
-      "Chinese"
+      "AI工具"
     ]
   },
   {
@@ -3055,11 +2680,10 @@
     "stars": 10972,
     "updatedAt": "2026-01-20T06:43:17Z",
     "tags": [
-      "frontend",
-      "blog",
-      "NextJS",
-      "JavaScript",
-      "static-site"
+      "后端",
+      "内容创作",
+      "前端",
+      "部署运维"
     ]
   },
   {
@@ -3072,11 +2696,11 @@
     "stars": 144,
     "updatedAt": "2026-01-20T00:55:51Z",
     "tags": [
-      "backend",
-      "3D",
-      "automation",
-      "TypeScript",
-      "API"
+      "前端",
+      "后端",
+      "游戏开发",
+      "AI Agent",
+      "数据可视化"
     ]
   },
   {
@@ -3089,9 +2713,10 @@
     "stars": 1329,
     "updatedAt": "2026-01-18T20:35:33Z",
     "tags": [
-      "Unity3D",
-      "list",
-      "collection"
+      "信息收集",
+      "Unity",
+      "游戏开发",
+      "独立游戏"
     ]
   },
   {
@@ -3104,9 +2729,9 @@
     "stars": 1338,
     "updatedAt": "2026-01-20T08:50:25Z",
     "tags": [
-      "Unity3D",
-      "library",
-      "graphics"
+      "Unity",
+      "游戏开发",
+      "开发工具"
     ]
   },
   {
@@ -3119,10 +2744,8 @@
     "stars": 1988,
     "updatedAt": "2026-01-14T09:30:45Z",
     "tags": [
-      "Unity3D",
-      "library",
-      "C",
-      "animation"
+      "Unity",
+      "开发工具"
     ]
   },
   {
@@ -3135,10 +2758,7 @@
     "stars": 10408,
     "updatedAt": "2026-01-20T05:23:49Z",
     "tags": [
-      "Unity3D",
-      "library",
-      "automation",
-      "testing"
+      "Unity"
     ]
   },
   {
@@ -3151,9 +2771,7 @@
     "stars": 1186,
     "updatedAt": "2026-01-19T11:17:10Z",
     "tags": [
-      "graphics",
-      "utility",
-      "library"
+      "游戏开发"
     ]
   },
   {
@@ -3166,9 +2784,7 @@
     "stars": 685,
     "updatedAt": "2026-01-07T07:01:53Z",
     "tags": [
-      "Unity3D",
-      "utility",
-      "editor"
+      "Unity"
     ]
   },
   {
@@ -3181,9 +2797,7 @@
     "stars": 305,
     "updatedAt": "2025-12-09T13:34:49Z",
     "tags": [
-      "Unity3D",
-      "animation",
-      "graphics"
+      "数据可视化"
     ]
   },
   {
@@ -3196,9 +2810,8 @@
     "stars": 5476,
     "updatedAt": "2026-01-20T07:43:03Z",
     "tags": [
-      "Unity3D",
-      "library",
-      "frontend"
+      "Unity",
+      "数据可视化"
     ]
   },
   {
@@ -3211,11 +2824,7 @@
     "stars": 8778,
     "updatedAt": "2026-01-20T03:59:21Z",
     "tags": [
-      "Unity3D",
-      "tutorial",
-      "collection",
-      "C",
-      "learning"
+      "Unity"
     ]
   },
   {
@@ -3228,9 +2837,7 @@
     "stars": 1865,
     "updatedAt": "2026-01-13T01:09:51Z",
     "tags": [
-      "Unity3D",
-      "editor",
-      "developer-tools"
+      "Unity"
     ]
   },
   {
@@ -3243,11 +2850,8 @@
     "stars": 12683,
     "updatedAt": "2026-01-20T09:18:24Z",
     "tags": [
-      "C",
-      "Unity3D",
-      "library",
-      "reference",
-      "game-development"
+      "Unity",
+      "文档教程"
     ]
   },
   {
@@ -3260,10 +2864,8 @@
     "stars": 909,
     "updatedAt": "2026-01-19T10:55:17Z",
     "tags": [
-      "Unity3D",
-      "C",
-      "editor",
-      "utility"
+      "Unity",
+      "内容创作"
     ]
   },
   {
@@ -3276,9 +2878,8 @@
     "stars": 73,
     "updatedAt": "2026-01-19T09:15:00Z",
     "tags": [
-      "C",
-      "Unity3D",
-      "library"
+      "Unity",
+      "前端"
     ]
   },
   {
@@ -3291,11 +2892,11 @@
     "stars": 5119,
     "updatedAt": "2026-01-20T08:52:33Z",
     "tags": [
-      "Unity3D",
-      "AI",
-      "tool",
-      "automation",
-      "game-development"
+      "Unity",
+      "AI Agent",
+      "AI工具",
+      "自动化",
+      "内容创作"
     ]
   },
   {
@@ -3308,11 +2909,10 @@
     "stars": 1238,
     "updatedAt": "2026-01-20T08:35:13Z",
     "tags": [
-      "AI",
-      "Unity3D",
-      "editor",
-      "SDK",
-      "API"
+      "Unity",
+      "AI Agent",
+      "开发工具",
+      "内容创作"
     ]
   },
   {
@@ -3325,9 +2925,7 @@
     "stars": 1057,
     "updatedAt": "2026-01-15T06:53:42Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "library"
+      "前端"
     ]
   },
   {
@@ -3340,10 +2938,7 @@
     "stars": 4322,
     "updatedAt": "2026-01-20T06:38:11Z",
     "tags": [
-      "C",
-      "library",
-      "Unity3D",
-      "framework"
+      "Unity"
     ]
   },
   {
@@ -3356,10 +2951,9 @@
     "stars": 4272,
     "updatedAt": "2026-01-19T08:42:03Z",
     "tags": [
-      "Unity3D",
-      "library",
-      "game-development",
-      "C"
+      "Unity",
+      "自动化",
+      "开发工具"
     ]
   },
   {
@@ -3372,10 +2966,9 @@
     "stars": 6123,
     "updatedAt": "2026-01-20T04:10:27Z",
     "tags": [
-      "game-development",
-      "reference",
-      "JavaScript",
-      "library"
+      "前端",
+      "游戏开发",
+      "数据可视化"
     ]
   },
   {
@@ -3388,11 +2981,11 @@
     "stars": 17621,
     "updatedAt": "2026-01-20T09:05:34Z",
     "tags": [
-      "list",
-      "collection",
-      "book",
-      "personal",
-      "Chinese"
+      "前端",
+      "游戏开发",
+      "数据库",
+      "后端",
+      "Unity"
     ]
   },
   {
@@ -3405,11 +2998,8 @@
     "stars": 19362,
     "updatedAt": "2026-01-19T14:50:49Z",
     "tags": [
-      "game-development",
-      "graphics",
-      "C++",
-      "tutorial",
-      "3D"
+      "游戏开发",
+      "文档教程"
     ]
   },
   {
@@ -3422,10 +3012,7 @@
     "stars": 24436,
     "updatedAt": "2026-01-20T09:07:25Z",
     "tags": [
-      "C",
-      "decompiler",
-      ".NET",
-      "developer-tools"
+      "Unity"
     ]
   },
   {
@@ -3438,9 +3025,10 @@
     "stars": 22,
     "updatedAt": "2025-11-18T03:51:14Z",
     "tags": [
-      "Unity3D",
-      "game-development",
-      "blueprint"
+      "Unity",
+      "游戏开发",
+      "独立游戏",
+      "开发工具"
     ]
   },
   {
@@ -3453,10 +3041,7 @@
     "stars": 14447,
     "updatedAt": "2026-01-20T06:42:02Z",
     "tags": [
-      "ai",
-      "audio",
-      "speech-to-text",
-      "Python"
+      "多媒体"
     ]
   },
   {
@@ -3469,10 +3054,8 @@
     "stars": 3354,
     "updatedAt": "2026-01-20T09:34:30Z",
     "tags": [
-      "Go",
-      "converter",
-      "library",
-      "utility"
+      "前端",
+      "内容创作"
     ]
   },
   {
@@ -3485,10 +3068,8 @@
     "stars": 1448,
     "updatedAt": "2026-01-20T03:42:26Z",
     "tags": [
-      "C",
-      "Unity3D",
-      "editor",
-      "developer-tools"
+      "Unity",
+      "内容创作"
     ]
   },
   {
@@ -3501,11 +3082,7 @@
     "stars": 1457,
     "updatedAt": "2026-01-19T11:45:01Z",
     "tags": [
-      "Unity3D",
-      "AI",
-      "LLM",
-      "game-development",
-      "C"
+      "Unity"
     ]
   },
   {
@@ -3518,11 +3095,10 @@
     "stars": 1038,
     "updatedAt": "2026-01-19T09:32:17Z",
     "tags": [
-      "game-development",
-      "ai",
-      "3D",
-      "animation",
-      "LLM"
+      "多媒体",
+      "游戏开发",
+      "AI工具",
+      "AI Agent"
     ]
   },
   {
@@ -3535,11 +3111,11 @@
     "stars": 741,
     "updatedAt": "2026-01-19T02:40:52Z",
     "tags": [
-      "Unity3D",
-      "AI",
-      "chatbot",
-      "multimodal",
-      "voice"
+      "后端",
+      "Unity",
+      "游戏开发",
+      "AI工具",
+      "数据可视化"
     ]
   },
   {
@@ -3552,10 +3128,9 @@
     "stars": 1674,
     "updatedAt": "2026-01-16T09:13:20Z",
     "tags": [
-      "Unity3D",
-      "audio",
-      "C",
-      "library"
+      "Unity",
+      "开发工具",
+      "多媒体"
     ]
   },
   {
@@ -3568,10 +3143,9 @@
     "stars": 1062,
     "updatedAt": "2026-01-20T07:09:18Z",
     "tags": [
-      "Unity3D",
-      "audio",
-      "animation",
-      "C"
+      "Unity",
+      "游戏开发",
+      "多媒体"
     ]
   },
   {
@@ -3584,10 +3158,7 @@
     "stars": 365,
     "updatedAt": "2025-12-14T03:03:54Z",
     "tags": [
-      "Unity3D",
-      "C",
-      "game-development",
-      "sound"
+      "Unity"
     ]
   },
   {
@@ -3600,11 +3171,7 @@
     "stars": 2135,
     "updatedAt": "2026-01-19T08:51:07Z",
     "tags": [
-      "AI",
-      "memory",
-      "C",
-      "research",
-      "library"
+      "Unity"
     ]
   },
   {
@@ -3617,11 +3184,10 @@
     "stars": 38080,
     "updatedAt": "2026-01-20T09:32:35Z",
     "tags": [
-      "AI",
-      "desktop",
-      "automation",
-      "TypeScript",
-      "LLM"
+      "AI Agent",
+      "前端",
+      "AI工具",
+      "自动化"
     ]
   },
   {
@@ -3634,11 +3200,10 @@
     "stars": 8297,
     "updatedAt": "2026-01-22T01:57:59Z",
     "tags": [
-      "mobile",
-      "webui",
-      "TypeScript",
-      "voice",
-      "encryption"
+      "前端",
+      "AI Agent",
+      "多媒体",
+      "安全隐私"
     ]
   },
   {
@@ -3651,11 +3216,8 @@
     "stars": 26528,
     "updatedAt": "2026-01-22T01:48:14Z",
     "tags": [
-      "self-hosted",
-      "Python",
-      "webui",
-      "bookmark",
-      "utility"
+      "前端",
+      "部署运维"
     ]
   },
   {
@@ -3668,11 +3230,8 @@
     "stars": 333,
     "updatedAt": "2026-01-21T06:51:14Z",
     "tags": [
-      "AI",
-      "automation",
-      "assistant",
-      "workflow",
-      "tool"
+      "AI Agent",
+      "内容创作"
     ]
   },
   {
@@ -3685,7 +3244,8 @@
     "stars": 11938,
     "updatedAt": "2026-01-22T02:00:07Z",
     "tags": [
-      "Uncategorized"
+      "AI Agent",
+      "信息收集"
     ]
   },
   {
@@ -3698,9 +3258,8 @@
     "stars": 1747,
     "updatedAt": "2026-01-22T01:59:21Z",
     "tags": [
-      "TypeScript",
-      "library",
-      "utility"
+      "前端",
+      "AI Agent"
     ]
   },
   {
@@ -3713,11 +3272,8 @@
     "stars": 338,
     "updatedAt": "2026-01-23T01:56:01Z",
     "tags": [
-      "Python",
-      "tool",
-      "video",
-      "YouTube",
-      "automation"
+      "AI Agent",
+      "多媒体"
     ]
   },
   {
@@ -3730,9 +3286,7 @@
     "stars": 28479,
     "updatedAt": "2026-01-24T01:52:38Z",
     "tags": [
-      "frontend",
-      "library",
-      "video"
+      "前端"
     ]
   },
   {
@@ -3745,11 +3299,9 @@
     "stars": 6963,
     "updatedAt": "2026-01-24T01:52:23Z",
     "tags": [
-      "assistant",
-      "TypeScript",
-      "desktop",
-      "personal",
-      "AI"
+      "前端",
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -3762,11 +3314,11 @@
     "stars": 18,
     "updatedAt": "2026-01-28T01:35:08Z",
     "tags": [
-      "frontend",
-      "automation",
-      "chatbot",
-      "AI",
-      "JavaScript"
+      "AI Agent",
+      "前端",
+      "后端",
+      "AI工具",
+      "自动化"
     ]
   },
   {
@@ -3779,11 +3331,8 @@
     "stars": 3474,
     "updatedAt": "2026-01-30T02:12:28Z",
     "tags": [
-      "list",
-      "collection",
-      "AI",
-      "assistant",
-      "community"
+      "AI Agent",
+      "信息收集"
     ]
   },
   {
@@ -3796,9 +3345,7 @@
     "stars": 1,
     "updatedAt": "2026-01-30T18:22:11Z",
     "tags": [
-      "C",
-      "game-development",
-      "Unity3D"
+      "Unity"
     ]
   },
   {
@@ -3811,11 +3358,10 @@
     "stars": 1,
     "updatedAt": "2026-02-03T16:59:23Z",
     "tags": [
-      "Unity3D",
-      "game-development",
-      "Python",
-      "library",
-      "collection"
+      "AI Agent",
+      "游戏开发",
+      "Unity",
+      "信息收集"
     ]
   },
   {
@@ -3828,10 +3374,7 @@
     "stars": 9153,
     "updatedAt": "2026-02-06T02:23:18Z",
     "tags": [
-      "Python",
-      "library",
-      "utility",
-      "automation"
+      "AI Agent"
     ]
   },
   {
@@ -3844,10 +3387,8 @@
     "stars": 1,
     "updatedAt": "2026-02-09T02:22:49Z",
     "tags": [
-      "chatbot",
-      "automation",
-      "tool",
-      "Python"
+      "AI Agent",
+      "开发工具"
     ]
   },
   {
@@ -3860,11 +3401,9 @@
     "stars": 19839,
     "updatedAt": "2026-02-09T02:21:48Z",
     "tags": [
-      "tool",
-      "Python",
-      "CLI",
-      "monitoring",
-      "configuration"
+      "AI Agent",
+      "开发工具",
+      "部署运维"
     ]
   },
   {
@@ -3877,11 +3416,8 @@
     "stars": 60020,
     "updatedAt": "2026-02-13T02:20:46Z",
     "tags": [
-      "crawler",
-      "ai",
-      "Python",
-      "webui",
-      "automation"
+      "信息收集",
+      "AI工具"
     ]
   },
   {
@@ -3894,11 +3430,11 @@
     "stars": 994,
     "updatedAt": "2026-02-26T02:18:54Z",
     "tags": [
-      "backend",
-      "Python",
-      "CLI",
-      "automation",
-      "AI"
+      "后端",
+      "信息收集",
+      "AI Agent",
+      "AI工具",
+      "开发工具"
     ]
   },
   {
@@ -3911,10 +3447,8 @@
     "stars": 4,
     "updatedAt": "2026-02-28T00:21:47Z",
     "tags": [
-      "TypeScript",
-      "chatbot",
-      "voice",
-      "extension"
+      "前端",
+      "开发工具"
     ]
   },
   {
@@ -3927,11 +3461,8 @@
     "stars": 24038,
     "updatedAt": "2026-03-06T02:21:49Z",
     "tags": [
-      "web",
-      "crawler",
-      "automation",
-      "Python",
-      "library"
+      "信息收集",
+      "开发工具"
     ]
   },
   {
@@ -3944,11 +3475,10 @@
     "stars": 11871,
     "updatedAt": "2026-03-06T02:21:21Z",
     "tags": [
-      "CLI",
-      "tool",
-      "automation",
-      "API",
-      "Rust"
+      "AI Agent",
+      "AI工具",
+      "开发工具",
+      "文档教程"
     ]
   },
   {
@@ -3961,9 +3491,8 @@
     "stars": 3,
     "updatedAt": "2026-03-10T01:36:39Z",
     "tags": [
-      "JavaScript",
-      "frontend",
-      "library"
+      "前端",
+      "AI Agent"
     ]
   },
   {
@@ -3976,10 +3505,8 @@
     "stars": 4119,
     "updatedAt": "2026-03-11T02:00:36Z",
     "tags": [
-      "ai",
-      "Chinese",
-      "nlp",
-      "utility"
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -3992,11 +3519,10 @@
     "stars": 15263,
     "updatedAt": "2026-03-11T02:09:52Z",
     "tags": [
-      "ai",
-      "API",
-      "CLI",
-      "proxy",
-      "Go"
+      "AI工具",
+      "后端",
+      "AI Agent",
+      "开发工具"
     ]
   },
   {
@@ -4009,11 +3535,7 @@
     "stars": 16925,
     "updatedAt": "2026-03-12T02:23:33Z",
     "tags": [
-      "AI",
-      "Python",
-      "library",
-      "automation",
-      "prediction"
+      "AI Agent"
     ]
   },
   {
@@ -4026,7 +3548,7 @@
     "stars": 165,
     "updatedAt": "2026-03-14T01:52:08Z",
     "tags": [
-      "Uncategorized"
+      "AI Agent"
     ]
   },
   {
@@ -4039,11 +3561,10 @@
     "stars": 15580,
     "updatedAt": "2026-03-16T10:17:47Z",
     "tags": [
-      "tool",
-      "search",
-      "CLI",
-      "TypeScript",
-      "local"
+      "前端",
+      "信息收集",
+      "开发工具",
+      "文档教程"
     ]
   },
   {
@@ -4056,10 +3577,10 @@
     "stars": 402,
     "updatedAt": "2026-03-17T01:58:56Z",
     "tags": [
-      "AI",
-      "security",
-      "framework",
-      "Python"
+      "AI Agent",
+      "AI工具",
+      "开发工具",
+      "安全隐私"
     ]
   },
   {
@@ -4072,11 +3593,11 @@
     "stars": 1379,
     "updatedAt": "2026-03-18T02:24:08Z",
     "tags": [
-      "tool",
-      "automation",
-      "web",
-      "CLI",
-      "TypeScript"
+      "前端",
+      "AI工具",
+      "自动化",
+      "开发工具",
+      "内容创作"
     ]
   },
   {
@@ -4089,11 +3610,9 @@
     "stars": 2235,
     "updatedAt": "2026-03-20T02:05:15Z",
     "tags": [
-      "AI",
-      "automation",
-      "chatbot",
-      "Go",
-      "integration"
+      "AI Agent",
+      "AI工具",
+      "开发工具"
     ]
   },
   {
@@ -4106,11 +3625,8 @@
     "stars": 46025,
     "updatedAt": "2026-03-21T02:10:36Z",
     "tags": [
-      "AI",
-      "Python",
-      "research",
-      "automation",
-      "LLM"
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -4123,11 +3639,10 @@
     "stars": 1834,
     "updatedAt": "2026-03-29T02:41:06Z",
     "tags": [
-      "CLI",
-      "tool",
-      "automation",
-      "API",
-      "Go"
+      "AI Agent",
+      "AI工具",
+      "开发工具",
+      "文档教程"
     ]
   },
   {
@@ -4140,11 +3655,10 @@
     "stars": 28,
     "updatedAt": "2026-03-30T02:17:05Z",
     "tags": [
-      "CLI",
-      "automation",
-      "AI",
-      "tool",
-      "Go"
+      "AI Agent",
+      "AI工具",
+      "开发工具",
+      "内容创作"
     ]
   },
   {
@@ -4157,11 +3671,8 @@
     "stars": 70745,
     "updatedAt": "2026-04-01T02:49:55Z",
     "tags": [
-      "tool",
-      "Rust",
-      "automation",
-      "developer-tools",
-      "Open"
+      "信息收集",
+      "AI Agent"
     ]
   },
   {
@@ -4174,11 +3685,8 @@
     "stars": 3897,
     "updatedAt": "2026-04-01T02:45:42Z",
     "tags": [
-      "prompt-engineering",
-      "TypeScript",
-      "AI",
-      "automation",
-      "workflow"
+      "前端",
+      "AI Agent"
     ]
   },
   {
@@ -4191,11 +3699,9 @@
     "stars": 3862,
     "updatedAt": "2026-04-01T01:41:25Z",
     "tags": [
-      "frontend",
-      "editor",
-      "design",
-      "TypeScript",
-      "AI"
+      "前端",
+      "AI工具",
+      "内容创作"
     ]
   },
   {
@@ -4208,11 +3714,11 @@
     "stars": 29801,
     "updatedAt": "2026-04-01T02:49:49Z",
     "tags": [
-      "tool",
-      "TypeScript",
-      "AI",
-      "CLI",
-      "library"
+      "前端",
+      "AI工具",
+      "后端",
+      "AI Agent",
+      "自动化"
     ]
   },
   {
@@ -4225,11 +3731,10 @@
     "stars": 7963,
     "updatedAt": "2026-04-03T02:34:12Z",
     "tags": [
-      "ai",
-      "game-development",
-      "automation",
-      "workflow",
-      "LLM"
+      "AI Agent",
+      "游戏开发",
+      "AI工具",
+      "自动化"
     ]
   },
   {
@@ -4242,11 +3747,8 @@
     "stars": 1,
     "updatedAt": "2026-04-03T10:13:13Z",
     "tags": [
-      "C",
-      "CLI",
-      "automation",
-      "utility",
-      "backend"
+      "Unity",
+      "AI Agent"
     ]
   },
   {
@@ -4259,10 +3761,7 @@
     "stars": 22,
     "updatedAt": "2026-04-03T13:40:15Z",
     "tags": [
-      "Unity3D",
-      "game-development",
-      "shader",
-      "graphics"
+      "游戏开发"
     ]
   },
   {
@@ -4275,11 +3774,8 @@
     "stars": 2649,
     "updatedAt": "2026-04-08T10:27:04Z",
     "tags": [
-      "Unity3D",
-      "game-development",
-      "collection",
-      "list",
-      "library"
+      "信息收集",
+      "Unity"
     ]
   },
   {
@@ -4292,10 +3788,9 @@
     "stars": 57029,
     "updatedAt": "2026-04-09T02:12:25Z",
     "tags": [
-      "search",
-      "backend",
-      "API",
-      "Rust"
+      "后端",
+      "信息收集",
+      "AI工具"
     ]
   },
   {
@@ -4308,10 +3803,9 @@
     "stars": 8491,
     "updatedAt": "2026-04-15T07:33:29Z",
     "tags": [
-      "frontend",
-      "AI",
-      "developer-tools",
-      "prompt-engineering"
+      "前端",
+      "AI Agent",
+      "AI工具"
     ]
   },
   {
@@ -4324,9 +3818,8 @@
     "stars": 19304,
     "updatedAt": "2026-04-15T07:40:03Z",
     "tags": [
-      "frontend",
-      "design",
-      "JavaScript"
+      "前端",
+      "AI工具"
     ]
   },
   {
@@ -4339,9 +3832,10 @@
     "stars": 2703,
     "updatedAt": "2026-04-20T02:53:29Z",
     "tags": [
-      "LLM",
-      "API",
-      "list"
+      "信息收集",
+      "前端",
+      "后端",
+      "AI工具"
     ]
   },
   {
@@ -4354,9 +3848,7 @@
     "stars": 3709,
     "updatedAt": "2026-04-29T03:25:21Z",
     "tags": [
-      "shell",
-      "automation",
-      "workflow"
+      "AI Agent"
     ]
   },
   {
@@ -4369,11 +3861,9 @@
     "stars": 80199,
     "updatedAt": "2026-05-06T03:23:35Z",
     "tags": [
-      "terminal",
-      "automation",
-      "AI",
-      "CLI",
-      "Rust"
+      "AI Agent",
+      "AI工具",
+      "开发工具"
     ]
   },
   {
@@ -4386,11 +3876,10 @@
     "stars": 6117,
     "updatedAt": "2026-05-07T03:04:54Z",
     "tags": [
-      "game-development",
-      "C++",
-      "C",
-      "framework",
-      "Unity3D"
+      "游戏开发",
+      "Unity",
+      "独立游戏",
+      "内容创作"
     ]
   },
   {
@@ -4403,11 +3892,10 @@
     "stars": 13848,
     "updatedAt": "2026-05-06T15:55:35Z",
     "tags": [
-      "framework",
-      "game-development",
-      "C",
-      "desktop",
-      "mobile"
+      "Unity",
+      "游戏开发",
+      "独立游戏",
+      "开发工具"
     ]
   },
   {
@@ -4420,11 +3908,10 @@
     "stars": 944,
     "updatedAt": "2026-05-08T01:33:32Z",
     "tags": [
-      "Unity3D",
-      "AI",
-      "automation",
-      "game-development",
-      "C"
+      "Unity",
+      "AI Agent",
+      "AI工具",
+      "自动化"
     ]
   },
   {
@@ -4437,11 +3924,10 @@
     "stars": 184,
     "updatedAt": "2026-05-12T09:17:43Z",
     "tags": [
-      "plugin",
-      "editor",
-      "game-development",
-      "Python",
-      "automation"
+      "游戏开发",
+      "AI Agent",
+      "开发工具",
+      "内容创作"
     ]
   },
   {
@@ -4454,11 +3940,8 @@
     "stars": 5264,
     "updatedAt": "2026-05-12T13:35:27Z",
     "tags": [
-      "Unity3D",
-      "framework",
-      "library",
-      "game-development",
-      "C"
+      "Unity",
+      "游戏开发"
     ]
   },
   {
@@ -4471,9 +3954,9 @@
     "stars": 9938,
     "updatedAt": "2026-05-13T01:08:19Z",
     "tags": [
-      "list",
-      "game-development",
-      "collection"
+      "信息收集",
+      "游戏开发",
+      "自动化"
     ]
   },
   {
@@ -4486,11 +3969,10 @@
     "stars": 41724,
     "updatedAt": "2026-05-16T03:25:52Z",
     "tags": [
-      "frontend",
-      "design",
-      "UI",
-      "prototyping",
-      "TypeScript"
+      "前端",
+      "AI Agent",
+      "开发工具",
+      "多媒体"
     ]
   },
   {
@@ -4503,11 +3985,11 @@
     "stars": 2045,
     "updatedAt": "2026-05-16T03:24:47Z",
     "tags": [
-      "ai",
-      "frontend",
-      "editor",
-      "automation",
-      "webui"
+      "AI Agent",
+      "前端",
+      "后端",
+      "AI工具",
+      "内容创作"
     ]
   },
   {
@@ -4520,11 +4002,9 @@
     "stars": 22775,
     "updatedAt": "2026-05-25T04:03:15Z",
     "tags": [
-      "tool",
-      "TypeScript",
-      "AI",
-      "local",
-      "developer-tools"
+      "AI Agent",
+      "前端",
+      "数据可视化"
     ]
   },
   {
@@ -4537,11 +4017,11 @@
     "stars": 53157,
     "updatedAt": "2026-05-25T03:59:45Z",
     "tags": [
-      "AI",
-      "automation",
-      "database",
-      "developer-tools",
-      "Python"
+      "AI Agent",
+      "数据库",
+      "AI工具",
+      "自动化",
+      "开发工具"
     ]
   },
   {
@@ -4554,11 +4034,7 @@
     "stars": 105,
     "updatedAt": "2026-05-25T16:40:36Z",
     "tags": [
-      "frontend",
-      "browser",
-      "extension",
-      "JavaScript",
-      "utility"
+      "前端"
     ]
   },
   {
@@ -4571,11 +4047,10 @@
     "stars": 95907,
     "updatedAt": "2026-05-28T03:40:22Z",
     "tags": [
-      "automation",
-      "Python",
-      "AI",
-      "browser",
-      "webui"
+      "前端",
+      "AI Agent",
+      "AI工具",
+      "自动化"
     ]
   },
   {
@@ -4588,10 +4063,8 @@
     "stars": 492,
     "updatedAt": "2026-06-01T14:09:53Z",
     "tags": [
-      "Unity3D",
-      "agent",
-      "automation",
-      "Rust"
+      "Unity",
+      "AI Agent"
     ]
   },
   {
@@ -4604,11 +4077,9 @@
     "stars": 23664,
     "updatedAt": "2026-06-03T04:20:08Z",
     "tags": [
-      "frontend",
-      "TypeScript",
-      "library",
-      "video",
-      "agent"
+      "前端",
+      "AI Agent",
+      "多媒体"
     ]
   },
   {
@@ -4621,11 +4092,7 @@
     "stars": 2790,
     "updatedAt": "2026-06-02T21:47:10Z",
     "tags": [
-      "C",
-      "game-development",
-      "dialogue",
-      "tool",
-      "library"
+      "Unity"
     ]
   }
 ]

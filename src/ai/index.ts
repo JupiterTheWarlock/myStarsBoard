@@ -1,17 +1,14 @@
 import OpenAI from 'openai';
 import fs from 'fs/promises';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import { config } from '../config/index.js';
 import { withApiRetry } from '../utils/retry.js';
-import { loadTagsTxt, appendTagToTagsTxt, matchTagByKeywords, loadTagKeywords } from '../keyword/index.js';
+import { loadTagsTxt, appendTagToTagsTxt, matchTagByKeywords, matchTagsByKeywords, loadTagKeywords } from '../keyword/index.js';
 import type { Star } from '../types.js';
+import { DATA_DIR } from '../paths.js';
+import { parseGeneratedTags } from './tag-parser.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const DATA_DIR = path.join(__dirname, '..', 'datas');
-const STARS_WITH_TAGS_FILE = path.join(__dirname, '..', 'datas', 'stars-with-tags.json');
+const STARS_WITH_TAGS_FILE = path.join(DATA_DIR, 'stars-with-tags.json');
 
 const client = new OpenAI({
   baseURL: config.openaiBaseUrl,
@@ -27,6 +24,12 @@ const client = new OpenAI({
 export async function generateTags(repo: Star, existingTags: string[]): Promise<string[]> {
   // Keyword pre-matching
   const tagKeywords = await loadTagKeywords();
+  if (!config.enableAiTagging) {
+    const manualTags = matchTagsByKeywords(repo, tagKeywords, config.tagCountMax)
+      .filter((tag) => existingTags.includes(tag));
+    return manualTags.length > 0 ? manualTags : ['未分类'];
+  }
+
   const suggestedTag = matchTagByKeywords(repo, tagKeywords);
 
   // Build AI prompt with existing tags and suggestion
@@ -46,7 +49,7 @@ ${suggestion}
 要求:
 1. 优先使用现有标签列表中的标签
 2. 只返回标签名称，用逗号分隔
-3. ${config.enableNewTags ? '如果没有合适的现有标签，可以创建新标签' : '不要创建新标签，使用 Uncategorized'}
+3. ${config.enableNewTags ? '如果没有合适的现有标签，可以创建新标签' : '不要创建新标签，使用 未分类'}
 
 示例: frontend,tool,library`;
 
@@ -79,33 +82,20 @@ ${suggestion}
       `AI tag generation for ${repo.fullName}`
     );
 
-    const message = response.choices[0]?.message || {};
+    const content = response.choices[0]?.message?.content?.trim() ?? '';
 
-    let content = '';
-
-    if (message.reasoning_content && message.reasoning_content.length > 0) {
-      content = message.reasoning_content;
-      console.log(`  [Thinking模式] ${repo.fullName}`);
-    } else if (message.content && message.content.length > 0) {
-      content = message.content;
-      console.log(`  [普通模式] ${repo.fullName}`);
+    if (content.length > 0) {
+      console.log(`  [AI响应] ${repo.fullName}`);
     } else {
       console.log(`  [空响应] ${repo.fullName}`);
     }
 
-    // Parse and validate tags
-    let tags = content
-      .split(',')
-      .map((tag) => tag.trim())
-      .filter((tag) => tag.length > 0 && !tag.includes('**') && !tag.includes('1.') && !tag.includes('：'));
-
-    // Filter special characters from tags
-    tags = tags.map((tag) => tag.replace(/[#\/\\]/g, '').trim()).filter((tag) => tag.length > 0);
+    let tags = parseGeneratedTags(content, config.tagCountMax);
 
     // Handle new tags
     if (config.enableNewTags) {
       for (const tag of tags) {
-        if (!existingTags.includes(tag) && tag !== 'Uncategorized') {
+        if (!existingTags.includes(tag) && tag !== '未分类') {
           await appendTagToTagsTxt(tag);
           existingTags.push(tag);
           console.log(`  [新标签] ${tag}`);
@@ -113,16 +103,14 @@ ${suggestion}
       }
     }
 
-    // If no tags generated and new tags disabled, use Uncategorized
     if (tags.length === 0) {
-      tags = ['Uncategorized'];
+      tags = ['未分类'];
     }
 
-    // Limit to max tag count
-    return tags.slice(0, config.tagCountMax);
+    return tags;
   } catch (error) {
     console.error(`Error generating tags for ${repo.fullName}:`, (error as Error).message);
-    return ['Uncategorized'];
+    return ['未分类'];
   }
 }
 

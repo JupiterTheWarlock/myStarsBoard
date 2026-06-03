@@ -38,7 +38,7 @@ async function fetchStarsPage(page: number): Promise<GitHubStarResponse[]> {
       throw new Error(`GitHub API error: ${response.status} ${response.statusText}`);
     }
 
-    return response.json();
+    return response.json() as Promise<GitHubStarResponse[]>;
   }, `GitHub API page ${page}`);
 }
 

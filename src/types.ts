@@ -61,6 +61,8 @@ export interface Config {
   tagCountMax: number;
   /** Whether to allow creating new tags */
   enableNewTags: boolean;
+  /** Whether to call AI for tag generation */
+  enableAiTagging: boolean;
   /** Enable thinking mode for AI */
   enableThinking: boolean;
   /** Batch size for AI processing */

@@ -1,14 +1,10 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import type { Star, StarsByTag } from '../types.js';
+import { DATA_DIR } from '../paths.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const TAGS_FILE = path.join(__dirname, '..', 'datas', 'tags.json');
-const STARS_FILE = path.join(__dirname, '..', 'datas', 'stars.json');
-const DATA_DIR = path.join(__dirname, '..', 'datas');
+const TAGS_FILE = path.join(DATA_DIR, 'tags.json');
+const STARS_FILE = path.join(DATA_DIR, 'stars.json');
 
 /**
  * Ensures the data directory exists
