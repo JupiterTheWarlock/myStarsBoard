@@ -3690,6 +3690,20 @@
         "AI Agent",
         "多媒体"
       ]
+    },
+    {
+      "id": 1173152133,
+      "name": "Shadowbroker",
+      "fullName": "BigBodyCobain/Shadowbroker",
+      "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
+      "language": "Python",
+      "url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "stars": 9018,
+      "updatedAt": "2026-06-03T09:35:15Z",
+      "tags": [
+        "AI Agent",
+        "AI工具"
+      ]
     }
   ],
   "开发工具": [
@@ -7376,6 +7390,20 @@
         "AI Agent",
         "AI工具",
         "自动化"
+      ]
+    },
+    {
+      "id": 1173152133,
+      "name": "Shadowbroker",
+      "fullName": "BigBodyCobain/Shadowbroker",
+      "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
+      "language": "Python",
+      "url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "stars": 9018,
+      "updatedAt": "2026-06-03T09:35:15Z",
+      "tags": [
+        "AI Agent",
+        "AI工具"
       ]
     }
   ],
