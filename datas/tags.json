@@ -1543,6 +1543,23 @@
         "local",
         "developer-tools"
       ]
+    },
+    {
+      "id": 43618365,
+      "name": "YarnSpinner",
+      "fullName": "YarnSpinnerTool/YarnSpinner",
+      "description": "The core compiler and engine-agnostic components for Yarn Spinner, the friendly dialogue tool.",
+      "language": "C#",
+      "url": "https://github.com/YarnSpinnerTool/YarnSpinner",
+      "stars": 2790,
+      "updatedAt": "2026-06-02T21:47:10Z",
+      "tags": [
+        "C",
+        "game-development",
+        "dialogue",
+        "tool",
+        "library"
+      ]
     }
   ],
   "frontend": [
@@ -2575,6 +2592,23 @@
         "JavaScript",
         "utility"
       ]
+    },
+    {
+      "id": 1177402105,
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "stars": 23664,
+      "updatedAt": "2026-06-03T04:20:08Z",
+      "tags": [
+        "frontend",
+        "TypeScript",
+        "library",
+        "video",
+        "agent"
+      ]
     }
   ],
   "library": [
@@ -3586,6 +3620,40 @@
         "library",
         "game-development",
         "C"
+      ]
+    },
+    {
+      "id": 1177402105,
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "stars": 23664,
+      "updatedAt": "2026-06-03T04:20:08Z",
+      "tags": [
+        "frontend",
+        "TypeScript",
+        "library",
+        "video",
+        "agent"
+      ]
+    },
+    {
+      "id": 43618365,
+      "name": "YarnSpinner",
+      "fullName": "YarnSpinnerTool/YarnSpinner",
+      "description": "The core compiler and engine-agnostic components for Yarn Spinner, the friendly dialogue tool.",
+      "language": "C#",
+      "url": "https://github.com/YarnSpinnerTool/YarnSpinner",
+      "stars": 2790,
+      "updatedAt": "2026-06-02T21:47:10Z",
+      "tags": [
+        "C",
+        "game-development",
+        "dialogue",
+        "tool",
+        "library"
       ]
     }
   ],
@@ -4862,6 +4930,23 @@
         "AI",
         "local",
         "developer-tools"
+      ]
+    },
+    {
+      "id": 1177402105,
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "stars": 23664,
+      "updatedAt": "2026-06-03T04:20:08Z",
+      "tags": [
+        "frontend",
+        "TypeScript",
+        "library",
+        "video",
+        "agent"
       ]
     }
   ],
@@ -9781,6 +9866,23 @@
         "game-development",
         "C"
       ]
+    },
+    {
+      "id": 43618365,
+      "name": "YarnSpinner",
+      "fullName": "YarnSpinnerTool/YarnSpinner",
+      "description": "The core compiler and engine-agnostic components for Yarn Spinner, the friendly dialogue tool.",
+      "language": "C#",
+      "url": "https://github.com/YarnSpinnerTool/YarnSpinner",
+      "stars": 2790,
+      "updatedAt": "2026-06-02T21:47:10Z",
+      "tags": [
+        "C",
+        "game-development",
+        "dialogue",
+        "tool",
+        "library"
+      ]
     }
   ],
   "desktop": [
@@ -14474,6 +14576,23 @@
         "library",
         "video"
       ]
+    },
+    {
+      "id": 1177402105,
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "stars": 23664,
+      "updatedAt": "2026-06-03T04:20:08Z",
+      "tags": [
+        "frontend",
+        "TypeScript",
+        "library",
+        "video",
+        "agent"
+      ]
     }
   ],
   "AI": [
@@ -18696,6 +18815,23 @@
         "game-development",
         "collection"
       ]
+    },
+    {
+      "id": 43618365,
+      "name": "YarnSpinner",
+      "fullName": "YarnSpinnerTool/YarnSpinner",
+      "description": "The core compiler and engine-agnostic components for Yarn Spinner, the friendly dialogue tool.",
+      "language": "C#",
+      "url": "https://github.com/YarnSpinnerTool/YarnSpinner",
+      "stars": 2790,
+      "updatedAt": "2026-06-02T21:47:10Z",
+      "tags": [
+        "C",
+        "game-development",
+        "dialogue",
+        "tool",
+        "library"
+      ]
     }
   ],
   "book": [
@@ -19393,6 +19529,42 @@
         "agent",
         "automation",
         "Rust"
+      ]
+    },
+    {
+      "id": 1177402105,
+      "name": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "stars": 23664,
+      "updatedAt": "2026-06-03T04:20:08Z",
+      "tags": [
+        "frontend",
+        "TypeScript",
+        "library",
+        "video",
+        "agent"
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": 43618365,
+      "name": "YarnSpinner",
+      "fullName": "YarnSpinnerTool/YarnSpinner",
+      "description": "The core compiler and engine-agnostic components for Yarn Spinner, the friendly dialogue tool.",
+      "language": "C#",
+      "url": "https://github.com/YarnSpinnerTool/YarnSpinner",
+      "stars": 2790,
+      "updatedAt": "2026-06-02T21:47:10Z",
+      "tags": [
+        "C",
+        "game-development",
+        "dialogue",
+        "tool",
+        "library"
       ]
     }
   ]
