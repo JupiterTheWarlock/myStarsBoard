@@ -2151,6 +2151,22 @@
         "AI Agent",
         "多媒体"
       ]
+    },
+    {
+      "id": 1161025758,
+      "name": "OpenAlice",
+      "fullName": "TraderAlice/OpenAlice",
+      "description": "Your one-person Wall Street. An AI trading agent covering equities, crypto, commodities, forex, and macro — from research through position entry, ongoing management, to exit.",
+      "language": "TypeScript",
+      "url": "https://github.com/TraderAlice/OpenAlice",
+      "stars": 5214,
+      "updatedAt": "2026-06-13T03:46:02Z",
+      "tags": [
+        "金融交易",
+        "AI Agent",
+        "AI工具",
+        "前端"
+      ]
     }
   ],
   "AI Agent": [
@@ -3703,6 +3719,22 @@
       "tags": [
         "AI Agent",
         "AI工具"
+      ]
+    },
+    {
+      "id": 1161025758,
+      "name": "OpenAlice",
+      "fullName": "TraderAlice/OpenAlice",
+      "description": "Your one-person Wall Street. An AI trading agent covering equities, crypto, commodities, forex, and macro — from research through position entry, ongoing management, to exit.",
+      "language": "TypeScript",
+      "url": "https://github.com/TraderAlice/OpenAlice",
+      "stars": 5214,
+      "updatedAt": "2026-06-13T03:46:02Z",
+      "tags": [
+        "金融交易",
+        "AI Agent",
+        "AI工具",
+        "前端"
       ]
     }
   ],
@@ -7405,6 +7437,22 @@
         "AI Agent",
         "AI工具"
       ]
+    },
+    {
+      "id": 1161025758,
+      "name": "OpenAlice",
+      "fullName": "TraderAlice/OpenAlice",
+      "description": "Your one-person Wall Street. An AI trading agent covering equities, crypto, commodities, forex, and macro — from research through position entry, ongoing management, to exit.",
+      "language": "TypeScript",
+      "url": "https://github.com/TraderAlice/OpenAlice",
+      "stars": 5214,
+      "updatedAt": "2026-06-13T03:46:02Z",
+      "tags": [
+        "金融交易",
+        "AI Agent",
+        "AI工具",
+        "前端"
+      ]
     }
   ],
   "独立游戏": [
@@ -9132,6 +9180,22 @@
       "tags": [
         "自动化",
         "金融交易"
+      ]
+    },
+    {
+      "id": 1161025758,
+      "name": "OpenAlice",
+      "fullName": "TraderAlice/OpenAlice",
+      "description": "Your one-person Wall Street. An AI trading agent covering equities, crypto, commodities, forex, and macro — from research through position entry, ongoing management, to exit.",
+      "language": "TypeScript",
+      "url": "https://github.com/TraderAlice/OpenAlice",
+      "stars": 5214,
+      "updatedAt": "2026-06-13T03:46:02Z",
+      "tags": [
+        "金融交易",
+        "AI Agent",
+        "AI工具",
+        "前端"
       ]
     }
   ],
