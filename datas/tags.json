@@ -2167,6 +2167,21 @@
         "AI工具",
         "前端"
       ]
+    },
+    {
+      "id": 1033778670,
+      "name": "AionUi",
+      "fullName": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+      "language": "TypeScript",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "stars": 28392,
+      "updatedAt": "2026-06-17T04:14:44Z",
+      "tags": [
+        "AI Agent",
+        "前端",
+        "开发工具"
+      ]
     }
   ],
   "AI Agent": [
@@ -3736,6 +3751,21 @@
         "AI工具",
         "前端"
       ]
+    },
+    {
+      "id": 1033778670,
+      "name": "AionUi",
+      "fullName": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+      "language": "TypeScript",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "stars": 28392,
+      "updatedAt": "2026-06-17T04:14:44Z",
+      "tags": [
+        "AI Agent",
+        "前端",
+        "开发工具"
+      ]
     }
   ],
   "开发工具": [
@@ -4498,6 +4528,21 @@
         "数据库",
         "AI工具",
         "自动化",
+        "开发工具"
+      ]
+    },
+    {
+      "id": 1033778670,
+      "name": "AionUi",
+      "fullName": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+      "language": "TypeScript",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "stars": 28392,
+      "updatedAt": "2026-06-17T04:14:44Z",
+      "tags": [
+        "AI Agent",
+        "前端",
         "开发工具"
       ]
     }
