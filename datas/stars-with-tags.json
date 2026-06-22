@@ -4139,5 +4139,20 @@
       "前端",
       "开发工具"
     ]
+  },
+  {
+    "id": 1266797999,
+    "name": "ponytail",
+    "fullName": "DietrichGebert/ponytail",
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "language": "JavaScript",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "stars": 46843,
+    "updatedAt": "2026-06-22T04:41:04Z",
+    "tags": [
+      "AI Agent",
+      "AI工具",
+      "前端"
+    ]
   }
 ]
