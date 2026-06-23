@@ -3796,6 +3796,20 @@
         "AI工具",
         "前端"
       ]
+    },
+    {
+      "id": 1151667698,
+      "name": "godogen",
+      "fullName": "htdt/godogen",
+      "description": "Autonomous game development for Godot and Bevy with Claude Code and Codex",
+      "language": "Python",
+      "url": "https://github.com/htdt/godogen",
+      "stars": 3804,
+      "updatedAt": "2026-06-23T03:42:29Z",
+      "tags": [
+        "游戏开发",
+        "AI Agent"
+      ]
     }
   ],
   "开发工具": [
@@ -8004,6 +8018,20 @@
         "信息收集",
         "游戏开发",
         "自动化"
+      ]
+    },
+    {
+      "id": 1151667698,
+      "name": "godogen",
+      "fullName": "htdt/godogen",
+      "description": "Autonomous game development for Godot and Bevy with Claude Code and Codex",
+      "language": "Python",
+      "url": "https://github.com/htdt/godogen",
+      "stars": 3804,
+      "updatedAt": "2026-06-23T03:42:29Z",
+      "tags": [
+        "游戏开发",
+        "AI Agent"
       ]
     }
   ],
