@@ -3810,6 +3810,21 @@
         "游戏开发",
         "AI Agent"
       ]
+    },
+    {
+      "id": 1128123594,
+      "name": "OpenViking",
+      "fullName": "volcengine/OpenViking",
+      "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+      "language": "Python",
+      "url": "https://github.com/volcengine/OpenViking",
+      "stars": 25970,
+      "updatedAt": "2026-06-24T03:41:57Z",
+      "tags": [
+        "AI Agent",
+        "AI工具",
+        "数据库"
+      ]
     }
   ],
   "开发工具": [
@@ -7557,6 +7572,21 @@
         "AI工具",
         "前端"
       ]
+    },
+    {
+      "id": 1128123594,
+      "name": "OpenViking",
+      "fullName": "volcengine/OpenViking",
+      "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+      "language": "Python",
+      "url": "https://github.com/volcengine/OpenViking",
+      "stars": 25970,
+      "updatedAt": "2026-06-24T03:41:57Z",
+      "tags": [
+        "AI Agent",
+        "AI工具",
+        "数据库"
+      ]
     }
   ],
   "独立游戏": [
@@ -9676,6 +9706,21 @@
         "AI工具",
         "自动化",
         "开发工具"
+      ]
+    },
+    {
+      "id": 1128123594,
+      "name": "OpenViking",
+      "fullName": "volcengine/OpenViking",
+      "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+      "language": "Python",
+      "url": "https://github.com/volcengine/OpenViking",
+      "stars": 25970,
+      "updatedAt": "2026-06-24T03:41:57Z",
+      "tags": [
+        "AI Agent",
+        "AI工具",
+        "数据库"
       ]
     }
   ],
