@@ -4183,5 +4183,20 @@
       "AI工具",
       "数据库"
     ]
+  },
+  {
+    "id": 1113573066,
+    "name": "ppt-master",
+    "fullName": "hugohe3/ppt-master",
+    "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
+    "language": "Python",
+    "url": "https://github.com/hugohe3/ppt-master",
+    "stars": 32441,
+    "updatedAt": "2026-06-27T03:39:06Z",
+    "tags": [
+      "AI工具",
+      "多媒体",
+      "开发工具"
+    ]
   }
 ]
