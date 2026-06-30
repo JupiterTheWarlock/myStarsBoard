@@ -4198,5 +4198,18 @@
       "多媒体",
       "开发工具"
     ]
+  },
+  {
+    "id": 1283664592,
+    "name": "cgj2026-team-lobby",
+    "fullName": "JupiterTheWarlock/cgj2026-team-lobby",
+    "description": "CGJ2026 组队大厅",
+    "language": "TypeScript",
+    "url": "https://github.com/JupiterTheWarlock/cgj2026-team-lobby",
+    "stars": 1,
+    "updatedAt": "2026-06-29T08:42:27Z",
+    "tags": [
+      "前端"
+    ]
   }
 ]
