@@ -4224,5 +4224,19 @@
     "tags": [
       "未分类"
     ]
+  },
+  {
+    "id": 1299811667,
+    "name": "multigent",
+    "fullName": "multigent/multigent",
+    "description": "MultiGent is an AI-native collaboration platform that brings humans and autonomous agents together. Manage teams, projects, workflows, tools, and shared context through a unified control plane designed for the future of intelligent work.",
+    "language": "Go",
+    "url": "https://github.com/multigent/multigent",
+    "stars": 13,
+    "updatedAt": "2026-07-25T02:20:28Z",
+    "tags": [
+      "AI Agent",
+      "AI工具"
+    ]
   }
 ]
