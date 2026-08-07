@@ -4238,5 +4238,21 @@
       "AI Agent",
       "AI工具"
     ]
+  },
+  {
+    "id": 633927609,
+    "name": "promptfoo",
+    "fullName": "promptfoo/promptfoo",
+    "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
+    "language": "TypeScript",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "stars": 24021,
+    "updatedAt": "2026-08-07T02:40:58Z",
+    "tags": [
+      "AI工具",
+      "AI Agent",
+      "部署运维",
+      "前端"
+    ]
   }
 ]
