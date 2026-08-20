@@ -2226,6 +2226,19 @@
         "部署运维",
         "前端"
       ]
+    },
+    {
+      "id": 1333321333,
+      "name": "deepseek-harness-desktop",
+      "fullName": "anywhere-labs/deepseek-harness-desktop",
+      "description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "language": "TypeScript",
+      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+      "stars": 15221,
+      "updatedAt": "2026-08-20T01:19:08Z",
+      "tags": [
+        "前端"
+      ]
     }
   ],
   "AI Agent": [
