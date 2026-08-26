@@ -2239,6 +2239,19 @@
       "tags": [
         "前端"
       ]
+    },
+    {
+      "id": 396193750,
+      "name": "remake",
+      "fullName": "VickScarlet/remake",
+      "description": "やり直すんだ。そして、次はうまくやる。",
+      "language": "TypeScript",
+      "url": "https://github.com/VickScarlet/remake",
+      "stars": 10417,
+      "updatedAt": "2026-08-25T09:07:41Z",
+      "tags": [
+        "前端"
+      ]
     }
   ],
   "AI Agent": [
