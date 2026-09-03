@@ -2252,6 +2252,34 @@
       "tags": [
         "前端"
       ]
+    },
+    {
+      "id": 1309102418,
+      "name": "cindy",
+      "fullName": "makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "url": "https://github.com/makecindy/cindy",
+      "stars": 2398,
+      "updatedAt": "2026-09-03T02:59:17Z",
+      "tags": [
+        "AI Agent",
+        "AI工具",
+        "前端"
+      ]
+    },
+    {
+      "id": 1268831075,
+      "name": "zhushen-space",
+      "fullName": "1102052563-a11y/zhushen-space",
+      "description": "",
+      "language": "HTML",
+      "url": "https://github.com/1102052563-a11y/zhushen-space",
+      "stars": 14,
+      "updatedAt": "2026-09-02T15:23:07Z",
+      "tags": [
+        "前端"
+      ]
     }
   ],
   "AI Agent": [
@@ -3908,6 +3936,21 @@
         "AI工具",
         "AI Agent",
         "部署运维",
+        "前端"
+      ]
+    },
+    {
+      "id": 1309102418,
+      "name": "cindy",
+      "fullName": "makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "url": "https://github.com/makecindy/cindy",
+      "stars": 2398,
+      "updatedAt": "2026-09-03T02:59:17Z",
+      "tags": [
+        "AI Agent",
+        "AI工具",
         "前端"
       ]
     }
@@ -7730,6 +7773,21 @@
         "AI工具",
         "AI Agent",
         "部署运维",
+        "前端"
+      ]
+    },
+    {
+      "id": 1309102418,
+      "name": "cindy",
+      "fullName": "makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "url": "https://github.com/makecindy/cindy",
+      "stars": 2398,
+      "updatedAt": "2026-09-03T02:59:17Z",
+      "tags": [
+        "AI Agent",
+        "AI工具",
         "前端"
       ]
     }
