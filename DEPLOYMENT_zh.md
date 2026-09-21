@@ -123,32 +123,11 @@ Value: gpt-4o
 
 ---
 
-## 4. 部署到 Vercel（语义搜索）
+## 4. 部署到 Vercel
 
-StarsBoard 支持语义搜索功能，需要一个 Vercel Serverless Function 在运行时将用户查询转换为 embedding 向量。
+网页仅使用浏览器内关键词搜索，无需搜索 API、嵌入模型或 Vercel 模型密钥。按仓库的 vercel.json 部署静态网页即可。
 
-### 4.1 Vercel 环境变量
-
-在 Vercel 项目设置中配置以下环境变量：
-
-**Settings → Environment Variables:**
-
-| 变量名 | 说明 | 是否必需 |
-|--------|------|----------|
-| `OPENAI_API_KEY` | API Key（用于查询 embedding） | **必需** |
-| `OPENAI_BASE_URL` | API 地址（如使用 OpenRouter 等） | 可选（默认 `https://api.openai.com/v1`） |
-
-> **注意**：GitHub Actions 和 Vercel 使用的是同一个 API Key，但需要在两个平台分别配置。
-
-### 4.2 不配置会怎样？
-
-- **不配 GitHub Secrets**：pipeline 的 embedding 生成步骤会失败（`OPENAI_API_KEY` 缺失会报错），`datas/embeddings.json` 不会生成，前端没有 embedding 数据可用
-- **不配 Vercel 环境变量**：前端构建正常（`embeddings.ts` 会包含空的 embedding map），搜索栏不显示语义搜索切换按钮，只有关键词搜索可用
-- **只配了 GitHub 没配 Vercel**：前端有 embedding 数据，语义搜索按钮可见，但点击后 API 调用会失败，自动回退到关键词搜索
-
-### 4.3 Embedding 模型
-
-语义搜索使用 `qwen/qwen3-embedding-8b` 模型，256 维 Matryoshka 降维。embedding 数据在构建时生成并嵌入前端静态文件，每个 query 在运行时通过 Vercel Function 实时计算。
+GitHub Actions 的 AI 标签功能仍可使用 OPENAI_API_KEY 和 OPENAI_BASE_URL；它们不用于网页搜索。
 
 ---
 

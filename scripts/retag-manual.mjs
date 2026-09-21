@@ -9,7 +9,6 @@ const starsFile = path.join(dataDir, 'stars.json');
 const tagsFile = path.join(dataDir, 'tags.json');
 const tagsTxtFile = path.join(dataDir, 'tags.txt');
 const tagKeywordsFile = path.join(dataDir, 'tag-keywords.json');
-const embeddingsFile = path.join(dataDir, 'embeddings.json');
 
 function normalizeText(repo) {
   return [
@@ -107,12 +106,6 @@ async function main() {
   await fs.writeFile(starsWithTagsFile, JSON.stringify(retagged, null, 2), 'utf8');
   await fs.writeFile(tagsFile, JSON.stringify(groupByTag(retagged), null, 2), 'utf8');
 
-  try {
-    await fs.writeFile(embeddingsFile, '{}\n', 'utf8');
-    console.log('Cleared datas/embeddings.json because tag text changed.');
-  } catch {
-    // Embeddings are optional.
-  }
 
   const counts = new Map();
   for (const repo of retagged) {

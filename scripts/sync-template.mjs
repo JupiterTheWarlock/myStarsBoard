@@ -37,6 +37,7 @@ const SKIP_FILES = new Set([
 
 // Files only relevant to the instance repo, not the template
 const SKIP_DATA_FILES = new Set([
+  'webui/src/embeddings.ts',                // obsolete generated vectors
   'scripts/sync-template.mjs',               // sync tool itself
   '.github/workflows/sync-template.yml',      // sync workflow itself
   'webui/src/data.ts',                        // generated instance data

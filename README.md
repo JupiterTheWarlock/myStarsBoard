@@ -18,6 +18,6 @@ To create your own stars board, head over to [StarsBoard](https://github.com/Jup
 
 ## How it works
 
-- **Daily auto-update** via GitHub Actions: fetches stars, generates AI tags, builds embeddings
-- **Web UI** with keyword & semantic search, tag filtering, and a terminal aesthetic
+- **Daily auto-update** via GitHub Actions: fetches stars and generates tags
+- **Web UI** with keyword search, tag filtering, and a terminal aesthetic
 - **Data** is embedded at build time for fast static deployment

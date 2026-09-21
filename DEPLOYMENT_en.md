@@ -123,32 +123,11 @@ Value: gpt-4o
 
 ---
 
-## 4. Deploy to Vercel (Semantic Search)
+## 4. Deploy to Vercel
 
-StarsBoard supports semantic search powered by vector embeddings. This requires a Vercel Serverless Function to convert user queries into embedding vectors at runtime.
+The website uses browser-side keyword search. No search API, embedding model, or model credentials on Vercel are needed. Deploy the static site using vercel.json.
 
-### 4.1 Vercel Environment Variables
-
-Configure the following environment variables in your Vercel project:
-
-**Settings → Environment Variables:**
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `OPENAI_API_KEY` | API key (used for query embedding) | **Required** |
-| `OPENAI_BASE_URL` | API endpoint (e.g., if using OpenRouter) | Optional (default: `https://api.openai.com/v1`) |
-
-> **Note**: GitHub Actions and Vercel use the same API key, but must be configured on both platforms separately.
-
-### 4.2 What happens if not configured?
-
-- **No GitHub Secrets**: The embedding generation step in the pipeline will fail (`OPENAI_API_KEY` missing), `datas/embeddings.json` won't be generated, and the frontend won't have embedding data
-- **No Vercel env vars**: The frontend builds normally (`embeddings.ts` will contain an empty map), the semantic search toggle won't appear in the search bar, only keyword search is available
-- **GitHub configured but not Vercel**: The frontend has embedding data and the semantic search toggle is visible, but API calls will fail when used, automatically falling back to keyword search
-
-### 4.3 Embedding Model
-
-Semantic search uses the `qwen/qwen3-embedding-8b` model with 256-dimension Matryoshka truncation. Embeddings are generated at build time and embedded in the frontend static files. Each query is computed in real-time via the Vercel Function.
+GitHub Actions can still use OPENAI_API_KEY and OPENAI_BASE_URL for AI tagging; these are unrelated to website search.
 
 ---
 

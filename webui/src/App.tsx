@@ -1,9 +1,8 @@
-import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import Stats from './components/Stats';
 import SearchBar from './components/SearchBar';
 import TagSidebar from './components/TagSidebar';
 import RepoCard from './components/RepoCard';
-import { STARSBOARD_EMBEDDINGS } from './embeddings';
 
 interface Star {
   id: number;
@@ -29,28 +28,9 @@ interface AppProps {
   iconUrl: string;
 }
 
-function cosineSimilarity(a: number[], b: number[]): number {
-  let dot = 0, normA = 0, normB = 0;
-  for (let i = 0; i < a.length; i++) {
-    dot += a[i] * b[i];
-    normA += a[i] * a[i];
-    normB += b[i] * b[i];
-  }
-  const denom = Math.sqrt(normA) * Math.sqrt(normB);
-  return denom === 0 ? 0 : dot / denom;
-}
-
-const hasEmbeddings = Object.keys(STARSBOARD_EMBEDDINGS).length > 0;
-
 function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const [semanticMode, setSemanticMode] = useState(false);
-  const [semanticResults, setSemanticResults] = useState<Map<number, number> | null>(null);
-  const [semanticLoading, setSemanticLoading] = useState(false);
-  const [topK, setTopK] = useState(20);
-  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-
   const isIconUrl = icon && (icon.startsWith('http') || icon.startsWith('/'));
   const displayIcon = icon && !isIconUrl && icon.length <= 4 ? icon : '';
 
@@ -101,52 +81,6 @@ function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
     }).length;
   }, [initialData]);
 
-  // Semantic search: debounce query, call API, compute similarities
-  const handleSearchChange = useCallback((query: string) => {
-    setSearchQuery(query);
-    setSemanticResults(null);
-
-    if (!semanticMode || !query.trim() || !hasEmbeddings) return;
-
-    if (debounceRef.current) clearTimeout(debounceRef.current);
-    setSemanticLoading(true);
-
-    debounceRef.current = setTimeout(async () => {
-      try {
-        const res = await fetch('/api/embed', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ query }),
-        });
-        if (!res.ok) {
-          const errorText = await res.text();
-          console.error('[semantic] API error:', res.status, errorText);
-          throw new Error(`embed API ${res.status}: ${errorText}`);
-        }
-        const { embedding } = await res.json();
-
-        const scores = new Map<number, number>();
-        for (const [id, emb] of Object.entries(STARSBOARD_EMBEDDINGS)) {
-          const sim = cosineSimilarity(embedding, emb);
-          if (sim > 0.6) scores.set(Number(id), sim);
-        }
-        console.log(`[semantic] query="${query}" matched ${scores.size} repos`);
-        setSemanticResults(scores);
-      } catch (err) {
-        console.error('[semantic] failed:', (err as Error).message);
-      } finally {
-        setSemanticLoading(false);
-      }
-    }, 400);
-  }, [semanticMode]);
-
-  const toggleSemantic = useCallback(() => {
-    setSemanticMode(prev => {
-      if (prev) setSemanticResults(null);
-      return !prev;
-    });
-  }, []);
-
   const displayedRepos = useMemo(() => {
     let repos: Star[];
 
@@ -168,15 +102,6 @@ function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
 
     if (!searchQuery.trim()) return repos;
 
-    // Semantic search mode
-    if (semanticMode && semanticResults) {
-      return repos
-        .filter(repo => semanticResults.has(repo.id))
-        .sort((a, b) => (semanticResults.get(b.id) ?? 0) - (semanticResults.get(a.id) ?? 0))
-        .slice(0, topK);
-    }
-
-    // Keyword search fallback (or default mode)
     const query = searchQuery.toLowerCase();
     return repos.filter(repo =>
       repo.name.toLowerCase().includes(query) ||
@@ -184,7 +109,7 @@ function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
       repo.language?.toLowerCase().includes(query) ||
       repo.fullName.toLowerCase().includes(query)
     );
-  }, [initialData, selectedTag, searchQuery, semanticMode, semanticResults, topK]);
+  }, [initialData, selectedTag, searchQuery]);
 
   const currentTagCount = selectedTag && initialData[selectedTag]
     ? initialData[selectedTag].length
@@ -224,13 +149,7 @@ function App({ initialData, title, favicon, icon, iconUrl }: AppProps) {
         <div className="max-w-[1600px] mx-auto mt-3">
           <SearchBar
             query={searchQuery}
-            onChange={handleSearchChange}
-            semantic={semanticMode}
-            onToggleSemantic={toggleSemantic}
-            loading={semanticLoading}
-            topK={topK}
-            matchedCount={semanticResults?.size ?? 0}
-            onTopKChange={setTopK}
+            onChange={setSearchQuery}
           />
         </div>
       </header>

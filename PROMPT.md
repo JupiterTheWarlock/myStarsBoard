@@ -20,7 +20,7 @@ StarsBoard is a Node.js/TypeScript application that:
 
 ## Current Objectives
 1. Understand the requested change or failure before editing.
-2. Keep changes scoped to data generation, AI tagging, embeddings, workflow, or Web UI ownership boundaries.
+2. Keep changes scoped to data generation, AI tagging, workflow, or Web UI ownership boundaries.
 3. Preserve curated inputs in `datas/tags.txt` and `datas/tag-keywords.json`.
 4. Treat generated JSON in `datas/` as runtime output unless the task is a data refresh.
 5. Run the narrow verification command that covers the change.
