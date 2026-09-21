@@ -53,6 +53,10 @@ const PLACEHOLDERS = {
 // --- Helpers ---
 function shouldSkip(relPath) {
   const parts = relPath.replace(/\\/g, '/').split('/');
+  // Personal brand assets and entrypoint are not part of the generic template.
+  // Preserve the template's own index.html rather than deleting or overwriting it.
+  const normalized = parts.join('/');
+  if (['webui/index.html', 'BRAND.md', '.gitattributes'].includes(normalized) || normalized.startsWith('webui/public/junkyard-scene/')) return true;
   // Skip if any directory segment matches SKIP_DIRS
   if (parts.slice(0, -1).some(p => SKIP_DIRS.has(p))) return true;
   // Skip if top-level file matches SKIP_FILES
