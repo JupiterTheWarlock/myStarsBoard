@@ -2280,6 +2280,21 @@
       "tags": [
         "前端"
       ]
+    },
+    {
+      "id": 753589979,
+      "name": "karakeep",
+      "fullName": "karakeep-app/karakeep",
+      "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+      "language": "TypeScript",
+      "url": "https://github.com/karakeep-app/karakeep",
+      "stars": 29249,
+      "updatedAt": "2026-09-24T03:37:07Z",
+      "tags": [
+        "信息收集",
+        "AI工具",
+        "前端"
+      ]
     }
   ],
   "AI Agent": [
@@ -6316,6 +6331,21 @@
         "游戏开发",
         "自动化"
       ]
+    },
+    {
+      "id": 753589979,
+      "name": "karakeep",
+      "fullName": "karakeep-app/karakeep",
+      "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+      "language": "TypeScript",
+      "url": "https://github.com/karakeep-app/karakeep",
+      "stars": 29249,
+      "updatedAt": "2026-09-24T03:37:07Z",
+      "tags": [
+        "信息收集",
+        "AI工具",
+        "前端"
+      ]
     }
   ],
   "AI工具": [
@@ -7787,6 +7817,21 @@
       "updatedAt": "2026-09-03T02:59:17Z",
       "tags": [
         "AI Agent",
+        "AI工具",
+        "前端"
+      ]
+    },
+    {
+      "id": 753589979,
+      "name": "karakeep",
+      "fullName": "karakeep-app/karakeep",
+      "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+      "language": "TypeScript",
+      "url": "https://github.com/karakeep-app/karakeep",
+      "stars": 29249,
+      "updatedAt": "2026-09-24T03:37:07Z",
+      "tags": [
+        "信息收集",
         "AI工具",
         "前端"
       ]
