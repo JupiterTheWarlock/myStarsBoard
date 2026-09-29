@@ -2295,6 +2295,19 @@
         "AI工具",
         "前端"
       ]
+    },
+    {
+      "id": 1393965829,
+      "name": "AIHOT",
+      "fullName": "KKKKhazix/AIHOT",
+      "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "language": "TypeScript",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "stars": 1332,
+      "updatedAt": "2026-09-29T04:48:15Z",
+      "tags": [
+        "前端"
+      ]
     }
   ],
   "AI Agent": [
