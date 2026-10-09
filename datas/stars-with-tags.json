@@ -4362,5 +4362,32 @@
     "tags": [
       "未分类"
     ]
+  },
+  {
+    "id": 1383809012,
+    "name": "magpie",
+    "fullName": "yetone/magpie",
+    "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+    "language": "Go",
+    "url": "https://github.com/yetone/magpie",
+    "stars": 6907,
+    "updatedAt": "2026-10-09T05:04:51Z",
+    "tags": [
+      "AI Agent"
+    ]
+  },
+  {
+    "id": 1209966933,
+    "name": "rea",
+    "fullName": "morluto/rea",
+    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+    "language": "TypeScript",
+    "url": "https://github.com/morluto/rea",
+    "stars": 29709,
+    "updatedAt": "2026-10-09T05:07:48Z",
+    "tags": [
+      "AI Agent",
+      "前端"
+    ]
   }
 ]
