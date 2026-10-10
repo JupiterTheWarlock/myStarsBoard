@@ -4389,5 +4389,32 @@
       "AI Agent",
       "前端"
     ]
+  },
+  {
+    "id": 1383663471,
+    "name": "PixelCosmosStudio",
+    "fullName": "JupiterTheWarlock/PixelCosmosStudio",
+    "description": "Godot pixel and voxel planet generator, procedural space skyboxes, and looping animation export",
+    "language": "GDScript",
+    "url": "https://github.com/JupiterTheWarlock/PixelCosmosStudio",
+    "stars": 1,
+    "updatedAt": "2026-10-09T08:42:25Z",
+    "tags": [
+      "游戏开发"
+    ]
+  },
+  {
+    "id": 1241158851,
+    "name": "game-icon-pack",
+    "fullName": "Nieobie/game-icon-pack",
+    "description": "800+ rounded style icons",
+    "language": "JavaScript",
+    "url": "https://github.com/Nieobie/game-icon-pack",
+    "stars": 696,
+    "updatedAt": "2026-10-10T03:02:33Z",
+    "tags": [
+      "前端",
+      "游戏开发"
+    ]
   }
 ]
