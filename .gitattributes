@@ -1,1 +1,3 @@
 webui/public/junkyard-scene/** text eol=lf
+webui/public/junkyard-scene/**/*.glb binary
+webui/public/junkyard-scene/**/*.png binary
