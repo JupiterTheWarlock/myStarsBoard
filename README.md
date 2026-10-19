@@ -6,7 +6,7 @@ JupiterTheWarlock's personal GitHub Stars board, powered by [StarsBoard](https:/
 
 This repo automatically fetches my GitHub starred repositories, tags them with AI, and presents them in a searchable web UI.
 
-**Live site:** [stars.jthewl.cc](https://stars.jthewl.cc/)
+**Live site:** [stars.jupiterthewarlock.com](https://stars.jupiterthewarlock.com/)
 
 ![StarsBoard Screenshot](stars-screenshot.png)
 
