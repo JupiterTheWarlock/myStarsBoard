@@ -4431,5 +4431,22 @@
       "后端",
       "开发工具"
     ]
+  },
+  {
+    "id": 1330417082,
+    "name": "ohmygame",
+    "fullName": "WhiteTowerAI/ohmygame",
+    "description": "The open-source studio for making games with AI. Your own one-person game studio. Everything you need to make games with AI, in one app. Game canvas.  Bring your own key.",
+    "language": "TypeScript",
+    "url": "https://github.com/WhiteTowerAI/ohmygame",
+    "stars": 1445,
+    "updatedAt": "2026-10-31T04:21:05Z",
+    "tags": [
+      "游戏开发",
+      "AI工具",
+      "前端",
+      "数据可视化",
+      "独立游戏"
+    ]
   }
 ]
