@@ -4448,5 +4448,20 @@
       "数据可视化",
       "独立游戏"
     ]
+  },
+  {
+    "id": 1333175049,
+    "name": "awesome-dsh-plugin",
+    "fullName": "awesome-dsh-plugin/awesome-dsh-plugin",
+    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+    "language": "JavaScript",
+    "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+    "stars": 23858,
+    "updatedAt": "2026-11-09T05:08:59Z",
+    "tags": [
+      "信息收集",
+      "前端",
+      "开发工具"
+    ]
   }
 ]
