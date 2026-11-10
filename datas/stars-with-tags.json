@@ -4463,5 +4463,18 @@
       "前端",
       "开发工具"
     ]
+  },
+  {
+    "id": 1451167171,
+    "name": "rewind-for-x",
+    "fullName": "yetone/rewind-for-x",
+    "description": "Chrome extension: look back at posts that scrolled past on your X home timeline",
+    "language": "JavaScript",
+    "url": "https://github.com/yetone/rewind-for-x",
+    "stars": 294,
+    "updatedAt": "2026-11-10T06:17:51Z",
+    "tags": [
+      "前端"
+    ]
   }
 ]
