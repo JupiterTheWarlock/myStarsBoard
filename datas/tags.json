@@ -9518,6 +9518,19 @@
         "多媒体",
         "开发工具"
       ]
+    },
+    {
+      "id": 1415062354,
+      "name": "harken-studio",
+      "fullName": "xindong/harken-studio",
+      "description": "This is an audio middleware under development",
+      "language": "C++",
+      "url": "https://github.com/xindong/harken-studio",
+      "stars": 23,
+      "updatedAt": "2026-11-13T01:57:40Z",
+      "tags": [
+        "多媒体"
+      ]
     }
   ],
   "文档教程": [
